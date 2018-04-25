@@ -1,7 +1,14 @@
 # Manage ProTrials<a name="manage-protrials"></a>
 
-Users are eligible for a 30\-day free trial and are given ProTrial status when they first register for Amazon Chime\. This gives them the same access to features within Amazon Chime as Pro users, but with a limited set of dial\-in numbers\. A ProTrial ends when the 30\-day period expires, or if the user’s administrator changes the user’s license type tier from the console\. 
+When a user accepts an Amazon Chime team invitation or is added to an enterprise account, their free trial ends and they have Pro permissions\. This enables them to continue to host meetings that are scheduled\. Changing a user’s permission tier to Basic prevents them from acting as a meeting host\. 
 
-To allow your users to keep their ProTrial status for the full 30 days before deciding whether to assign them Pro, don’t change their license type\. 
+With Amazon Chime usage\-based pricing, you only pay for users that host meetings on the days that they host them\. Meeting attendees and chat users are not charged\. 
 
-If you configured Active Directory for your account, users only have the 30\-day ProTrial period if they are in the Active Directory group that you assigned to Amazon Chime Plus\.
+Users with a Pro license are considered Active Pro if they hosted a meeting that ended on a calendar day and at least one of the following occurred: 
++ The meeting was scheduled\.
++ The meeting included more than two attendees\.
++ The meeting had at least one recording event\.
++ The meeting included an attendee that dialed in\.
++ The meeting included an attendee that joined with H\.323 or SIP\.
+
+For more information, see [Plans and Pricing](https://aws.amazon.com/chime/pricing)\.

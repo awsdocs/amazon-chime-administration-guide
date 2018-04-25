@@ -1,13 +1,15 @@
 # Purchase Amazon Chime<a name="purchase-chime"></a>
 
-You can purchase Amazon Chime for yourself and for other users and pay a monthly fee per user\. Billing starts after users have been added and are registered\. What you pay depends on the subscription plan that you choose\. For more information, see [Plans and pricing](https://chime.aws/pricing/)\.
+With Amazon Chime usage\-based pricing, you only pay for users that host meetings, on the days that the meetings are hosted\. Meeting attendees and chat users are not charged\. For more information, see [Plans and pricing](https://aws.amazon.com/chime/pricing)\.
 
-**To purchase Amazon Chime**
+With Pro permissions, users can act as meeting hosts\. You are only charged for a user if they host a meeting that meets one or more of the following criteria:
++ The meeting is scheduled\.
++ The meeting includes more than two attendees\.
++ The meeting is recorded\.
++ Meeting attendees join using a dial\-in or in\-room video system\.
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+When a user is assigned Pro permissions, they can access the schedule meeting assistant and start instant meetings from the Amazon Chime **Meetings** menu\. They also have access to the Amazon Chime for Outlook add\-in for Windows\. 
 
-1. Complete the steps in [Step 2: Create an Amazon Chime Account](create-account.md)\.
+In addition to VoIP, attendees can join meetings started by a Pro user using either dial\-in or in\-room video systems\. 
 
-1. Complete the steps in [Step 3: Add Users to Your Amazon Chime Account](add-users.md)\.
-**Note**  
-Be sure to add yourself to the account\. 
+Assigning a user Basic permissions prevents them from hosting meetings\. Basic users are free, and can attend meetings, receive auto\-calls when meetings start, and use all chat and chat room features\. 

@@ -1,14 +1,16 @@
 # Document History for Amazon Chime<a name="doc-history"></a>
 
 The following table describes the documentation for this release of Amazon Chime\.
-
-+ **Latest documentation update:** January 22, 2018
++ **Latest documentation update:** April 23, 2018
 
 
 ****  
 
 | Change | Description | Date | 
 | --- | --- | --- | 
+| Receive attachments uploaded into Amazon Chime by users | [Request User Attachments](request-attachments.md) | April 23, 2018 | 
+| View additional report data | [View Reports](view-reports.md) | March 30, 2018 | 
+| Assign users Pro or Basic permissions | [Manage User Access and Permissions](manage-access.md) | March 29, 2018 | 
 | Various IAM updates | [Control Access to the Amazon Chime Console](control-access.md) | January 22, 2018 | 
 | View report data about users | [View Reports](view-reports.md) | January 16, 2018 | 
 | Reorganization of content  | Structural changes throughout | December 15, 2017 | 
