@@ -16,4 +16,4 @@ If a user feels that their personal meeting PIN has been compromised, you can re
 
 1. To open the **User detail** page, choose the name of the user\.
 
-1. Choose **User actions**, **Update Meeting PIN**, **Confirm**\.
+1. Choose **User actions**, **Reset personal PIN**, **Confirm**\.

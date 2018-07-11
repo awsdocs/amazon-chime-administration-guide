@@ -1,6 +1,6 @@
 # Purchase Amazon Chime<a name="purchase-chime"></a>
 
-With Amazon Chime usage\-based pricing, you only pay for users that host meetings, on the days that the meetings are hosted\. Meeting attendees and chat users are not charged\. For more information, see [Plans and pricing](https://aws.amazon.com/chime/pricing)\.
+With Amazon Chime usage\-based pricing, you only pay for users that host meetings, on the days that the meetings are hosted\. Meeting attendees and chat users are not charged\. For more information on pricing and how to upgrade to Pro, see [Plans and pricing](https://aws.amazon.com/chime/pricing)\.
 
 With Pro permissions, users can act as meeting hosts\. You are only charged for a user if they host a meeting that meets one or more of the following criteria:
 + The meeting is scheduled\.

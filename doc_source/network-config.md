@@ -2,7 +2,7 @@
 
 Amazon Chime requires the following hosts, ports, and protocols to support various services\. If inbound or outbound traffic is blocked, this might affect the ability to use various services, including audio, video, screen sharing, or chat\. 
 
-![\[Required hosts, ports, and protocols to support services\]](http://docs.aws.amazon.com/chime/latest/ag/images/hosts_new.PNG)
+![\[Required hosts, ports, and protocols to support services\]](http://docs.aws.amazon.com/chime/latest/ag/images/hosts.PNG)
 
 Amazon Chime has the following bandwidth requirements for media services that it provides:
 + Audio 

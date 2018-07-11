@@ -1,19 +1,9 @@
 # Document History for Amazon Chime<a name="doc-history"></a>
 
-The following table describes the documentation for this release of Amazon Chime\.
-+ **Latest documentation update:** April 23, 2018
-
-
-****  
+The following table describes important changes to the *Amazon Chime Administrator Guide*, beginning in March 2018\. For notifications about updates to this documentation, you can subscribe to an RSS feed\.
 
 | Change | Description | Date | 
-| --- | --- | --- | 
-| Receive attachments uploaded into Amazon Chime by users | [Request User Attachments](request-attachments.md) | April 23, 2018 | 
-| View additional report data | [View Reports](view-reports.md) | March 30, 2018 | 
-| Assign users Pro or Basic permissions | [Manage User Access and Permissions](manage-access.md) | March 29, 2018 | 
-| Various IAM updates | [Control Access to the Amazon Chime Console](control-access.md) | January 22, 2018 | 
-| View report data about users | [View Reports](view-reports.md) | January 16, 2018 | 
-| Reorganization of content  | Structural changes throughout | December 15, 2017 | 
-| Log Amazon Chime administration calls from the console with AWS CloudTrail | [Log Amazon Chime Administration Calls with AWS CloudTrail](cloudtrail.md) | September 27, 2017 | 
-| Configure Amazon Chime to interact with your Active Directory | [Connect to Your Active Directory](active_directory.md) | May 5, 2017 | 
-| Initial release | Initial release | February 14, 2017 | 
+| --- |--- |--- |
+| Request User Attachments | Receive attachments uploaded into Amazon Chime by users\. For more information, see [Request User Attachments](http://docs.aws.amazon.com/chime/latest/ag/request-attachments.html) in the Amazon Chime Administrator Guide\. | April 23, 2018 | 
+| View Additional Report Data | View additional report data\. For more information, see [View Reports](http://docs.aws.amazon.com/chime/latest/ag/view-reports.html) in the Amazon Chime Administrator Guide\. | March 30, 2018 | 
+| Assign Users Pro or Basic Permissions | Assign users Pro or Basic permissions\. For more information, see [Manage User Access and Permissions](http://docs.aws.amazon.com/chime/latest/ag/manage-access.html) in the Amazon Chime Administrator Guide\. | March 29, 2018 | 
