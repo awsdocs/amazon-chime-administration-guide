@@ -1,16 +1,35 @@
-# Log Amazon Chime Administration Calls with AWS CloudTrail<a name="cloudtrail"></a>
+# Logging Amazon Chime API Calls with AWS CloudTrail<a name="cloudtrail"></a>
 
-The Amazon Chime administration console is integrated with AWS CloudTrail\. CloudTrail is a service that captures API calls made by or on behalf of Amazon Chime in your AWS account and delivers the log files to an Amazon S3 bucket that you specify\. CloudTrail captures all API calls from the Amazon Chime administration console and logs the responses from mutating calls\. For example, listDomain is read\-only and you only see the request in CloudTrail\. However, with addDomain, you see both the request and the response\. Using the information collected by CloudTrail, you can determine which requests were made, the source IP address for the request, who made the request, and when it was made\. For more information, including how to configure and enable CloudTrail, see the [AWS CloudTrail User Guide](http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html)\.
+Amazon Chime is integrated with AWS CloudTrail, a service that provides a record of actions taken by a user, role, or an AWS service in Amazon Chime\. CloudTrail captures all API calls for Amazon Chime as events, including calls from the Amazon Chime console and from code calls to the Amazon Chime APIs\. If you create a trail, you can enable continuous delivery of CloudTrail events to an Amazon S3 bucket, including events for Amazon Chime\. If you don't configure a trail, you can still view the most recent events in the CloudTrail console in **Event history**\. Using the information collected by CloudTrail, you can determine the request that was made to Amazon Chime, the IP address from which the request was made, who made the request, when it was made, and additional details\. 
 
-When CloudTrail logging is enabled in your AWS account, API calls made from the Amazon Chime administration console on your behalf are tracked in log files\. These records are written together with other AWS service records in a log file\. CloudTrail determines when to create and write to a new file based on time period and file size\. All actions taken in the administration console use API calls and are logged by CloudTrail\. You can store your log files in your bucket for as long as you want, or you can define Amazon S3 lifecycle rules to archive or delete log files automatically\. By default, your log files are encrypted using Amazon S3 server\-side encryption \(SSE\)\. To take quick action upon log file delivery, you can choose to have CloudTrail publish Amazon SNS notifications when new log files are delivered\. For more information, see [Configuring Amazon SNS Notifications for CloudTrail](http://docs.aws.amazon.com/awscloudtrail/latest/userguide/configure-sns-notifications-for-cloudtrail.html)\. You can also aggregate AWS Directory Service log files from multiple AWS Regions and AWS accounts into a single S3 bucket\. For more information, see [Receiving CloudTrail Log Files from Multiple Regions](http://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html)\.
+To learn more about CloudTrail, see the [AWS CloudTrail User Guide](http://docs.aws.amazon.com/awscloudtrail/latest/userguide/)\.
 
-CloudTrail log files can contain one or more log entries, with each entry comprised of multiple JSON\-formatted events\. A log entry represents a single request and contains information about the action taken, who generated the request, where they were when they made the request, system information, and information that varies depending on the type of request\. For example, the addDomain call includes information on the domain the user is adding\. Every log entry also contains information about who generated the request\. The identity information in the log helps you determine whether the request was made with root or IAM user credentials, with temporary security credentials for a role or federated user, or by another AWS service\. For more information, see the **userIdentity** field in the [CloudTrail Log Event Reference](http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference.html)\.
+## Amazon Chime Information in CloudTrail<a name="service-name-info-in-cloudtrail"></a>
 
-Log entries are not in any particular order and are not an ordered stack trace of the public API calls\. Entries for Amazon Chime are identified by the **chime\.amazonaws\.com** event source\. Sensitive information, such as passwords, authentication tokens, file comments, and file contents, are redacted in log entries\.
+CloudTrail is enabled on your AWS account when you create the account\. When API calls are made from the Amazon Chime administration console, that activity is recorded in a CloudTrail event along with other AWS service events in **Event history**\. You can view, search, and download recent events in your AWS account\. For more information, see [Viewing Events with CloudTrail Event History](http://docs.aws.amazon.com/awscloudtrail/latest/userguide/view-cloudtrail-events.html)\. 
+
+For an ongoing record of events in your AWS account, including events for Amazon Chime, create a trail\. A trail enables CloudTrail to deliver log files to an Amazon S3 bucket\. By default, when you create a trail in the console, the trail applies to all regions\. The trail logs events from all regions in the AWS partition and delivers the log files to the Amazon S3 bucket that you specify\. Additionally, you can configure other AWS services to further analyze and act upon the event data collected in CloudTrail logs\. For more information, see: 
++ [Overview for Creating a Trail](http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail.html)
++ [CloudTrail Supported Services and Integrations](http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-aws-service-specific-topics.html#cloudtrail-aws-service-specific-topics-integrations)
++ [Configuring Amazon SNS Notifications for CloudTrail](http://docs.aws.amazon.com/awscloudtrail/latest/userguide/getting_notifications_top_level.html)
++ [Receiving CloudTrail Log Files from Multiple Regions](http://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html) and [Receiving CloudTrail Log Files from Multiple Accounts](http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-receive-logs-from-multiple-accounts.html)
+
+All Amazon Chime actions are logged by CloudTrail\.  Every event or log entry contains information about who generated the request\. The identity information helps you determine the following: 
++ Whether the request was made with root or IAM user credentials\.
++ Whether the request was made with temporary security credentials for a role or federated user\.
++ Whether the request was made by another AWS service\.
+
+For more information, see the [CloudTrail userIdentity Element](http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference-user-identity.html)\.
+
+## Understanding Amazon Chime Log File Entries<a name="understanding-service-name-entries"></a>
+
+A trail is a configuration that enables delivery of events as log files to an Amazon S3 bucket that you specify\. CloudTrail log files contain one or more log entries\. An event represents a single request from any source and includes information about the requested action, the date and time of the action, request parameters, and so on\. CloudTrail log files are not an ordered stack trace of the public API calls, so they do not appear in any specific order\. 
+
+Entries for Amazon Chime are identified by the **chime\.amazonaws\.com** event source\.
 
 If you have configured Active Directory for your Amazon Chime account, see [Logging AWS Directory Service API Calls Using CloudTrail](http://docs.aws.amazon.com/directoryservice/latest/devguide/cloudtrail_logging.html)\. This describes how to monitor for issues that might affect your Amazon Chime users’ ability to sign in\. 
 
-The following is an example of a CloudTrail log entry for Amazon Chime:
+The following example shows a CloudTrail log entry for Amazon Chime:
 
 ```
 {"eventVersion":"1.05",

@@ -11,7 +11,7 @@ You can convert your team account to enterprise by claiming one or more email do
 
 **Topics**
 + [Create an Amazon Chime Account](invite-users-enterprise.md)
-+ [Rename Your Account](suspend-users.md)
++ [Rename Your Account](rename-account.md)
 + [Delete Your Account](enterprise-account.md)
 + [Use the Policies Page](policies.md)
 + [Claim a Domain](claim-domain.md)
