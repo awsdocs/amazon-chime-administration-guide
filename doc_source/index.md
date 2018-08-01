@@ -26,6 +26,7 @@ Amazon's trademarks and trade dress may not be used in
    + [Use the Policies Page](policies.md)
    + [Claim a Domain](claim-domain.md)
    + [Connect to Your Active Directory](active_directory.md)
+   + [Connect to Okta SSO](okta_sso.md)
 + [Manage Users](manage-users.md)
    + [View User Details](user-details.md)
    + [Manage User Access and Permissions](manage-access.md)

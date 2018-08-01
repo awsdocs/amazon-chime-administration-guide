@@ -95,9 +95,9 @@ RO: ReadOnly
 | chime:GetMeetingDetail | Shows attendee, connection, and other details for a meeting\. | FA, UM | 
 | chime:ListMeetingEvents | Lists all events that occurred for a meeting\. | FA, UM | 
 | chime:ListMeetingReportData | Lists meetings that ended during the date range\. | FA, UM | 
-| Attachments |  |  | 
-| chime:StartDataExport | Submits the “Request attachments” request\. | FA | 
-| chime:RetrieveDataExport | Downloads the file containing links to all user attachments returned as part of the “Request attachments” action\. | FA | 
+|  |  |  | 
+|  |  |  | 
+|  |  |  | 
 | Domains |  |  | 
 |  `chime:ListDomains`  |  Lists domains associated with your Amazon Chime account\.  | FA, UM, RO | 
 |  `chime:AddDomain`  |  Adds a domain to your Amazon Chime account\.  | FA | 
@@ -109,8 +109,19 @@ RO: ReadOnly
 | chime:ListDirectories | Lists active Microsoft Active Directories hosted in the Directory Service of your AWS account\. | FA, UM, RO | 
 | chime:ConnectDirectory | Connects an Active Directory to your Amazon Chime enterprise account\. | FA | 
 | chime:DisconnectDirectory | Disconnects the Active Directory from your Amazon Chime enterprise account\. | FA | 
+|  |  |  | 
+|  |  |  | 
+|  |  |  | 
+| Okta |  |  | 
+| chime:ListApiKeys | Lists the SCIM access keys defined for your Amazon Chime account and Okta configuration\. | FA | 
+| chime:CreateApiKey | Generates a new SCIM access key for your Amazon Chime account and Okta configuration\. | FA | 
+| chime:DeleteApiKey | Deletes the specified SCIM access key associated with your Amazon Chime account and Okta configuration\. | FA | 
+| chime:GetAccountWithOpenIdConfig | Gets the account details and OpenIdConfig attributes for your Amazon Chime account\. | FA | 
+| chime:UpdateAccountOpenIdConfig | Updates the OpenIdConfig attributes for your Amazon Chime account\. | FA | 
+| chime:DeleteAccountOpenIdConfig | Deletes the OpenIdConfig attributes from your Amazon Chime account, | FA | 
+| Directory Groups |  |  | 
 | chime:ListGroups | Lists Active Directory user groups associated with your Amazon Chime enterprise account\. | FA, UM, RO | 
-| chime:AddOrUpdateGroups | Adds new or updates existing Active Directory user groups associated with your Amazon Chime enterprise account\. | FA | 
+| chime:AddOrUpdateGroups | Adds new or updated existing Active Directory user groups associated with your Amazon Chime enterprise account\. | FA | 
 | chime:DeleteGroups | Deletes Active Directory user groups from your Amazon Chime enterprise account\. | FA | 
 | Amazon Chime Support |  |  | 
 | chime:SubmitSupportRequest | Submits a support ticket from the Amazon Chime console\. | FA, UM | 
