@@ -4,6 +4,7 @@ The following table describes important changes to the *Amazon Chime Administrat
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| Amazon Chime call me feature | Administrators can enable the Amazon Chime call me feature on the **Policies** page\. For more information, see [Use the Policies Page](http://docs.aws.amazon.com/chime/latest/ag/policies.html) in the Amazon Chime Administrator Guide\. | August 22, 2018 | 
 | Connect to Okta SSO | If you have an enterprise account, you can connect to Okta SSO to authenticate and assign user permissions\. For more information, see [Connect to Okta SSO](http://docs.aws.amazon.com/chime/latest/ag/okta_sso.html) in the Amazon Chime Administrator Guide\. | August 1, 2018 | 
 | Request User Attachments | Receive attachments uploaded into Amazon Chime by users\. For more information, see [Request User Attachments](http://docs.aws.amazon.com/chime/latest/ag/request-attachments.html) in the Amazon Chime Administrator Guide\. | April 23, 2018 | 
 | View Additional Report Data | View additional report data\. For more information, see [View Reports](http://docs.aws.amazon.com/chime/latest/ag/view-reports.html) in the Amazon Chime Administrator Guide\. | March 30, 2018 | 
