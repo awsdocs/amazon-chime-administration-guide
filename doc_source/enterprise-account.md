@@ -3,7 +3,7 @@
 If you delete your AWS account in the AWS console, your Amazon Chime accounts are automatically deleted\. Alternatively, you can use the Amazon Chime console to delete an Amazon Chime team or enterprise account\. 
 
 **Note**  
-Users who aren't managed on a team or enterprise account can request to be deleted using the Amazon Chime Assistant "Delete me" command\. For more information, see [Use the Amazon Chime Assistant](http://docs.aws.amazon.com/chime/latest/ug/chime-using-assistant.html)\.
+Users who aren't managed on a team or enterprise account can request to be deleted using the Amazon Chime Assistant "Delete me" command\. For more information, see [Use the Amazon Chime Assistant](https://docs.aws.amazon.com/chime/latest/ug/chime-using-assistant.html)\.
 
 **To delete a team account**
 

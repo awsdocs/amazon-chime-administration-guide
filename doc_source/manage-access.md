@@ -63,7 +63,7 @@ With an enterprise account, any users that register for Amazon Chime with an ema
 
 **To invite users to an enterprise account**
 
-1. Send an invitation email to the users in your organization and instruct them to follow the steps in [Create an Amazon Chime Account](http://docs.aws.amazon.com/chime/latest/ug/chime-create-account.html) in the *Amazon Chime User Guide*\.
+1. Send an invitation email to the users in your organization and instruct them to follow the steps in [Create an Amazon Chime Account](https://docs.aws.amazon.com/chime/latest/ug/chime-create-account.html) in the *Amazon Chime User Guide*\.
 
 1. Users use an email address with the one of the domains that you claimed for your account\.
 

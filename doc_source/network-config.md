@@ -2,7 +2,31 @@
 
 Amazon Chime requires the following hosts, ports, and protocols to support various services\. If inbound or outbound traffic is blocked, this might affect the ability to use various services, including audio, video, screen sharing, or chat\. 
 
-![\[Required hosts, ports, and protocols to support services\]](http://docs.aws.amazon.com/chime/latest/ag/images/hosts.PNG)
+## Full Solution<a name="full"></a>
+
+The following hosts, ports, and protocols are recommended when running the full Amazon Chime solution in your environment\. These recommendations apply to native clients, the web application, and in\-room conference systems\.
+
+![\[Required hosts, ports, and protocols to support full Amazon Chime solution services.\]](http://docs.aws.amazon.com/chime/latest/ag/images/hosts_full.PNG)
+
+## Web Application Only<a name="web-app"></a>
+
+The following hosts, ports, and protocols are recommended if you use the Amazon Chime web application only in your environment\.
+
+![\[Required hosts, ports, and protocols recommended if you use the web application only in your environment.\]](http://docs.aws.amazon.com/chime/latest/ag/images/hosts_web.PNG)
+
+## H\.323 Only<a name="h323"></a>
+
+The following ports and protocols are recommended if you use in\-room video systems only via H\.323 in your environment\.
+
+![\[Required hosts, ports, and protocols recommended if you use in-room video systems only via H.323 in your environment.\]](http://docs.aws.amazon.com/chime/latest/ag/images/hosts_h323.PNG)
+
+## SIP Only<a name="sip"></a>
+
+The following ports and protocols are recommended if you use in\-room video systems only via SIP in your environment\.
+
+![\[Required hosts, ports, and protocols recommended if you use in-room video systems only via SIP in your environment.\]](http://docs.aws.amazon.com/chime/latest/ag/images/hosts_sip.PNG)
+
+## Bandwidth Requirements<a name="bandwidth"></a>
 
 Amazon Chime has the following bandwidth requirements for media services that it provides:
 + Audio 

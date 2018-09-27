@@ -6,7 +6,7 @@ As an administrator, you must complete the following tasks to allow users in you
 
 Services in AWS, such as Amazon Chime, require that you provide credentials when you access them\. This allows the service to determine whether you have permissions to access its resources\. We recommend that you avoid accessing AWS with your AWS account root credentials\. Instead, use AWS Identity and Access Management \(IAM\)\. Create one or more IAM users, add the users to an IAM group, and grant permissions to the group by attaching IAM policies\. All of the users in that group inherit the permissions\. Your IAM users can then access the AWS and Amazon Chime consoles using their account ID, IAM user name, and password\.
 
-For more information about setting up an IAM user, see [Creating Your First IAM Admin User and Group](http://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html)\. For information about IAM, see [What is IAM?](http://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html) 
+For more information about setting up an IAM user, see [Creating Your First IAM Admin User and Group](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html)\. For information about IAM, see [What is IAM?](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html) 
 
 ## Attach Required IAM User Policies<a name="iam-policies"></a>
 
@@ -23,7 +23,7 @@ To make creating policies easier, Amazon Chime supports using the following AWS 
 |  AmazonChimeReadOnly \(RO\)  |  Read\-only access to the console  | 
 |  AmazonChimeUserManagement \(UM\)  |  Full user management capabilities and read\-only access to account settings and configuration  | 
 
-To create your own policies, review the [Amazon Chime Actions](#available-actions) below for a list of all of the actions that you can allow or deny in your policy\. For more information about managing and creating IAM policies, see [Managing IAM Policies](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_manage.html)\. For information about how to attach managed policies to an IAM user, see [Attaching and Detaching IAM Policies ](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_manage-attach-detach.html)\.
+To create your own policies, review the [Amazon Chime Actions](#available-actions) below for a list of all of the actions that you can allow or deny in your policy\. For more information about managing and creating IAM policies, see [Managing IAM Policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_manage.html)\. For information about how to attach managed policies to an IAM user, see [Attaching and Detaching IAM Policies ](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_manage-attach-detach.html)\.
 
 ## **Read\-Only Policy Example**<a name="read-only-access"></a>
 
@@ -60,7 +60,7 @@ If you create a custom policy instead of using an AWS managed policy, when Amazo
 
 ## Amazon Chime Actions<a name="available-actions"></a>
 
-The following is the complete list of Amazon Chime actions that are available if you create a custom IAM policy for your console users\. For more information about creating custom policies, see [Creating IAM Policies](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html)\. For more information about the managed policies for Amazon Chime, see[Attach Required IAM User Policies](#iam-policies)\.
+The following is the complete list of Amazon Chime actions that are available if you create a custom IAM policy for your console users\. For more information about creating custom policies, see [Creating IAM Policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html)\. For more information about the managed policies for Amazon Chime, see[Attach Required IAM User Policies](#iam-policies)\.
 
 **Note**  
 The following abbreviations are used in the table:  
