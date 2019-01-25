@@ -4,7 +4,7 @@ When a user accepts an Amazon Chime team invitation or is added to an enterprise
 
 With Amazon Chime usage\-based pricing, you only pay for users that host meetings on the days that they host them\. Meeting attendees and chat users are not charged\. 
 
-Users with a Pro license are considered Active Pro if they hosted a meeting that ended on a calendar day and at least one of the following occurred: 
+Pro users are considered Active Pro if they hosted a meeting that ended on a calendar day and at least one of the following occurred: 
 + The meeting was scheduled\.
 + The meeting included more than two attendees\.
 + The meeting had at least one recording event\.

@@ -62,12 +62,9 @@ Use the following procedure to remove users from a team account\. This disassoci
 With an enterprise account, any users that register for Amazon Chime with an email address for your claimed domains are automatically added to your account\. If you configured Active Directory or Okta, the user must not only have an email address that uses one of your claimed domains, but they must also be members of the directory you configured for Amazon Chime\.
 
 **To invite users to an enterprise account**
++ Send an invitation email to the users in your organization and instruct them to follow the steps in [Create an Amazon Chime Account](https://docs.aws.amazon.com/chime/latest/ug/chime-create-account.html) in the *Amazon Chime User Guide*\.
 
-1. Send an invitation email to the users in your organization and instruct them to follow the steps in [Create an Amazon Chime Account](https://docs.aws.amazon.com/chime/latest/ug/chime-create-account.html) in the *Amazon Chime User Guide*\.
-
-1. Users use an email address with the one of the domains that you claimed for your account\.
-
-After your users complete the steps to create their Amazon Chime accounts, they automatically appear on the **Users** page for the enterprise account\.
+Users use an email address with the one of the domains that you claimed for your account\. After your users complete the steps to create their Amazon Chime accounts, they automatically appear on the **Users** page for the enterprise account\.
 
 Use the following procedure to suspend users from an enterprise account\. This prevents users from logging in to Amazon Chime\.
 
@@ -81,5 +78,5 @@ Use the following procedure to suspend users from an enterprise account\. This p
 
 **To suspend users from an enterprise Active Directory or OpenID Connect \(Okta\) account**
 + Choose one of the following options:
-  + Suspend or mark the user inactive the  from your Active Directory or Okta Administrator Dashboard\.
+  + Suspend or mark the user inactive the from your Active Directory or Okta Administrator Dashboard\.
   + Make sure that the user is not in an Active Directory group that has Basic or Pro permissions\.

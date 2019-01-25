@@ -8,8 +8,6 @@ After you've created your AWS account, you can create an Amazon Chime account\.
 
 1. On the **Accounts** page, choose **New account**\.
 
-1. For **Account Name**, type a name for the account and choose **Create account**\.  
-![\[The Create account dialog box in the Amazon Chime console\]](http://docs.aws.amazon.com/chime/latest/ag/images/create_account_dialog.png)
+1. For **Account Name**, enter a name for the account and choose **Create account**\.
 
-1. The new account has the account type **Team**\.  
-![\[A team account in the Amazon Chime console\]](http://docs.aws.amazon.com/chime/latest/ag/images/new_team_account.png)
+By default, new accounts are created as **Team** accounts\. For more information about other account types, see [Managing Your Amazon Chime Accounts](manage-chime-account.md)\.
