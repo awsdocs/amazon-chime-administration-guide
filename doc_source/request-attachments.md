@@ -1,4 +1,4 @@
-# Request User Attachments<a name="request-attachments"></a>
+# Requesting User Attachments<a name="request-attachments"></a>
 
 If you manage an enterprise account and have the appropriate permissions, you can request and receive attachments that have been uploaded into Amazon Chime by your users\. You can get attachments that users uploaded into 1:1 and group conversations or into chat rooms that they created\. 
 

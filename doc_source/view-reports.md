@@ -1,4 +1,4 @@
-# View Reports<a name="view-reports"></a>
+# Viewing Reports<a name="view-reports"></a>
 
 To make more informed decisions and increase productivity for your organization, you can access usage and feedback data directly from the console\. Report data is updated daily, though there may be a delay of up to 48 hours\.
 

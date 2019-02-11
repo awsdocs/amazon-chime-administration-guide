@@ -1,4 +1,4 @@
-# Manage ProTrials<a name="manage-protrials"></a>
+# Managing ProTrials<a name="manage-protrials"></a>
 
 When a user accepts an Amazon Chime team invitation or is added to an enterprise account, their free trial ends and they have Pro permissions\. This enables them to continue to host meetings that are scheduled\. Changing a user’s permission tier to Basic prevents them from acting as a meeting host\. 
 

@@ -1,9 +1,11 @@
-# Connect to Okta SSO<a name="okta_sso"></a>
+# Connecting to Okta SSO<a name="okta_sso"></a>
 
 If you have an enterprise account, you can connect to Okta SSO to authenticate and assign user permissions\.
 
 **Note**  
-If you need to create an enterprise account, which allows you to manage all users within a given set of email address domains, see [Create an Amazon Chime Account](invite-users-enterprise.md)\.
+If you need to create an enterprise account, which allows you to manage all users within a given set of email address domains, see [Step 2 \(Optional\): Configuring Account Settings](getting-started.md#acct-settings)\.
+
+Connecting Amazon Chime to Okta requires configuring two applications in the Okta Administration Console\. The first application is manually configured, and uses OpenID Connect to authenticate users to the Amazon Chime service\. The second application is available as **Amazon Chime SCIM Provisioning** in the Okta Integration Network \(OIN\)\. It is configured to push updates to Amazon Chime about changes to users and groups\.
 
 **To connect to Okta SSO**
 
@@ -15,11 +17,25 @@ If you need to create an enterprise account, which allows you to manage all user
 
       1. Name the application **Amazon Chime**\.
 
-      1. Type the following for the **Login Redirect URI**: **https://signin\.id\.ue1\.app\.chime\.aws/auth/okta/callback**
+      1. For **Login Redirect URI**, enter the following value:   
+**Example**  
+
+         ```
+         https://signin.id.ue1.app.chime.aws/auth/okta/callback
+         ```
 
       1. In the **Allowed Grant Types** section, select all of the options to enable them\.
 
-      1. On the **Login initiated by** drop\-down menu, choose **Either \(Okta or App\)**, select all the related options, and choose **Save**\.
+      1. On the **Login initiated by** drop\-down menu, choose **Either \(Okta or App\)**, and select all the related options\.
+
+      1. For the **Initiate Login URI**, enter the following value:   
+**Example**  
+
+         ```
+         https://signin.id.ue1.app.chime.aws/auth/okta
+         ```
+
+      1. Choose **Save**\.
 
       1. Keep this page open, because you'll need the **Client ID**, **Client secret**, and **Issuer URI** information for Step 2\. 
 

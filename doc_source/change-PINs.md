@@ -1,4 +1,4 @@
-# Change Personal Meeting PINs<a name="change-PINs"></a>
+# Changing Personal Meeting PINs<a name="change-PINs"></a>
 
 A personal meeting PIN is a static ID generated when the user registers\. The PIN makes it easy for an Amazon Chime user to schedule meetings with other Amazon Chime users\. Using a personal meeting PIN means that meeting organizers don't have to remember meeting details for each new meeting that they schedule\.
 

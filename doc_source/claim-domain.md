@@ -1,4 +1,4 @@
-# Claim a Domain<a name="claim-domain"></a>
+# Claiming a Domain<a name="claim-domain"></a>
 
 To create an enterprise account and benefit from the greater control that it provides over your account and users, you must claim at least one email domain\. 
 

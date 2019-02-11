@@ -1,10 +1,10 @@
-# Manage User Access and Permissions<a name="manage-access"></a>
+# Managing User Access and Permissions<a name="manage-access"></a>
 
 Access to features within Amazon Chime is determined by the permissions tier assigned to the user\. The ability to sign into Amazon Chime is managed by suspending or activating users\. 
 
 As an Amazon Chime administrator, you can manage the permissions tiers of users in your account\. However, the ability to suspend a user account is only available to enterprise team administrators\. Administrators of team accounts can remove users from their accounts so that they are no longer paying for the user’s permissions\. However, they can't suspend the user and prevent them from signing in\. 
 
-## Manage Permissions<a name="manage-licenses"></a>
+## Managing Permissions<a name="manage-licenses"></a>
 
 How permissions are managed is determined by whether Active Directory or Okta is configured\. If you have Active Directory or Okta configured for your account, permissions management is handled through group memberships\. If Active Directory or Okta is not configured, permissions are managed through the Amazon Chime console\. 
 
@@ -26,7 +26,7 @@ For administrators of team and enterprise LWA accounts, where users sign in with
 
 The permissions tier for users who sign in with their Active Directory or Okta credentials is determined by directory memberships\. If they are a member of an Active Directory or Okta group that has been assigned Pro, they are Pro\. If they are a member of an Active Directory or Okta group that has been assigned Basic, they are Basic\. Users without Pro or Basic permissions can't sign into Amazon Chime\.
 
-## Invite and Remove Users<a name="invite-users-team"></a>
+## Inviting and Removing Users<a name="invite-users-team"></a>
 
 Use the following information to invite and remove users from your Amazon Chime account\.
 

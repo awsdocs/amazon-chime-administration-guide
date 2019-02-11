@@ -1,4 +1,4 @@
-# View User Details<a name="user-details"></a>
+# Viewing User Details<a name="user-details"></a>
 
 You can use the **User details** page to see detailed information about an individual user, or update a specific user account\. The following user information is available on the page\.
 

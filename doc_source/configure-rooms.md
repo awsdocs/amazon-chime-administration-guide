@@ -1,4 +1,4 @@
-# Configure Conference Rooms<a name="configure-rooms"></a>
+# Conference Room Configuration<a name="configure-rooms"></a>
 
 Amazon Chime can integrate with your in\-room video hardware from Cisco, Tandberg, Polycom, Lifesize, Vidyo, or others when you use the SIP or H\.323 protocol\.
 

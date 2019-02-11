@@ -12,10 +12,9 @@ Enterprise accounts provide full management of users within your account\. This 
 You can convert your team account to enterprise by claiming one or more email domains\. After your account is converted, the ability to connect an Active Directory instance through AWS Directory Service becomes available\. You can decide whether to continue to have your users sign in with Login with Amazon, or connect and authenticate via their Active Directory credentials\. If you don't connect to an Active Directory, your users sign in with Login with Amazon \(or an Amazon\.com account\)\. When Active Directory is set up, your users authenticate with their Active Directory credentials\.
 
 **Topics**
-+ [Create an Amazon Chime Account](invite-users-enterprise.md)
-+ [Rename Your Account](rename-account.md)
-+ [Delete Your Account](enterprise-account.md)
-+ [Use the Policies Page](policies.md)
-+ [Claim a Domain](claim-domain.md)
-+ [Connect to Your Active Directory](active_directory.md)
-+ [Connect to Okta SSO](okta_sso.md)
++ [Renaming Your Account](rename-account.md)
++ [Deleting Your Account](enterprise-account.md)
++ [Using the Policies Page](policies.md)
++ [Claiming a Domain](claim-domain.md)
++ [Connecting to Your Active Directory](active_directory.md)
++ [Connecting to Okta SSO](okta_sso.md)

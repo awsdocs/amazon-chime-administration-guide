@@ -1,4 +1,4 @@
-# Connect to Your Active Directory<a name="active_directory"></a>
+# Connecting to Your Active Directory<a name="active_directory"></a>
 
 **Benefits**
 
@@ -16,7 +16,7 @@ Using your Active Directory has the following benefits:
 Before you can add your Active Directory to Amazon Chime, you must complete the following requirements:
 + Make sure that you have appropriate IAM permissions to configure Domains, Active Directory, and Directory Groups\.
 + Set up a directory with AWS Directory Service that is configured in the US East \(N\. Virginia\) region\. For more information, see the [AWS Directory Service Administration Guide](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/)\. Amazon Chime can connect using AD Connector or Microsoft AD\.
-+ Set up an Amazon Chime enterprise account\. For more information, see [Claim a Domain](claim-domain.md)\.
++ Set up an Amazon Chime enterprise account\. For more information, see [Claiming a Domain](claim-domain.md)\.
 
 After you add a directory to Amazon Chime, users are prompted to log in with their directory credentials when they log in using an email address from one of the domains that you added to your Amazon Chime enterprise account\.
 
@@ -36,7 +36,7 @@ You can find your directory ID using the [AWS Directory Service console](https:/
 
 1. Repeat this procedure to create additional directory groups\.
 
-## Configure Multiple Email Addresses<a name="multi-email"></a>
+## Configuring Multiple Email Addresses<a name="multi-email"></a>
 
 After you connect to your Active Directory, users that authenticate with Active Directory can use multiple email addresses\. They can use any of their work email addresses with Amazon Chime, as long as the email address is using a domain that has been claimed by your Amazon Chime account, and is associated with their user in Active Directory\. 
 

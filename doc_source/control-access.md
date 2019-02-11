@@ -1,6 +1,6 @@
-# Control Access to the Amazon Chime Console<a name="control-access"></a>
+# Controlling Access to the Amazon Chime Console<a name="control-access"></a>
 
-As an administrator, you must complete the following tasks to allow users in your account to access the Amazon Chime console\.
+If you want to provide other users with administrator permissions, while controlling their access to the Amazon Chime console for your account, complete the tasks in the following sections\.
 
 ## Create an IAM User<a name="iam-user"></a>
 
@@ -60,7 +60,7 @@ If you create a custom policy instead of using an AWS managed policy, when Amazo
 
 ## Amazon Chime Actions<a name="available-actions"></a>
 
-The following is the complete list of Amazon Chime actions that are available if you create a custom IAM policy for your console users\. For more information about creating custom policies, see [Creating IAM Policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html)\. For more information about the managed policies for Amazon Chime, see[Attach Required IAM User Policies](#iam-policies)\.
+The following is the complete list of Amazon Chime actions that are available if you create a custom IAM policy for your console users\. For more information about creating custom policies, see [Creating IAM Policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html)\. For more information about the managed policies for Amazon Chime, see [Attach Required IAM User Policies](#iam-policies)\.
 
 **Note**  
 The following abbreviations are used in the table:  

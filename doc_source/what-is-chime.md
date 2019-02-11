@@ -2,10 +2,29 @@
 
 Amazon Chime is a communications service that transforms online meetings with a secure, easy\-to\-use application that you can trust\. Amazon Chime works seamlessly across your devices so that you can stay connected\. You can use Amazon Chime for online meetings, video conferencing, calls, and chat\. You can also share content, both inside and outside your organization\. Amazon Chime frees you to work productively from anywhere\.
 
-For more information, see the [Amazon Chime site](https://aws.amazon.com/chime)\.
+For more information, see [Amazon Chime](https://aws.amazon.com/chime)\.
 
 ## Administration Overview<a name="overview"></a>
 
-As an administrator, you use the Amazon Chime console to perform key tasks, such as creating Amazon Chime accounts and managing users and permissions\. You must have an AWS account to access the [Amazon Chime console](https://console.chime.aws.amazon.com/)\.
+As an administrator, you use the [Amazon Chime console](https://console.chime.aws.amazon.com/) to perform key tasks, such as creating Amazon Chime accounts and managing users and permissions\. To access the Amazon Chime console and create an Amazon Chime administrator account, first create an AWS account\. For more information, see [Prerequisites](prereqs.md)\.
 
-With Amazon Chime, you choose Basic or Pro permissions for your Amazon Chime users\. A user's 30\-day trial ends when you add them to your Amazon Chime account\. For more information, see [Plans and pricing](https://aws.amazon.com/chime/pricing)\.
+## How to Get Started<a name="start"></a>
+
+After you complete the [Prerequisites](prereqs.md), you can create and configure your Amazon Chime administrative account, then add users to it\. Choose Pro or Basic permissions for your users\.
+
+If you're ready to get started now, see the following tutorial:
++ [Getting Started](getting-started.md)
+
+For more information on user access and permissions, see [Managing User Access and Permissions](manage-access.md)\. For more information on the features that users with Pro and Basic permissions can access, see [Plans and pricing](https://aws.amazon.com/chime/pricing)\.
+
+## Pricing<a name="pricing"></a>
+
+With Amazon Chime usage\-based pricing, you only pay for users with Pro permissions that host meetings, on the days that the meetings are hosted\. Meeting attendees and chat users are not charged\.
+
+There is no charge for users with Basic permissions\. Basic users cannot host meetings, but they can attend meetings and use chat\. For more information on pricing and the features that users with Pro and Basic permissions can access, see [Plans and pricing](https://aws.amazon.com/chime/pricing)\.
+
+## Resources<a name="resources"></a>
+
+For more information about Amazon Chime, see the following resources:
++ [Amazon Chime Help Center](https://answers.chime.aws)
++ [Amazon Chime Training Videos](https://aws.amazon.com/chime/how-to-videos/)
