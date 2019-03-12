@@ -4,6 +4,7 @@ The following table describes important changes to the *Amazon Chime Administrat
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [Amazon Chime Add\-In for Outlook](#doc-history) | Amazon Chime provides two add\-ins for Microsoft Outlook: the Amazon Chime Add\-In for Outlook on Windows and the Amazon Chime Add\-In for Outlook\. These add\-ins offer the same scheduling features, but support different types of users\. For more information, see [Deploying the Add\-In for Outlook](https://docs.aws.amazon.com/chime/latest/ag/deploy-addin.html) in the Amazon Chime Administrator Guide\. | March 12, 2019 | 
 | [Various Updates](#doc-history) | Various updates to topic layout and organization\. | February 11, 2019 | 
 | [Amazon Chime call me feature](#doc-history) | Administrators can enable the Amazon Chime call me feature on the **Policies** page\. For more information, see [Use the Policies Page](https://docs.aws.amazon.com/chime/latest/ag/policies.html) in the Amazon Chime Administrator Guide\. | August 22, 2018 | 
 | [Connect to Okta SSO](#doc-history) | If you have an enterprise account, you can connect to Okta SSO to authenticate and assign user permissions\. For more information, see [Connect to Okta SSO](https://docs.aws.amazon.com/chime/latest/ag/okta_sso.html) in the Amazon Chime Administrator Guide\. | August 1, 2018 | 

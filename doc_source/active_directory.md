@@ -4,7 +4,7 @@
 
 Using your Active Directory has the following benefits:
 + Amazon Chime users can sign in with their Active Directory credentials\.
-+ Administrators can choose which credential security features to add, including password rotation, password complexity rules, and multi\-factor authorization\.
++ Administrators can choose which credential security features to add, including password rotation, password complexity rules, and multi\-factor authentication\.
 + When users accounts are disabled in your Active Directory, their Amazon Chime accounts are automatically disabled\.
 + You can specify which Active Directory groups receive Pro permissions\.
   + Multiple groups can be configured to receive Basic or Pro permissions\.
@@ -30,7 +30,11 @@ After you add a directory to Amazon Chime, users are prompted to log in with the
 **Note**  
 You can find your directory ID using the [AWS Directory Service console](https://console.aws.amazon.com/directoryservice/)\.
 
-1. After your directory has been connected, choose **Add a new group**\. For **Group**, type a name for the group\. For **Permission tier**, choose **Basic** or **Pro**\. 
+1. After your directory has been connected, choose **Add a new group**\. 
+
+1. For **Group**, type a name for the group\. The name must exactly match an Active Directory group in the target directory\. Active Directory Organization Units \(OUs\) are not supported\.
+
+1. For **Permission tier**, choose **Basic** or **Pro**\. 
 
 1. Choose **Add Group**\.
 
