@@ -21,3 +21,4 @@ If a user hasn't accepted the invitation to a team account, not all information 
 | Meeting satisfaction | The percentage of positive responses given to the end\-of\-meeting survey\. | 92% | 
 | Last active date | The date when the user was last active\. | 11/12/2017 | 
 | Chat messages sent | The number of chat messages that users sent\. | 1025 | 
+| Phone number | The phone number assigned to a user, if any\. | \+12065550100 | 

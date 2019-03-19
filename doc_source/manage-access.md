@@ -20,15 +20,15 @@ For administrators of team and enterprise LWA accounts, where users sign in with
 
 1. In the navigation pane, choose **Users**\.
 
-1. Select the check boxes for the users and then choose **User actions**, **Assign permissions**, **Pro** or **Basic**, and **Assign**\.
+1. Select the check boxes for the users and then choose **Actions**, **Assign permissions**, **Pro** or **Basic**, and **Assign**\.
 
 ### Enterprise Active Directory or Enterprise OpenID Connect Accounts<a name="manage-AD-licenses"></a>
 
 The permissions tier for users who sign in with their Active Directory or Okta credentials is determined by directory memberships\. If they are a member of an Active Directory or Okta group that has been assigned Pro, they are Pro\. If they are a member of an Active Directory or Okta group that has been assigned Basic, they are Basic\. Users without Pro or Basic permissions can't sign into Amazon Chime\.
 
-## Inviting and Removing Users<a name="invite-users-team"></a>
+## Inviting and Suspending Users<a name="invite-users-team"></a>
 
-Use the following information to invite and remove users from your Amazon Chime account\.
+Use the following information to invite or suspend users from your Amazon Chime account\. The procedures are different for team accounts and enterprise accounts\.
 
 ### Team Accounts<a name="invite-team"></a>
 
@@ -55,7 +55,7 @@ Use the following procedure to remove users from a team account\. This disassoci
 
 1. On the **Accounts** page, select the name of the team account\.
 
-1. On the **Users** page, select the users to remove and choose **User actions**, **Remove user**\.
+1. On the **Users** page, select the users to remove and choose **Actions**, **Remove user**\.
 
 ### Enterprise Accounts<a name="invite-enterprise"></a>
 
@@ -74,9 +74,11 @@ Use the following procedure to suspend users from an enterprise account\. This p
 
 1. On the **Accounts** page, select the name of the enterprise account\.
 
-1. On the **Users** page, select the users to remove and choose **User actions**, **Suspend user**\.
+1. On the **Users** page, select the users to suspend and choose **Actions**, **Suspend user**\.
+
+1. Select the check box, and choose **Suspend**\.
 
 **To suspend users from an enterprise Active Directory or OpenID Connect \(Okta\) account**
 + Choose one of the following options:
-  + Suspend or mark the user inactive the from your Active Directory or Okta Administrator Dashboard\.
+  + Suspend or mark the user inactive from your Active Directory or Okta Administrator Dashboard\.
   + Make sure that the user is not in an Active Directory group that has Basic or Pro permissions\.

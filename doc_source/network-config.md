@@ -26,6 +26,12 @@ The following ports and protocols are recommended if you use in\-room video syst
 
 ![\[Required hosts, ports, and protocols recommended if you use in-room video systems only via SIP in your environment.\]](http://docs.aws.amazon.com/chime/latest/ag/images/hosts_sip.PNG)
 
+## Amazon Chime Voice Connector<a name="cvc"></a>
+
+The following ports and protocols are recommended if you use Amazon Chime Voice Connector\.
+
+![\[Required hosts, ports, and protocols recommended if you use Amazon Chime Voice Connector.\]](http://docs.aws.amazon.com/chime/latest/ag/images/vc-image.png)
+
 ## Bandwidth Requirements<a name="bandwidth"></a>
 
 Amazon Chime has the following bandwidth requirements for media services that it provides:

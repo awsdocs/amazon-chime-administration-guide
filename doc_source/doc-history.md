@@ -4,6 +4,7 @@ The following table describes important changes to the *Amazon Chime Administrat
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [Managing Phone Numbers in Amazon Chime](#doc-history) | Use Amazon Chime Business Calling to provision and assign phone numbers to Amazon Chime users\. Integrate an Amazon Chime Voice Connector with an existing phone system\. For more information, see [Managing Phone Numbers in Amazon Chime](https://docs.aws.amazon.com/chime/latest/ag/manage-phone.html) in the Amazon Chime Administrator Guide\. | March 18, 2019 | 
 | [Amazon Chime Add\-In for Outlook](#doc-history) | Amazon Chime provides two add\-ins for Microsoft Outlook: the Amazon Chime Add\-In for Outlook on Windows and the Amazon Chime Add\-In for Outlook\. These add\-ins offer the same scheduling features, but support different types of users\. For more information, see [Deploying the Add\-In for Outlook](https://docs.aws.amazon.com/chime/latest/ag/deploy-addin.html) in the Amazon Chime Administrator Guide\. | March 12, 2019 | 
 | [Various Updates](#doc-history) | Various updates to topic layout and organization\. | February 11, 2019 | 
 | [Amazon Chime call me feature](#doc-history) | Administrators can enable the Amazon Chime call me feature on the **Policies** page\. For more information, see [Use the Policies Page](https://docs.aws.amazon.com/chime/latest/ag/policies.html) in the Amazon Chime Administrator Guide\. | August 22, 2018 | 
