@@ -22,3 +22,5 @@ To create an enterprise account and benefit from the greater control that it pro
 Propagation of the DNS change and verification by Amazon Chime can take up to 24 hours\.
 
 1. If your organization uses additional domains or subdomains for email addresses, repeat this procedure for each domain\.
+
+For more information about troubleshooting domain claims, see [Why isn't my domain claim request getting verified?](https://answers.chime.aws/questions/618/why-isnt-my-domain-claim-request-getting-verified.html)\.

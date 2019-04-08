@@ -47,3 +47,7 @@ Amazon Chime has the following bandwidth requirements for media services that it
 + Screen
   + 1\.2 mbps up \(presenting\) and down \(viewing\) for high quality \(adapts as low as 320 kbps for network conditions\)
   + Remote control: 800 kbps fixed
+
+Amazon Chime Business Calling and Amazon Chime Voice Connector have the following bandwidth requirements:
++ Audio
+  + Call: \~90 kbps up and down \(including media payload and packet overhead\)

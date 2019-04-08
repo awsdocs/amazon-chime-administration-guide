@@ -2,6 +2,7 @@
 
 The easiest way for your users to get started with Amazon Chime is to download and use the Amazon Chime Pro version for free for 30 days\. For more information, see [Download Amazon Chime](https://aws.amazon.com/chime/trial)\.
 
+**Purchasing Amazon Chime**  
 To continue using the Amazon Chime Pro version after the 30 day free trial period, you must create an Amazon Chime administrator account and add your users to it\. To get started, you must first complete the [Prerequisites](prereqs.md), which include creating an AWS account\. Then, you can create and configure an Amazon Chime administrator account and add users to it by completing the following tasks\.
 
 **Topics**

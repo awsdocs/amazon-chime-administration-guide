@@ -13,7 +13,7 @@ After you create an Amazon Chime Voice Connector, edit the settings to integrate
 
 ## Before you Begin<a name="vc-prereq"></a>
 
-To use an Amazon Chime Voice Connector, you must have an IP Private Branch Exchange \(PBX\), Session Border Controller \(SBC\), or other voice infrastructure with internet access that supports Session Initiation Protocol \(SIP\)\. Make sure to confirm that you have sufficient bandwidth to support peak call volume\. Amazon Chime Voice Connector calls use approximately 80 kpbs per call, including media payload and packet overhead\.
+To use an Amazon Chime Voice Connector, you must have an IP Private Branch Exchange \(PBX\), Session Border Controller \(SBC\), or other voice infrastructure with internet access that supports Session Initiation Protocol \(SIP\)\. Make sure to confirm that you have sufficient bandwidth to support peak call volume\. For information about bandwidth requirements, see [Bandwidth Requirements](network-config.md#bandwidth)\.
 
 To ensure security for calls sent from AWS to your on\-premises phone system, we recommend configuring a SBC between AWS and your phone system\. Whitelist SIP traffic to the SBC from the Amazon Chime Voice Connector signaling and media IP addresses\. For more information, see the recommended ports and protocols for [Amazon Chime Voice Connector](network-config.md#cvc)\.
 

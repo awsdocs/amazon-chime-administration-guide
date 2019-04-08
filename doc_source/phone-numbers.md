@@ -6,6 +6,8 @@ Amazon Chime Business Calling lets you provision and assign phone numbers to you
 
 You can integrate an Amazon Chime Voice Connector with an existing phone system\. You can also use the Amazon Chime console to provision phone numbers for your Amazon Chime Voice Connector\. For more information, see [Working with Amazon Chime Voice Connectors](voice-connectors.md)\.
 
+For information about bandwidth requirements for Amazon Chime Business Calling and Amazon Chime Voice Connector, see [Bandwidth Requirements](network-config.md#bandwidth)\.
+
 Your phone number **Inventory** is limited to 25 phone numbers by default\.
 
 ## Provisioning Phone Numbers<a name="provision-phone"></a>
@@ -48,8 +50,7 @@ Amazon Chime Business Calling phone numbers can also be managed within user prof
 
 1. Select the user's full name, and choose **Assign**\.
 
-**Note**  
-When you change a user's Amazon Chime Business Calling phone number or phone number permissions, the user is prompted to sign out of their Amazon Chime account and sign back in again\. 
+For instructions on how to edit the user's calling and SMS permissions, see [Editing Calling and SMS Permissions](user-phone.md#edit-phone-perms)\. When you change a user's Amazon Chime Business Calling phone number or phone number permissions, we recommend contacting the user with their new phone number or permissions information\. Users must also sign out of their Amazon Chime account and sign back in again before they can access their new phone number or permissions features\.
 
 **To assign Amazon Chime Voice Connector phone numbers to an Amazon Chime Voice Connector**
 
