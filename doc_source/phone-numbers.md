@@ -30,6 +30,35 @@ The phone numbers appear in your **Orders** and **Pending** lists\. When provisi
 
 Before you can assign provisioned phone numbers to an Amazon Chime Voice Connector, you must create the Amazon Chime Voice Connector\. For more information, see [Creating an Amazon Chime Voice Connector](voice-connectors.md#create-voicecon)\.
 
+## Porting Existing Phone Numbers<a name="porting"></a>
+
+You can port existing United States phone numbers from your phone carrier to use with Amazon Chime Business Calling or Amazon Chime Voice Connectors\. To port existing phone numbers to Amazon Chime, submit a support request from the Amazon Chime console\. The porting process can take between 2\-4 weeks\.
+
+**Note**  
+Toll\-free numbers cannot be ported\.
+
+**To port existing phone numbers**
+
+1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+
+1. Choose **Support**, **Submit request**\.
+
+1. For **Category**, choose **Other**\.
+
+1. For **Subject**, enter **Porting phone numbers**\.
+
+1. For **Issue**, enter the existing phone numbers to port\. Indicate the phone number type \(**Business Calling** or **Voice Connector**\)\.
+
+1. For **Email**, enter the email address associated with your Amazon Chime administrator account\.
+
+1. Choose **Submit request**\.
+
+AWS Support responds to your support request to let you know whether your phone numbers can be ported from your existing phone carrier\. If your phone numbers can be ported, you are asked to complete a Letter of Authorization/Agency \(LOA\)\. This authorizes your phone carrier to release your existing phone numbers for porting\. Then, your phone numbers are ported to the phone carrier for Amazon Chime\.
+
+The information provided on the LOA must match the information that your phone carrier has on file\. Mismatched information can delay the porting process\. If you are porting phone numbers from different carriers, fill out a separate LOA for each carrier\.
+
+When the porting process is complete, the ported phone numbers appear in your **Inventory** and can be assigned to individual users or the Amazon Chime Voice Connectors that you create \.
+
 ## Managing Phone Number Inventory<a name="phone-inventory"></a>
 
 Use the phone number management **Inventory** page to assign or unassign Amazon Chime Business Calling phone numbers for individual users, or Amazon Chime Voice Connector phone numbers for Amazon Chime Voice Connectors\.
