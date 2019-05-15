@@ -4,6 +4,7 @@ The following table describes important changes to the *Amazon Chime Administrat
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [Managing Chat Bots in Amazon Chime](#doc-history) | If you administer an Amazon Chime Enterprise account, you can integrate up to 10 chat bots for use with Amazon Chime\. For more information, see [Managing Chat Bots](https://docs.aws.amazon.com/chime/latest/ag/manage-chat-bots.html) in the Amazon Chime Administrator Guide\. | May 14, 2019 | 
 | [Managing Phone Numbers in Amazon Chime](#doc-history) | Use Amazon Chime Business Calling to provision and assign phone numbers to Amazon Chime users\. Integrate an Amazon Chime Voice Connector with an existing phone system\. For more information, see [Managing Phone Numbers in Amazon Chime](https://docs.aws.amazon.com/chime/latest/ag/manage-phone.html) in the Amazon Chime Administrator Guide\. | March 18, 2019 | 
 | [Amazon Chime Add\-In for Outlook](#doc-history) | Amazon Chime provides two add\-ins for Microsoft Outlook: the Amazon Chime Add\-In for Outlook on Windows and the Amazon Chime Add\-In for Outlook\. These add\-ins offer the same scheduling features, but support different types of users\. For more information, see [Deploying the Add\-In for Outlook](https://docs.aws.amazon.com/chime/latest/ag/deploy-addin.html) in the Amazon Chime Administrator Guide\. | March 12, 2019 | 
 | [Various Updates](#doc-history) | Various updates to topic layout and organization\. | February 11, 2019 | 

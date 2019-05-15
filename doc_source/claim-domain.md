@@ -8,7 +8,7 @@ To create an enterprise account and benefit from the greater control that it pro
 
 1. On the **Accounts** page, select the name of the team account\.
 
-1. In the navigation pane, choose **Settings**, **Domains**\.
+1. In the navigation pane, choose **Identity**, **Domains**\.
 
 1. On the **Domains** page, choose **Claim a new domain**\.
 

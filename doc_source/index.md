@@ -26,6 +26,7 @@ Amazon's trademarks and trade dress may not be used in
    + [Connecting to Your Active Directory](active_directory.md)
    + [Connecting to Okta SSO](okta_sso.md)
    + [Deploying the Amazon Chime Add-In for Outlook](deploy-addin.md)
+   + [Managing Chat Bots](manage-chat-bots.md)
 + [Managing Users](manage-users.md)
    + [Viewing User Details](user-details.md)
    + [Managing User Access and Permissions](manage-access.md)
