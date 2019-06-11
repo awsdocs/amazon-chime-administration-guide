@@ -35,7 +35,7 @@ Before you can assign provisioned phone numbers to an Amazon Chime Voice Connect
 You can port existing United States phone numbers from your phone carrier to use with Amazon Chime Business Calling or Amazon Chime Voice Connectors\. To port existing phone numbers to Amazon Chime, submit a support request from the Amazon Chime console\. The porting process can take between 2\-4 weeks\.
 
 **Note**  
-Toll\-free numbers cannot be ported\.
+Toll\-free numbers can be ported for use with Amazon Chime Voice Connectors\. Toll\-free numbers are not currently supported for Amazon Chime Business Calling\.
 
 **To port existing phone numbers**
 

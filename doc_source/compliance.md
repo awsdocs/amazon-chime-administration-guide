@@ -1,0 +1,9 @@
+# Compliance Validation for Amazon Chime<a name="compliance"></a>
+
+Amazon Chime is a HIPAA Eligible Service\. If you have an executed HIPAA Business Associate Addendum \(BAA\) with AWS, you can use Amazon Chime for meetings, collaboration, and business calling\. For information about getting a BAA with AWS, or about how to run HIPAA\-regulated workloads on AWS, see [HIPAA](http://aws.amazon.com/compliance/hipaa-compliance/)\. For a list of AWS HIPAA Eligible Services, see the [HIPAA Eligible Services Reference](http://aws.amazon.com/compliance/hipaa-eligible-services-reference/)\.
+
+Amazon Chime's internal communication channels are encrypted during transit and support TLS 1\.2\. This doesn't include traffic that flows to and from the public telephone network \(PSTN\) to Amazon Chime's carrier partners\. Because the public telephone network \(PSTN\) is an unencrypted network, there is no end\-to\-end encryption mechanism for it\.
+
+Amazon Chime supports the option for an unencrypted session initiation protocol \(SIP\) endpoint for video conferencing and PSTN services\. This option is for users with equipment that does not support SIP over TLS\. For a list of Amazon Chime's public endpoints, see [Network Configuration and Bandwidth Requirements](network-config.md)\. 
+
+HIPAA eligibility applies to all AWS Regions where Amazon Chime is available\. For information and best practices about how to configure AWS HIPAA Eligible Services to store, process, and transmit PHI, see the [Architecting for HIPAA Security and Compliance on Amazon Web Services Whitepaper](https://d0.awsstatic.com/whitepapers/compliance/AWS_HIPAA_Compliance_Whitepaper.pdf)\.

@@ -42,5 +42,6 @@ Amazon's trademarks and trade dress may not be used in
 + [Network Configuration and Bandwidth Requirements](network-config.md)
 + [Viewing Reports](view-reports.md)
 + [Logging Amazon Chime API Calls with AWS CloudTrail](cloudtrail.md)
++ [Compliance Validation for Amazon Chime](compliance.md)
 + [Administrative Support for Amazon Chime](chime-getting-admin-support.md)
 + [Document History for Amazon Chime](doc-history.md)
