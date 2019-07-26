@@ -7,7 +7,7 @@ If you manage an Amazon Chime team account, you can upgrade to an enterprise acc
 
 **To request user attachments**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. On the **Accounts** page, select the name of the Amazon Chime account\.
 

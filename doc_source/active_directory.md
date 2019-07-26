@@ -22,7 +22,7 @@ After you add a directory to Amazon Chime, users are prompted to log in with the
 
 **To connect to your Active Directory**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. In the navigation pane, choose **Settings**, **Active directory**\.
 

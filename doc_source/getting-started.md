@@ -16,7 +16,7 @@ After you complete the [Prerequisites](prereqs.md), you can create an Amazon Chi
 
 **To create an Amazon Chime administrator account**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. On the **Accounts** page, choose **New account**\.
 
@@ -28,7 +28,7 @@ By default, new accounts are created as **Team** accounts\. If you prefer to cla
 
 **To upgrade to an **Enterprise** account**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. On the **Accounts** page, choose the name of the account to upgrade\.
 
@@ -42,7 +42,7 @@ You can also allow or disallow account policies for options such as remote contr
 
 **To configure account policies**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. On the **Accounts** page, choose the name of the account to configure\.
 
@@ -60,7 +60,7 @@ After your Amazon Chime **Team** account is created, invite yourself and your us
 
 **To add users to your Amazon Chime account**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. On the **Accounts** page, choose the name of your account\.
 
@@ -74,7 +74,7 @@ You are only charged for a user with Pro permissions when they host a meeting\. 
 
 **To change user permissions**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. On the **Accounts** page, choose the name of your account\.
 

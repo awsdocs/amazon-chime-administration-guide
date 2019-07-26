@@ -4,6 +4,7 @@ The following table describes important changes to the *Amazon Chime Administrat
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [Moderated Meetings](#doc-history) | Amazon Chime supports moderated meetings\. For more information, see [Joining a Moderated Meeting](https://docs.aws.amazon.com/chime/latest/ag/configure-rooms.html#room-join-mod) in the Amazon Chime Administrator Guide\. | July 25, 2019 | 
 | [Compliance Validation for Amazon Chime](#doc-history) | Amazon Chime is a HIPAA Eligible Service\. For more information, see [Compliance Validation for Amazon Chime](https://docs.aws.amazon.com/chime/latest/ag/compliance.html) in the Amazon Chime Administrator Guide\. | June 11, 2019 | 
 | [Porting Toll\-free Phone Numbers](#doc-history) | Amazon Chime supports porting toll\-free United States phone numbers for use with Amazon Chime Voice Connectors\. For more information, see [Porting Existing Phone Numbers](https://docs.aws.amazon.com/chime/latest/ag/phone-numbers.html#porting) in the Amazon Chime Administrator Guide\. | May 28, 2019 | 
 | [Managing Chat Bots in Amazon Chime](#doc-history) | If you administer an Amazon Chime Enterprise account, you can integrate up to 10 chat bots for use with Amazon Chime\. For more information, see [Managing Chat Bots](https://docs.aws.amazon.com/chime/latest/ag/manage-chat-bots.html) in the Amazon Chime Administrator Guide\. | May 14, 2019 | 

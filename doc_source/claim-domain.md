@@ -4,7 +4,7 @@ To create an enterprise account and benefit from the greater control that it pro
 
 **To claim a domain**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. On the **Accounts** page, select the name of the team account\.
 

@@ -14,7 +14,7 @@ For administrators of team and enterprise LWA accounts, where users sign in with
 
 **To manage Amazon Chime licenses for team accounts and enterprise LWA**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. On the **Accounts** page, select the name of the Amazon Chime account\.
 
@@ -39,7 +39,7 @@ A user's 30\-day trial ends when they accept the invitation\.
 
 **To invite users to a team account**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. On the **Accounts** page, select the name of the team account\.
 
@@ -51,7 +51,7 @@ Use the following procedure to remove users from a team account\. This disassoci
 
 **To remove users from a team account**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. On the **Accounts** page, select the name of the team account\.
 
@@ -70,7 +70,7 @@ Use the following procedure to suspend users from an enterprise account\. This p
 
 **To suspend users from an enterprise account**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. On the **Accounts** page, select the name of the enterprise account\.
 

@@ -25,7 +25,7 @@ Create an Amazon Chime Voice Connector from the Amazon Chime console\.
 
 **To create an Amazon Chime Voice Connector**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. For **Telephony**, choose **Voice Connector**\.
 
@@ -53,7 +53,7 @@ Encryption\-enabled Voice Connectors use TLS \(TCP\) protocol for all calls\.
 
 **To edit Amazon Chime Voice Connector settings**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. For **Telephony**, choose **Voice Connector**\.
 
@@ -99,7 +99,7 @@ You can assign up to 25 phone numbers to an Amazon Chime Voice Connector\.
 
 **To assign phone numbers to an Amazon Chime Voice Connector**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. For **Telephony**, choose **Voice Connector**\.
 
@@ -113,7 +113,7 @@ You can assign up to 25 phone numbers to an Amazon Chime Voice Connector\.
 
 **To unassign phone numbers from an Amazon Chime Voice Connector**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. For **Telephony**, choose **Voice Connector**\.
 
@@ -133,7 +133,7 @@ Before you can delete an Amazon Chime Voice Connector, you must unassign all pho
 
 **To delete an Amazon Chime Voice Connector**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. For **Telephony**, choose **Voice Connector**\.
 

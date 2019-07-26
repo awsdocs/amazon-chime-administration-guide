@@ -4,7 +4,7 @@ Use the following procedure to rename your account\. The new name you choose app
 
 **To rename your account**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. Select the account in the **Account name** column\. Under **Settings**, choose **Account**\.
 

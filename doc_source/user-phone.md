@@ -13,7 +13,7 @@ Assign a phone number to a user from the Amazon Chime console\.
 
 **To assign a phone number to a user**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. For **Accounts**, choose the account name that the user belongs to\.
 
@@ -35,7 +35,7 @@ Change the calling and SMS permissions for a user from the Amazon Chime console\
 
 **To edit a user's calling and SMS permissions**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. For **Accounts**, choose the account name that the user belongs to\.
 
@@ -53,7 +53,7 @@ Unassign a user's phone number using the Amazon Chime console\.
 
 **To unassign a phone number from a user**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. For **Accounts**, choose the account name that the user belongs to\.
 

@@ -7,7 +7,7 @@ Users who aren't managed on a team or enterprise account can request to be delet
 
 **To delete a team account**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. Select the account in the **Account name** column and select **Account** under **Settings**\.
 
@@ -33,7 +33,7 @@ Registered users are displayed as **Released** on the **Users** and **User detai
 If you have an Active Directory account, and you remove a domain that is associated with a user’s primary email address, the user can't access Amazon Chime and their profile is deleted\. If you remove a domain that is associated with a user’s secondary email address, they can't log in with that email address, but they retain access to their Amazon Chime contacts and data\. 
 If you have an enterprise OpenID connect \(OIDC\) account, and you remove a domain that is associated with a user’s primary email address, the user can no longer access Amazon Chime and their profile is deleted\.
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. On the **Accounts** page, select the name of the team account\. 
 

@@ -4,7 +4,7 @@ To make more informed decisions and increase productivity for your organization,
 
 **To view usage and feedback reports**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. Choose **Reports**, **Dashboard**\.
 

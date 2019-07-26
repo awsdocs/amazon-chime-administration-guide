@@ -12,7 +12,7 @@ You can also configure call detail record settings for Amazon Chime Business Cal
 
 1. Create an Amazon S3 bucket by following the steps at [Getting Started with Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html) in the *Amazon Simple Storage Service Getting Started Guide*\.
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. For **Global Settings**, choose **Call detail records**\.
 

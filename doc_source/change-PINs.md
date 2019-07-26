@@ -6,7 +6,7 @@ If a user feels that their personal meeting PIN has been compromised, you can re
 
 **To change a personal meeting PIN**
 
-1. Open the Amazon Chime console at [https://console\.chime\.aws\.amazon\.com/](https://console.chime.aws.amazon.com)\.
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. On the **Accounts** page, select the name of the Amazon Chime account\.
 
