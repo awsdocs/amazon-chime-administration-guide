@@ -2,7 +2,7 @@
 
 Amazon Chime can integrate with your in\-room video hardware from Cisco, Tandberg, Polycom, Lifesize, Vidyo, or others when you use the SIP or H\.323 protocol\.
 
-To connect to Amazon Chime, conference room VTC devices that support SIP enter one of the following:
+To connect to Amazon Chime, conference room VTC devices that support SIP enter one of the following options:
 + **@meet\.chime\.in**
 + **u@meet\.chime\.in**
 + 10\-digit meeting ID followed by **@meet\.chime\.in**

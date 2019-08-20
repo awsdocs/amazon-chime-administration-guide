@@ -18,7 +18,7 @@ Use the Amazon Chime console to provision phone numbers for your Amazon Chime ac
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. For **Telephony**, choose **Phone number management**\.
+1. For **Calling**, choose **Phone number management**\.
 
 1. Choose **Orders**, **Provision phone numbers**\.
 
@@ -63,13 +63,13 @@ When the porting process is complete, the ported phone numbers appear in your **
 
 Use the phone number management **Inventory** page to assign or unassign Amazon Chime Business Calling phone numbers for individual users, or Amazon Chime Voice Connector phone numbers for Amazon Chime Voice Connectors\.
 
-Amazon Chime Business Calling phone numbers can also be managed within user profiles, and Amazon Chime Voice Connector phone numbers can be managed on the corresponding **Voice Connector** page\. For more information, see [Managing User Phone Numbers](user-phone.md) and [Assigning and Unassigning Amazon Chime Voice Connector Phone Numbers](voice-connectors.md#assign-voicecon)\.
+Amazon Chime Business Calling phone numbers can also be managed within user profiles, and Amazon Chime Voice Connector phone numbers can be managed on the corresponding **Voice connectors** page\. For more information, see [Managing User Phone Numbers](user-phone.md) and [Assigning and Unassigning Amazon Chime Voice Connector Phone Numbers](voice-connectors.md#assign-voicecon)\.
 
 **To assign an Amazon Chime Business Calling phone number to a user**
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. For **Telephony**, choose **Phone number management**\.
+1. For **Calling**, choose **Phone number management**\.
 
 1. Choose **Inventory**, and select the Amazon Chime Business Calling phone number to assign to a user\.
 
@@ -85,7 +85,7 @@ For instructions on how to edit the user's calling and SMS permissions, see [Edi
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. For **Telephony**, choose **Phone number management**\.
+1. For **Calling**, choose **Phone number management**\.
 
 1. Choose **Inventory**, and select the Amazon Chime Voice Connector phone number or numbers to assign to the Amazon Chime Voice Connector\.
 
@@ -99,7 +99,7 @@ The following procedure unassigns phone numbers from individual users or Amazon 
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. For **Telephony**, choose **Phone number management**\.
+1. For **Calling**, choose **Phone number management**\.
 
 1. Choose **Inventory**, and select the phone number to unassign\.
 
@@ -113,7 +113,7 @@ View details about your inventory phone numbers to see which user or Amazon Chim
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. For **Telephony**, choose **Phone number management**\.
+1. For **Calling**, choose **Phone number management**\.
 
 1. Choose **Inventory**, and select the phone number to view details for\.
 
@@ -125,7 +125,7 @@ If you have unassigned Amazon Chime Business Calling and Amazon Chime Voice Conn
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. For **Telephony**, choose **Phone number management**\.
+1. For **Calling**, choose **Phone number management**\.
 
 1. Choose **Inventory**, and select the phone number or numbers to change product types for\.
 
@@ -139,7 +139,7 @@ Delete unassigned phone numbers from your phone number management **Inventory**\
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. For **Telephony**, choose **Phone number management**\.
+1. For **Calling**, choose **Phone number management**\.
 
 1. Choose **Inventory**, and select the phone number or numbers to delete\.
 
@@ -157,7 +157,7 @@ You can restore deleted phone numbers from the **Deletion queue** for up to 7 da
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. For **Telephony**, choose **Phone number management**\.
+1. For **Calling**, choose **Phone number management**\.
 
 1. Choose **Deletion queue**, and select the phone number or numbers to restore\.
 

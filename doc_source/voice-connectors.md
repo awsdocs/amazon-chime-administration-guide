@@ -27,7 +27,7 @@ Create an Amazon Chime Voice Connector from the Amazon Chime console\.
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. For **Telephony**, choose **Voice Connector**\.
+1. For **Calling**, choose **Voice connectors**\.
 
 1. Choose **Create new voice connector**\.
 
@@ -55,7 +55,7 @@ Encryption\-enabled Voice Connectors use TLS \(TCP\) protocol for all calls\.
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. For **Telephony**, choose **Voice Connector**\.
+1. For **Calling**, choose **Voice connectors**\.
 
 1. Choose the name of the Amazon Chime Voice Connector to edit\.
 
@@ -101,7 +101,7 @@ You can assign up to 25 phone numbers to an Amazon Chime Voice Connector\.
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. For **Telephony**, choose **Voice Connector**\.
+1. For **Calling**, choose **Voice connectors**\.
 
 1. Choose the name of the Amazon Chime Voice Connector\.
 
@@ -115,7 +115,7 @@ You can assign up to 25 phone numbers to an Amazon Chime Voice Connector\.
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. For **Telephony**, choose **Voice Connector**\.
+1. For **Calling**, choose **Voice connectors**\.
 
 1. Choose the name of the Amazon Chime Voice Connector\.
 
@@ -135,7 +135,7 @@ Before you can delete an Amazon Chime Voice Connector, you must unassign all pho
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. For **Telephony**, choose **Voice Connector**\.
+1. For **Calling**, choose **Voice connectors**\.
 
 1. Choose **Phone numbers**, **Delete voice connector**\.
 
