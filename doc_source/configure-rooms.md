@@ -7,8 +7,9 @@ To connect to Amazon Chime, conference room VTC devices that support SIP enter o
 + **u@meet\.chime\.in**
 + 10\-digit meeting ID followed by **@meet\.chime\.in**
 
-Devices that support H\.323 only must dial the following:
-+ **52\.23\.133\.56**
+Devices that only support H\.323 must dial one of the following:
++ **13\.248\.147\.139**
++ **76\.223\.18\.152**
 
 If a firewall is filtering traffic between the VTC device and Amazon Chime, open the ranges for the protocols used\. For more information, see [Network Configuration and Bandwidth Requirements](network-config.md)\.
 

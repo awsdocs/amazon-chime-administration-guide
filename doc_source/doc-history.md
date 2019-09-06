@@ -4,6 +4,7 @@ The following table describes important changes to the *Amazon Chime Administrat
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [Network Configuration Updates](#doc-history) | Amazon Chime is simplifying its firewall requirements\. For more information, see [Network Configuration and Bandwidth Requirements](https://docs.aws.amazon.com/chime/latest/ag/network-config.html) in the Amazon Chime Administrator Guide\. | September 6, 2019 | 
 | [Moderated Meetings](#doc-history) | Amazon Chime supports moderated meetings\. For more information, see [Joining a Moderated Meeting](https://docs.aws.amazon.com/chime/latest/ag/configure-rooms.html#room-join-mod) in the Amazon Chime Administrator Guide\. | July 25, 2019 | 
 | [Compliance Validation for Amazon Chime](#doc-history) | Amazon Chime is a HIPAA Eligible Service\. For more information, see [Compliance Validation for Amazon Chime](https://docs.aws.amazon.com/chime/latest/ag/compliance.html) in the Amazon Chime Administrator Guide\. | June 11, 2019 | 
 | [Porting Toll\-free Phone Numbers](#doc-history) | Amazon Chime supports porting toll\-free United States phone numbers for use with Amazon Chime Voice Connectors\. For more information, see [Porting Existing Phone Numbers](https://docs.aws.amazon.com/chime/latest/ag/phone-numbers.html#porting) in the Amazon Chime Administrator Guide\. | May 28, 2019 | 

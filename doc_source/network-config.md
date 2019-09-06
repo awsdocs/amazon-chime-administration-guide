@@ -1,36 +1,122 @@
 # Network Configuration and Bandwidth Requirements<a name="network-config"></a>
 
-Amazon Chime requires the following hosts, ports, and protocols to support various services\. If inbound or outbound traffic is blocked, this might affect the ability to use various services, including audio, video, screen sharing, or chat\. 
+Amazon Chime requires the destinations and ports described in this topic to support various services\. If inbound or outbound traffic is blocked, this blockage might affect the ability to use various services, including audio, video, screen sharing, or chat\.
 
-## Full Solution<a name="full"></a>
+Amazon Chime uses Amazon Elastic Compute Cloud \(Amazon EC2\) and other AWS services on port TCP/443\. If your firewall blocks port TCP/443, you must put `*.amazonaws.com` on an allow list, or put [AWS IP Address Ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) in the *AWS General Reference* for the following services:
++ Amazon EC2
++ Amazon CloudFront
++ Amazon Route 53
 
-The following hosts, ports, and protocols are recommended when running the full Amazon Chime solution in your environment\. These recommendations apply to native clients, the web application, and in\-room conference systems\.
+**Note**  
+Amazon Chime is in the process of simplifying its firewall requirements for audio, video, and screen sharing\. For more information, see [Amazon Chime Firewall Simplification](https://answers.chime.aws/articles/814/amazon-chime-firewall-simplification.html)\.
 
-![\[Required hosts, ports, and protocols to support full Amazon Chime solution services.\]](http://docs.aws.amazon.com/chime/latest/ag/images/hosts_full.PNG)
+## Common<a name="common"></a>
 
-## Web Application Only<a name="web-app"></a>
+The following destinations and ports are recommended when running Amazon Chime in your environment\.
 
-The following hosts, ports, and protocols are recommended if you use the Amazon Chime web application only in your environment\.
 
-![\[Required hosts, ports, and protocols recommended if you use the web application only in your environment.\]](http://docs.aws.amazon.com/chime/latest/ag/images/hosts_web.PNG)
+| Destination | Ports | 
+| --- | --- | 
+|  chime\.aws  |  TCP/443  | 
+|  \*\.chime\.aws  |  TCP/443  | 
+|  \*\.amazonaws\.com  |  TCP/443  | 
 
-## H\.323 Only<a name="h323"></a>
+Amazon Chime will start using the following destination and port soon\.
 
-The following ports and protocols are recommended if you use in\-room video systems only via H\.323 in your environment\.
 
-![\[Required hosts, ports, and protocols recommended if you use in-room video systems only via H.323 in your environment.\]](http://docs.aws.amazon.com/chime/latest/ag/images/hosts_h323.PNG)
+| Destination | Ports | 
+| --- | --- | 
+|  99\.77\.128\.0/18  |  TCP/443  | 
 
-## SIP Only<a name="sip"></a>
+## Meetings and Business Calling<a name="meet-call"></a>
 
-The following ports and protocols are recommended if you use in\-room video systems only via SIP in your environment\.
+Amazon Chime will start using the following destination and port for meetings and Amazon Chime Business Calling soon\.
 
-![\[Required hosts, ports, and protocols recommended if you use in-room video systems only via SIP in your environment.\]](http://docs.aws.amazon.com/chime/latest/ag/images/hosts_sip.PNG)
+
+| Destination | Ports | 
+| --- | --- | 
+|  99\.77\.128\.0/18  |  UDP/3478  | 
+
+Amazon Chime is in the process of retiring the following destinations and ports\.
+
+
+| Destination | Ports | 
+| --- | --- | 
+|  52\.54\.62\.192/26  |  TCP/443 UDP/16384:17383 UDP/3478 UDP/7200  | 
+|  52\.54\.63\.0/25  |  TCP/443 UDP/16384:17383 UDP/3478 UDP/7200  | 
+|  52\.54\.63\.128/26  |  TCP/443 UDP/16384:17383 UDP/3478 UDP/7200  | 
+|  52\.55\.63\.128/25  |  TCP/443 UDP/16384:17383 UDP/3478 UDP/7200  | 
+|  34\.212\.67\.64/26  |  TCP/443 UDP/16384:17383 UDP/3478 UDP/7200  | 
+|  34\.212\.95\.0/25  |  TCP/443 UDP/16384:17383 UDP/3478 UDP/7200  | 
+
+## H\.323 Room Systems<a name="h323"></a>
+
+Amazon Chime will start using the following destinations and ports for H\.323 in\-room video systems soon\.
+
+
+| Destination | Ports | 
+| --- | --- | 
+|  13\.248\.147\.139  |  TCP/1720  | 
+|  76\.223\.18\.152  |  TCP/1720  | 
+|  99\.77\.128\.0/18  |  TCP/10000:60000 UDP/10000:60000  | 
+
+Amazon Chime is in the process of retiring the following destinations and ports for H\.323\.
+
+
+| Destination | Ports | 
+| --- | --- | 
+|  52\.23\.133\.56  |  TCP/1720  | 
+|  52\.54\.206\.237  |  TCP/1720  | 
+|  52\.55\.62\.128/25  |  TCP/1024:65535 UDP/1024:65535  | 
+|  52\.55\.63\.0/25  |  TCP/1024:65535 UDP/1024:65535  | 
+
+## Session Initiation Protocol \(SIP\) Room Systems<a name="sip"></a>
+
+The following destinations and ports are recommended when running Amazon Chime for SIP in\-room video systems in your environment\.
+
+
+| Destination | Ports | 
+| --- | --- | 
+|  meet\.chime\.in  |  TCP/5060:5061  | 
+
+Amazon Chime will start using the following destinations and ports for SIP in\-room video systems soon\.
+
+
+| Destination | Ports | 
+| --- | --- | 
+|  13\.248\.147\.139  |  TCP/5060:5061 UDP/5060  | 
+|  76\.223\.18\.152  |  TCP/5060:5061 UDP/5060  | 
+|  99\.77\.128\.0/18  |  UDP/10000:60000  | 
+
+Amazon Chime is in the process of retiring the following destinations and ports for SIP\.
+
+
+| Destination | Ports | 
+| --- | --- | 
+|  52\.55\.62\.128/25  |  UDP/10000:60000  | 
+|  52\.55\.63\.0/25  |  UDP/10000:60000  | 
 
 ## Amazon Chime Voice Connector<a name="cvc"></a>
 
-The following ports and protocols are recommended if you use Amazon Chime Voice Connector\.
+The following destinations and ports are recommended if you use Amazon Chime Voice Connector\.
 
-![\[Required hosts, ports, and protocols recommended if you use Amazon Chime Voice Connector.\]](http://docs.aws.amazon.com/chime/latest/ag/images/vc-image.png)
+### Signaling<a name="cvc-signaling"></a>
+
+
+| Destination | Ports | 
+| --- | --- | 
+|  3\.80\.16\.0/23  |  UDP/5060 TCP/5060 TCP/5061  | 
+
+### Media<a name="cvc-media"></a>
+
+
+| Destination | Ports | 
+| --- | --- | 
+|  3\.80\.16\.0/23  |  UDP/5000:65000  | 
+|  52\.55\.62\.128/25  |  UDP/1024:65535  | 
+|  52\.55\.63\.0/25  |  UDP/1024:65535  | 
+|  34\.212\.95\.128/25  |  UDP/1024:65535  | 
+|  34\.223\.21\.0/25  |  UDP/1024:65535  | 
 
 ## Bandwidth Requirements<a name="bandwidth"></a>
 
