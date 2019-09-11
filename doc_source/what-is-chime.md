@@ -1,6 +1,6 @@
 # What Is Amazon Chime?<a name="what-is-chime"></a>
 
-Amazon Chime is a communications service that transforms online meetings with a secure, easy\-to\-use application that you can trust\. Amazon Chime works seamlessly across your devices so that you can stay connected\. You can use Amazon Chime for online meetings, video conferencing, calls, and chat\. You can also share content, both inside and outside your organization\. Amazon Chime frees you to work productively from anywhere\.
+Amazon Chime is a communications service that transforms online meetings with an application that is secure and comprehensive\. Amazon Chime works across your devices so that you can stay connected\. You can use Amazon Chime for online meetings, video conferencing, calls, and chat\. You can also share content inside and outside of your organization\. Amazon Chime is a fully managed service that runs securely on the AWS cloud, which frees IT from deploying and managing complex infrastructures\. 
 
 For more information, see [Amazon Chime](https://aws.amazon.com/chime)\.
 
@@ -19,7 +19,7 @@ For more information on user access and permissions, see [Managing User Access a
 
 ## Pricing<a name="pricing"></a>
 
-With Amazon Chime usage\-based pricing, you only pay for users with Pro permissions that host meetings, on the days that the meetings are hosted\. Meeting attendees and chat users are not charged\.
+Amazon Chime provides usage\-based pricing\. You pay only for the users with Pro permissions that host meetings, and only on the days that those meetings are hosted\. Meeting attendees and chat users are not charged\.
 
 There is no charge for users with Basic permissions\. Basic users cannot host meetings, but they can attend meetings and use chat\. For more information on pricing and the features that users with Pro and Basic permissions can access, see [Plans and pricing](https://aws.amazon.com/chime/pricing)\.
 

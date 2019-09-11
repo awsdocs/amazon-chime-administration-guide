@@ -19,4 +19,3 @@ You can convert your team account to enterprise by claiming one or more email do
 + [Connecting to Your Active Directory](active_directory.md)
 + [Connecting to Okta SSO](okta_sso.md)
 + [Deploying the Amazon Chime Add\-In for Outlook](deploy-addin.md)
-+ [Managing Chat Bots](manage-chat-bots.md)
