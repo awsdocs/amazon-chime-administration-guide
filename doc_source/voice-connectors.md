@@ -4,12 +4,16 @@ You can integrate an Amazon Chime Voice Connector with an existing phone system\
 
 After you create an Amazon Chime Voice Connector, edit the settings to integrate with your existing phone system\. Then, assign phone numbers to the Amazon Chime Voice Connector\. You can provision phone numbers for your Amazon Chime Voice Connector from your Amazon Chime **Phone number management** inventory\. For more information, see [Provisioning Phone Numbers](phone-numbers.md#provision-phone)\.
 
+You can also create an Amazon Chime Voice Connector group for your account, and add Amazon Chime Voice Connectors to it\. You can include Amazon Chime Voice Connectors created in different AWS Regions in your group to create a fault\-tolerant mechanism for fallback if availability events occur\. For more information, see [Working with Amazon Chime Voice Connector Groups](voice-connector-groups.md)\.
+
 **Topics**
 + [Before you Begin](#vc-prereq)
 + [Creating an Amazon Chime Voice Connector](#create-voicecon)
 + [Editing Amazon Chime Voice Connector Settings](#edit-voicecon)
 + [Assigning and Unassigning Amazon Chime Voice Connector Phone Numbers](#assign-voicecon)
 + [Deleting an Amazon Chime Voice Connector](#delete-voicecon)
++ [Streaming Amazon Chime Voice Connector Media to Kinesis](start-kinesis-vc.md)
++ [Working with Amazon Chime Voice Connector Groups](voice-connector-groups.md)
 
 ## Before you Begin<a name="vc-prereq"></a>
 
@@ -33,6 +37,8 @@ Create an Amazon Chime Voice Connector from the Amazon Chime console\.
 
 1. For **Voice connector name**, enter a name for the Amazon Chime Voice Connector\.
 
+1. \(Optional\) For **AWS Region**, choose an AWS Region for your Amazon Chime Voice Connector\. The default Region is US East \(N\. Virginia\) \(**us\-east\-1**\)\. Regions cannot be changed after your Amazon Chime Voice Connector is created\.
+
 1. For **Encryption**, select **Enabled** or **Disabled**\.
 
 1. Choose **Create**\.
@@ -51,6 +57,10 @@ Under the origination settings, configure inbound routes for your SIP hosts to r
 **Note**  
 Encryption\-enabled Voice Connectors use TLS \(TCP\) protocol for all calls\.
 
+You can choose to send logs from your Amazon Chime Voice Connector to CloudWatch Logs\. For more information, see [CloudWatch Logs for Amazon Chime](monitoring-cloudwatch.md#cw-logs)\.
+
+You can also enable media streaming from your Amazon Chime Voice Connector to Amazon Kinesis\. For more information, see [Streaming Amazon Chime Voice Connector Media to Kinesis](start-kinesis-vc.md)\.
+
 **To edit Amazon Chime Voice Connector settings**
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
@@ -63,7 +73,7 @@ Encryption\-enabled Voice Connectors use TLS \(TCP\) protocol for all calls\.
 
    1. \(Optional\) Choose **General** to update the **Voice connector name**, and enable or disable encryption\.
 
-   1. Choose **Termination settings**, and select **Enabled**\.
+   1. Choose **Termination**, and select **Enabled**\.
 
    1. \(Optional\) For **Allowlist**, choose **New**, enter the CIDR notations and values to allowlist, and choose **Add**\.
 
@@ -75,7 +85,7 @@ Encryption\-enabled Voice Connectors use TLS \(TCP\) protocol for all calls\.
 
    1. Choose **Save** again\.
 
-   1. Choose **Origination settings**, and select **Enabled**\.
+   1. Choose **Origination**, and select **Enabled**\.
 
    1. For **Inbound routes**, choose **New**\.
 
@@ -85,11 +95,15 @@ Encryption\-enabled Voice Connectors use TLS \(TCP\) protocol for all calls\.
 
    1. Choose **Save**\.
 
+   1. \(Optional\) For **Streaming**, choose **Start** to send audio to a Kinesis Video Stream, then choose **Save**\.
+
    1. Choose **Phone numbers**\.
 
    1. Select one or more phone numbers to assign to the Amazon Chime Voice Connector\.
 
    1. Choose **Assign**\.
+
+   1. \(Optional\) For **Logging**, choose **Enabled** to send logs to CloudWatch Logs, then choose **Save**\.
 
 For more information about assigning phone numbers to an Amazon Chime Voice Connector, see [Assigning and Unassigning Amazon Chime Voice Connector Phone Numbers](#assign-voicecon)\.
 
@@ -110,6 +124,8 @@ You can assign up to 25 phone numbers to an Amazon Chime Voice Connector\.
 1. Select one or more phone numbers to assign to the Amazon Chime Voice Connector\.
 
 1. Choose **Assign**\.
+
+You can also choose **Reassign** to reassign phone numbers with the **Voice Connector** product type from one Amazon Chime Voice Connector or Amazon Chime Voice Connector group to another\.
 
 **To unassign phone numbers from an Amazon Chime Voice Connector**
 

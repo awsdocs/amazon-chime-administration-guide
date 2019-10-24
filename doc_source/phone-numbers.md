@@ -34,10 +34,12 @@ Before you can assign provisioned phone numbers to an Amazon Chime Voice Connect
 
 You can port existing United States phone numbers from your phone carrier to use with Amazon Chime Business Calling or Amazon Chime Voice Connectors\. To port existing phone numbers to Amazon Chime, submit a support request from the Amazon Chime console\. The porting process can take between 2\-4 weeks\.
 
+Before you can port phone numbers for Amazon Chime Voice Connectors, you must create an Amazon Chime Voice Connector\. For more information, see [Creating an Amazon Chime Voice Connector](voice-connectors.md#create-voicecon)\.
+
 **Note**  
 Toll\-free numbers can be ported for use with Amazon Chime Voice Connectors\. Toll\-free numbers are not currently supported for Amazon Chime Business Calling\.
 
-**To port existing phone numbers**
+**To port existing phone numbers into Amazon Chime**
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
@@ -45,9 +47,17 @@ Toll\-free numbers can be ported for use with Amazon Chime Voice Connectors\. To
 
 1. For **Category**, choose **Other**\.
 
-1. For **Subject**, enter **Porting phone numbers**\.
+1. For **Subject**, enter **Porting phone numbers in**\.
 
-1. For **Issue**, enter the existing phone numbers to port\. Indicate the phone number type \(**Business Calling** or **Voice Connector**\)\.
+1. For **Issue**, enter the following:
+   + Existing phone numbers to port in\. Indicate the phone number type, **Business Calling** or **Voice Connector**\.
+   + Billing Telephone Number \(BTN\) of the account\.
+   + Authorizing person’s name\. This is the person in charge of account billing with the current carrier\.
+   + Current carrier, if known\.
+   + Service account number, if this information is present with the current carrier\.
+   + Service PIN, if available\.
+   + Service address and customer name, as they appear in your current carrier contract\.
+   + Requested date and time for the port\.
 
 1. For **Email**, enter the email address associated with your Amazon Chime administrator account\.
 
@@ -59,11 +69,31 @@ The information provided on the LOA must match the information that your phone c
 
 When the porting process is complete, the ported phone numbers appear in your **Inventory** and can be assigned to individual users or the Amazon Chime Voice Connectors that you create \.
 
+**To port existing phone numbers out of Amazon Chime**
+
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
+
+1. Choose **Support**, **Submit request**\.
+
+1. For **Category**, choose **Other**\.
+
+1. For **Subject**, enter **Porting phone numbers out**\.
+
+1. For **Issue**, enter the phone numbers to port out\. Indicate the phone number type, **Business Calling** or **Voice Connector**\.
+
+1. For **Email**, enter the email address associated with your Amazon Chime administrator account\.
+
+1. Choose **Submit request**\.
+
+AWS Support responds with an account ID and PIN to use when requesting the port from your new carrier\.
+
+When the porting process is complete and the phone numbers are ported to your new carrier, unassign and delete the phone numbers from your Amazon Chime inventory\. For more information, see the following sections\.
+
 ## Managing Phone Number Inventory<a name="phone-inventory"></a>
 
-Use the phone number management **Inventory** page to assign or unassign Amazon Chime Business Calling phone numbers for individual users, or Amazon Chime Voice Connector phone numbers for Amazon Chime Voice Connectors\.
+Use the phone number management **Inventory** page to assign or unassign phone numbers\. You can do this with Amazon Chime Business Calling phone numbers for individual users, or phone numbers for Amazon Chime Voice Connectors or Amazon Chime Voice Connector groups\.
 
-Amazon Chime Business Calling phone numbers can also be managed within user profiles, and Amazon Chime Voice Connector phone numbers can be managed on the corresponding **Voice connectors** page\. For more information, see [Managing User Phone Numbers](user-phone.md) and [Assigning and Unassigning Amazon Chime Voice Connector Phone Numbers](voice-connectors.md#assign-voicecon)\.
+Manage Amazon Chime Business Calling phone numbers from within user profiles\. Manage Amazon Chime Voice Connector phone numbers on the corresponding **Voice connectors** or **Voice connector groups** page\. For more information, see [Managing User Phone Numbers](user-phone.md), [Assigning and Unassigning Amazon Chime Voice Connector Phone Numbers](voice-connectors.md#assign-voicecon), or [Assigning and Unassigning Phone Numbers for an Amazon Chime Voice Connector Group](voice-connector-groups.md#assign-voicecon-group)\.
 
 **To assign an Amazon Chime Business Calling phone number to a user**
 
@@ -79,19 +109,23 @@ Amazon Chime Business Calling phone numbers can also be managed within user prof
 
 1. Select the user's full name, and choose **Assign**\.
 
-For instructions on how to edit the user's calling and SMS permissions, see [Editing Calling and SMS Permissions](user-phone.md#edit-phone-perms)\. When you change a user's Amazon Chime Business Calling phone number or phone number permissions, we recommend contacting the user with their new phone number or permissions information\. Users must also sign out of their Amazon Chime account and sign back in again before they can access their new phone number or permissions features\.
+For instructions on how to edit the user's calling and SMS permissions, see [Editing Calling and SMS Permissions](user-phone.md#edit-phone-perms)\. When you change a user's Amazon Chime Business Calling phone number or phone number permissions, we recommend providing the user with their new phone number or permissions information\. Before users can access their new phone number or permissions features, they must sign out of their Amazon Chime account and sign in again\.
 
-**To assign Amazon Chime Voice Connector phone numbers to an Amazon Chime Voice Connector**
+**To assign Amazon Chime Voice Connector phone numbers to an Amazon Chime Voice Connector or Amazon Chime Voice Connector group**
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. For **Calling**, choose **Phone number management**\.
 
-1. Choose **Inventory**, and select the Amazon Chime Voice Connector phone number or numbers to assign to the Amazon Chime Voice Connector\.
+1. Choose **Inventory**, and select the phone numbers that you want to assign\.
+
+1. For **Assignment type**, choose **Voice connector** or **Voice connector group**\.
 
 1. Choose **Assign**\.
 
 1. Select the Amazon Chime Voice Connector to assign the phone number to, and choose **Assign**\.
+
+You can also choose **Reassign** to reassign phone numbers with the **Voice Connector** product type\. This lets you reassign these numbers from one Amazon Chime Voice Connector or Amazon Chime Voice Connector group to another\.
 
 The following procedure unassigns phone numbers from individual users or Amazon Chime Voice Connectors\. 
 
@@ -107,7 +141,7 @@ The following procedure unassigns phone numbers from individual users or Amazon 
 
 1. Select the check box, and choose **Unassign**\.
 
-View details about your inventory phone numbers to see which user or Amazon Chime Voice Connector a number is assigned to\. You can also see if phone calls and text messages are enabled\.
+You can then view the details about your inventory phone numbers\. You can see which user or Amazon Chime Voice Connectorthat a number is assigned to\. You can also see if phone calls and text messages are enabled\.
 
 **To view inventory phone number details**
 
@@ -130,6 +164,51 @@ If you have unassigned Amazon Chime Business Calling and Amazon Chime Voice Conn
 1. Choose **Inventory**, and select the phone number or numbers to change product types for\.
 
 1. Select **Business Calling** or **Voice Connector**, and choose **Save**\.
+
+## Updating Outbound Calling Names<a name="calling-name"></a>
+
+Set a default calling name that appears to recipients of outbound calls made using the phone numbers in your **Inventory**\. Default calling names apply to all phone number product types\. You can update the names once every seven days\.
+
+**Note**  
+When you place a call using an Amazon Chime Voice Connector, the call is routed through the public switched telephone network \(PSTN\) to a fixed or mobile telephone carrier of the called party\. Not all fixed and mobile telephone carriers support Caller ID names \(CNAM\) or use the same CNAM database as Amazon Chime Voice Connectors\. Even though you set your caller ID name in the Amazon Chime console, the called party might see no calling name at all, or they might see a calling name that is different from the value that you set\.
+
+**To set a default calling name**
+
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
+
+1. For **Calling**, choose **Phone number management**\.
+
+1. Choose **Inventory**\.
+
+1. For **Actions**, choose **Update default calling name**\.
+
+1. For **Default calling name**, enter a default calling name of up to 15 characters\.
+
+1. Choose **Save**\.
+
+The default calling name is updated within 72 hours\.
+
+Set a unique calling name for individual phone numbers on the phone number details screen\.
+
+**To set a unique calling name**
+
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
+
+1. For **Calling**, choose **Phone number management**\.
+
+1. Choose **Inventory**\.
+
+1. Select the phone number to update\.
+
+1. For **Actions**, choose **View details**\.
+
+1. On the phone number details screen, for **Actions**, choose **Update unique calling name**\.
+
+1. For **Unique calling name**, enter a unique calling name of up to 15 characters\.
+
+1. Choose **Save**\.
+
+The unique calling name is updated within 72 hours\. After the update is complete, you can update the calling name again\.
 
 ## Deleting Phone Numbers<a name="delete-phone"></a>
 

@@ -103,24 +103,26 @@ The following destinations and ports are recommended if you use Amazon Chime Voi
 ### Signaling<a name="cvc-signaling"></a>
 
 
-| Destination | Ports | 
-| --- | --- | 
-|  3\.80\.16\.0/23  |  UDP/5060 TCP/5060 TCP/5061  | 
+| AWS Region | Destination | Ports | 
+| --- | --- | --- | 
+| US East \(N\. Virginia\) |  3\.80\.16\.0/23  |  UDP/5060 TCP/5060 TCP/5061  | 
+| US West \(Oregon\) |  99\.77\.253\.0/24  |  UDP/5060 TCP/5060 TCP/5061  | 
 
 ### Media<a name="cvc-media"></a>
 
 
-| Destination | Ports | 
-| --- | --- | 
-|  3\.80\.16\.0/23  |  UDP/5000:65000  | 
-|  52\.55\.62\.128/25  |  UDP/1024:65535  | 
-|  52\.55\.63\.0/25  |  UDP/1024:65535  | 
-|  34\.212\.95\.128/25  |  UDP/1024:65535  | 
-|  34\.223\.21\.0/25  |  UDP/1024:65535  | 
+| AWS Region | Destination | Ports | 
+| --- | --- | --- | 
+| US East \(N\. Virginia\) |  3\.80\.16\.0/23  |  UDP/5000:65000  | 
+| US East \(N\. Virginia\) |  52\.55\.62\.128/25  |  UDP/1024:65535  | 
+| US East \(N\. Virginia\) |  52\.55\.63\.0/25  |  UDP/1024:65535  | 
+| US East \(N\. Virginia\) |  34\.212\.95\.128/25  |  UDP/1024:65535  | 
+| US East \(N\. Virginia\) |  34\.223\.21\.0/25  |  UDP/1024:65535  | 
+| US West \(Oregon\) |  99\.77\.253\.0/24  |  UDP/5000:65000  | 
 
 ## Bandwidth Requirements<a name="bandwidth"></a>
 
-Amazon Chime has the following bandwidth requirements for media services that it provides:
+Amazon Chime has the following bandwidth requirements for the media that it provides:
 + Audio 
   + 1:1 call: 54 kbps up and down
   + Large call: no more than 32 kbps extra down for 50 callers
@@ -131,9 +133,9 @@ Amazon Chime has the following bandwidth requirements for media services that it
   + 5–16 people: 184 kbps up and \(N\-1\)\*134 kbps down
   + Up and down bandwidth adapts lower for network conditions
 + Screen
-  + 1\.2 mbps up \(presenting\) and down \(viewing\) for high quality \(adapts as low as 320 kbps for network conditions\)
+  + 1\.2 mbps up \(when presenting\) and down \(when viewing\) for high quality\. This adapts as low as 320 kbps based on network conditions\.
   + Remote control: 800 kbps fixed
 
 Amazon Chime Business Calling and Amazon Chime Voice Connector have the following bandwidth requirements:
 + Audio
-  + Call: \~90 kbps up and down \(including media payload and packet overhead\)
+  + Call: \~90 kbps up and down\. This includes media payload and packet overhead\.
