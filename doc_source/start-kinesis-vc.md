@@ -10,7 +10,7 @@ Use the Kinesis Video Streams Parser Library to download the media streams sent 
 
 For more information, see [Kinesis Video Streams Parser Library](https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/parser-library.html) and [Using Streaming Metadata with Kinesis Video Streamss](https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/how-meta.html) in the *Amazon Kinesis Video Streams Developer Guide*\.
 
-For more information about using IAM service\-linked roles with Amazon Chime Voice Connectors, see [Using Roles to Stream Amazon Chime Voice Connector Media to Kinesis](using-service-linked-roles-stream.md)\. For more information about using CloudWatch with Amazon Chime, see [Monitoring Amazon Chime](monitoring-overview.md)\.
+For more information about using IAM service\-linked roles with Amazon Chime Voice Connectors, see [Using Roles to Stream Amazon Chime Voice Connector Media to Kinesis](using-service-linked-roles-stream.md)\. For more information about using CloudWatch with Amazon Chime, see [Logging and Monitoring in Amazon Chime](monitoring-overview.md)\.
 
 When you enable media streaming for your Amazon Chime Voice Connector, Amazon Chime creates an IAM service\-linked role called AWSServiceRoleForAmazonChimeVoiceConnector\.
 

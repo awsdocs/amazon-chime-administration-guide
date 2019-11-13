@@ -1,4 +1,4 @@
-# Using Roles with Shared Devices<a name="using-service-linked-roles-a4b"></a>
+# Using Roles with Shared Alexa for Business Devices<a name="using-service-linked-roles-a4b"></a>
 
 Amazon Chime uses AWS Identity and Access Management \(IAM\)[ service\-linked roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html#iam-term-service-linked-role)\. A service\-linked role is a unique type of IAM role that is linked directly to Amazon Chime\. Service\-linked roles are predefined by Amazon Chime and include all the permissions that the service requires to call other AWS services on your behalf\. 
 

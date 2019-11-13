@@ -4,4 +4,4 @@ Amazon Chime uses AWS Identity and Access Management \(IAM\)[ service\-linked ro
 
 **Topics**
 + [Using Roles to Stream Amazon Chime Voice Connector Media to Kinesis](using-service-linked-roles-stream.md)
-+ [Using Roles with Shared Devices](using-service-linked-roles-a4b.md)
++ [Using Roles with Shared Alexa for Business Devices](using-service-linked-roles-a4b.md)
