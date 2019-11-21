@@ -86,4 +86,4 @@ You are only charged for a user with Pro permissions when they host a meeting\. 
 
 1. Choose **Assign**\.
 
-To provide other users with administrator permissions, while controlling their access to the Amazon Chime console for your account, see [Identity and Access Management for Amazon Chime](security-iam.md)\.
+You can provide other users with administrator permissions, and also control their access to the Amazon Chime console for your account\. For more information, see [Identity and Access Management for Amazon Chime](security-iam.md)\.
