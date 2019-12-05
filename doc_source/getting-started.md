@@ -22,6 +22,8 @@ After you complete the [Prerequisites](prereqs.md), you can create an Amazon Chi
 
 1. For **Account Name**, enter a name for the account and choose **Create account**\.
 
+1. \(Optional\) Choose whether to let Amazon Chime select the optimal AWS Region for your meetings from all available Regions, or to use only the Regions that you select\. For more information, see [Managing Meeting Settings](mtg-settings.md)\.
+
 ## Step 2 \(Optional\): Configuring Account Settings<a name="acct-settings"></a>
 
 By default, new accounts are created as **Team** accounts\. If you prefer to claim a domain and connect to your own identity provider, or Okta SSO, you can upgrade to an **Enterprise** account\. For more information about **Team** and **Enterprise** account types, see [Managing Your Amazon Chime Accounts](manage-chime-account.md)\.
@@ -38,7 +40,7 @@ By default, new accounts are created as **Team** accounts\. If you prefer to cla
 
 For more information about claiming domains, see [Claiming a Domain](claim-domain.md)\. For more information about setting up identity providers, see [Connecting to Your Active Directory](active_directory.md) and [Connecting to Okta SSO](okta_sso.md)\.
 
-You can also allow or disallow account policies for options such as remote control of shared screens and the Amazon Chime call me feature\.
+You can also allow or stop allowing account policies for options, such as remote control of shared screens and the Amazon Chime call me feature\.
 
 **To configure account policies**
 
@@ -46,13 +48,13 @@ You can also allow or disallow account policies for options such as remote contr
 
 1. On the **Accounts** page, choose the name of the account to configure\.
 
-1. For **Settings**, choose **Policies**\.
+1. For **Settings**, choose **Meetings**\.
 
-1. Select or clear the account policy options you want to allow or disallow\.
+1. For **Policies**, select or clear the account policy options you want to allow or stop allowing\.
 
 1. Choose **Change**\.
 
-For more information, see [Using the Policies Page](policies.md)\.
+For more information, see [Managing Meeting Settings](mtg-settings.md)\.
 
 ## Step 3: Adding Users to Your Account<a name="add-users"></a>
 

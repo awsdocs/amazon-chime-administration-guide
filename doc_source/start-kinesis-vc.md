@@ -14,6 +14,10 @@ For more information about using IAM service\-linked roles with Amazon Chime Voi
 
 When you enable media streaming for your Amazon Chime Voice Connector, Amazon Chime creates an IAM service\-linked role called AWSServiceRoleForAmazonChimeVoiceConnector\.
 
+## Starting Media Streaming<a name="start-kinesis"></a>
+
+Start media streaming for your Amazon Chime Voice Connector from the Amazon Chime console\.
+
 **To start media streaming for your Amazon Chime Voice Connector**
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
@@ -45,3 +49,17 @@ Turn off media streaming from the Amazon Chime console\. If you no longer need t
 1. For **Sending to Kinesis Video Streams**, choose **Stop**\.
 
 1. Choose **Save**\.
+
+## SIP\-Based Media Recording \(SIPREC\) Compatibility<a name="sip"></a>
+
+You can use an Amazon Chime Voice Connector to stream media from a SIPREC\-compatible voice infrastructure to Kinesis Video Streams\. You must have a Private Branch Exchange \(PBX\), Session Border Controller \(SBC\), or contact center that supports the SIPREC protocol\. They must be able to send signaling and media to AWS public IP addresses\. For more information, see [Before you Begin](voice-connectors.md#vc-prereq)\.
+
+**To set up SIPREC\-compatible streaming**
+
+1. Create an Amazon Chime Voice Connector\. For more information, see [Creating an Amazon Chime Voice Connector](voice-connectors.md#create-voicecon)\.
+
+1. Start media streaming for your Amazon Chime Voice Connector\. For more information, see [Starting Media Streaming](#start-kinesis)\.
+
+1. In the Amazon Chime console, under **Voice connectors**, view the **Outbound host name** for your Amazon Chime Voice Connector\. For example, `abcdef1ghij2klmno3pqr4.voiceconnector.chime.aws`\.
+
+1. Configure your PBX, SBC, or other voice infrastructure to send SIPREC media to the **Outbound host name** of your Amazon Chime Voice Connector\.
