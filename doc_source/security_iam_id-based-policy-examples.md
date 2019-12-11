@@ -138,6 +138,7 @@ Use the AWS managed **AmazonChimeUserManagement** policy to grant users access t
                 "chime:GetUser",
                 "chime:GetUserByEmail",
                 "chime:InviteUsers",
+                "chime:InviteUsersFromProvider",
                 "chime:SuspendUsers",
                 "chime:ActivateUsers",
                 "chime:UpdateUserLicenses",

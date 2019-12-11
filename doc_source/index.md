@@ -26,7 +26,7 @@ Amazon's trademarks and trade dress may not be used in
       + [Using Roles with Shared Alexa for Business Devices](using-service-linked-roles-a4b.md)
    + [Logging and Monitoring in Amazon Chime](monitoring-overview.md)
       + [Monitoring Amazon Chime with Amazon CloudWatch](monitoring-cloudwatch.md)
-      + [Automating Amazon Chime with CloudWatch Events](automating-chime-with-cloudwatch-events.md)
+      + [Automating Amazon Chime with EventBridge](automating-chime-with-cloudwatch-events.md)
       + [Logging Amazon Chime API Calls with AWS CloudTrail](cloudtrail.md)
    + [Compliance Validation for Amazon Chime](compliance.md)
    + [Resilience in Amazon Chime](disaster-recovery-resiliency.md)
