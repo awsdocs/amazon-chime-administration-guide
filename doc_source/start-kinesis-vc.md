@@ -50,7 +50,7 @@ Turn off media streaming from the Amazon Chime console\. If you no longer need t
 
 1. Choose **Save**\.
 
-## SIP\-Based Media Recording \(SIPREC\) Compatibility<a name="sip"></a>
+## SIP\-Based Media Recording \(SIPREC\) Compatibility<a name="siprec"></a>
 
 You can use an Amazon Chime Voice Connector to stream media from a SIPREC\-compatible voice infrastructure to Kinesis Video Streams\. You must have a Private Branch Exchange \(PBX\), Session Border Controller \(SBC\), or contact center that supports the SIPREC protocol\. They must be able to send signaling and media to AWS public IP addresses\. For more information, see [Before you Begin](voice-connectors.md#vc-prereq)\.
 

@@ -41,9 +41,11 @@ Toll\-free numbers can be ported for use with Amazon Chime Voice Connectors\. To
 
 **To port existing phone numbers into Amazon Chime**
 
-1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
+1. Do one of the following:
+   + Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. Choose **Support**, **Submit request**\.
+     Choose **Support**, **Submit request**\.
+   + If you are an AWS Premium Support customer, open the [AWS Support Center](https://console.aws.amazon.com/support/home#/) page, sign in if necessary, and choose **Create case**\.
 
 1. For **Category**, choose **Other**\.
 
@@ -71,9 +73,11 @@ When the porting process is complete, the ported phone numbers appear in your **
 
 **To port existing phone numbers out of Amazon Chime**
 
-1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
+1. Do one of the following:
+   + Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. Choose **Support**, **Submit request**\.
+     Choose **Support**, **Submit request**\.
+   + If you are an AWS Premium Support customer, open the [AWS Support Center](https://console.aws.amazon.com/support/home#/) page, sign in if necessary, and choose **Create case**\.
 
 1. For **Category**, choose **Other**\.
 

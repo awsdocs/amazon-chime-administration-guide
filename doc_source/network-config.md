@@ -12,7 +12,7 @@ Amazon Chime is in the process of simplifying its firewall requirements for audi
 
 ## Common<a name="common"></a>
 
-The following destinations and ports are recommended when running Amazon Chime in your environment\.
+The following destinations and ports are required when running Amazon Chime in your environment\.
 
 
 | Destination | Ports | 
@@ -20,17 +20,11 @@ The following destinations and ports are recommended when running Amazon Chime i
 |  chime\.aws  |  TCP/443  | 
 |  \*\.chime\.aws  |  TCP/443  | 
 |  \*\.amazonaws\.com  |  TCP/443  | 
-
-Amazon Chime will start using the following destination and port soon\.
-
-
-| Destination | Ports | 
-| --- | --- | 
 |  99\.77\.128\.0/18  |  TCP/443  | 
 
 ## Meetings and Business Calling<a name="meet-call"></a>
 
-Amazon Chime will start using the following destination and port for meetings and Amazon Chime Business Calling soon\.
+Amazon Chime uses the following destination and port for meetings and Amazon Chime Business Calling\.
 
 
 | Destination | Ports | 
@@ -51,7 +45,7 @@ Amazon Chime is in the process of retiring the following destinations and ports\
 
 ## H\.323 Room Systems<a name="h323"></a>
 
-Amazon Chime will start using the following destinations and ports for H\.323 in\-room video systems soon\.
+Amazon Chime uses the following destinations and ports for H\.323 in\-room video systems\.
 
 
 | Destination | Ports | 
@@ -75,18 +69,12 @@ Amazon Chime is in the process of retiring the following destinations and ports 
 The following destinations and ports are recommended when running Amazon Chime for SIP in\-room video systems in your environment\.
 
 
-| Destination | Ports | 
-| --- | --- | 
-|  meet\.chime\.in  |  TCP/5060:5061  | 
-
-Amazon Chime will start using the following destinations and ports for SIP in\-room video systems soon\.
-
-
-| Destination | Ports | 
-| --- | --- | 
-|  13\.248\.147\.139  |  TCP/5060:5061 UDP/5060  | 
-|  76\.223\.18\.152  |  TCP/5060:5061 UDP/5060  | 
-|  99\.77\.128\.0/18  |  UDP/10000:60000  | 
+| AWS Region | Destination | Ports | 
+| --- | --- | --- | 
+|  Global \(nearest Region\)  |  99\.77\.128\.0/18  |  UDP/10000:60000  | 
+|  Global  |  meet\.chime\.in 13\.248\.147\.139 76\.223\.18\.152  |  TCP/5061  | 
+|  US East \(N\. Virginia\)  |  meet\.ue1\.chime\.in  |  TCP/5061  | 
+|  US West \(Oregon\)  |  meet\.uw2\.chime\.in  |  TCP/5061  | 
 
 Amazon Chime is in the process of retiring the following destinations and ports for SIP\.
 
@@ -131,7 +119,7 @@ Amazon Chime has the following bandwidth requirements for the media that it prov
   + HD mode: 1400 kbps up and down
   + 3–4 people: 450 kbps up and \(N\-1\)\*400 kbps down
   + 5–16 people: 184 kbps up and \(N\-1\)\*134 kbps down
-  + Up and down bandwidth adapts lower for network conditions
+  + Up and down bandwidth adapts lower based on network conditions
 + Screen
   + 1\.2 mbps up \(when presenting\) and down \(when viewing\) for high quality\. This adapts as low as 320 kbps based on network conditions\.
   + Remote control: 800 kbps fixed

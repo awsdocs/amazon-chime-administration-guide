@@ -27,6 +27,16 @@ The `AWS/ChimeVoiceConnector` namespace includes the following metrics for phone
 |  `Sip5xxCodes`  |  The number of SIP messages with 5xx\-level status codes\. Units: Count  | 
 |  `Sip6xxCodes`  |  The number of SIP messages with 6xx\-level status codes\. Units: Count  | 
 
+## CloudWatch Dimensions for Amazon Chime<a name="cw-dimensions"></a>
+
+The CloudWatch dimensions that you can use with Amazon Chime are listed as follows\.
+
+
+| Dimension | Description | 
+| --- | --- | 
+|  `VoiceConnectorId`  |  The identifier of the Amazon Chime Voice Connector to display metrics for\.  | 
+|  `Region`  |  The AWS Region associated with the event\.  | 
+
 ## CloudWatch Logs for Amazon Chime<a name="cw-logs"></a>
 
 You can send Amazon Chime Voice Connector metrics to CloudWatch Logs\. For more information, see [Editing Amazon Chime Voice Connector Settings](voice-connectors.md#edit-voicecon)\.
@@ -38,6 +48,7 @@ You can opt to receive SIP message logs for your Amazon Chime Voice Connector\. 
 | Field | Description | 
 | --- | --- | 
 |  voice\_connector\_id  |  The Amazon Chime Voice Connector ID\.  | 
+|  aws\_region  |  The AWS Region associated with the event\.  | 
 |  event\_timestamp  |  The time at which the message is captured, in number of milliseconds since the UNIX Epoch \(midnight on Jan 1 1970\) in UTC\.  | 
 |  call\_id  |  The Amazon Chime Voice Connector call ID\.  | 
 |  sip\_message  |  The full SIP message that is captured\.  | 
