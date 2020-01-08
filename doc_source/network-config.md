@@ -7,9 +7,6 @@ Amazon Chime uses Amazon Elastic Compute Cloud \(Amazon EC2\) and other AWS serv
 + Amazon CloudFront
 + Amazon Route 53
 
-**Note**  
-Amazon Chime is in the process of simplifying its firewall requirements for audio, video, and screen sharing\. For more information, see [Amazon Chime Firewall Simplification](https://answers.chime.aws/articles/814/amazon-chime-firewall-simplification.html)\.
-
 ## Common<a name="common"></a>
 
 The following destinations and ports are required when running Amazon Chime in your environment\.
@@ -31,18 +28,6 @@ Amazon Chime uses the following destination and port for meetings and Amazon Chi
 | --- | --- | 
 |  99\.77\.128\.0/18  |  UDP/3478  | 
 
-Amazon Chime is in the process of retiring the following destinations and ports\.
-
-
-| Destination | Ports | 
-| --- | --- | 
-|  52\.54\.62\.192/26  |  TCP/443 UDP/16384:17383 UDP/3478 UDP/7200  | 
-|  52\.54\.63\.0/25  |  TCP/443 UDP/16384:17383 UDP/3478 UDP/7200  | 
-|  52\.54\.63\.128/26  |  TCP/443 UDP/16384:17383 UDP/3478 UDP/7200  | 
-|  52\.55\.63\.128/25  |  TCP/443 UDP/16384:17383 UDP/3478 UDP/7200  | 
-|  34\.212\.67\.64/26  |  TCP/443 UDP/16384:17383 UDP/3478 UDP/7200  | 
-|  34\.212\.95\.0/25  |  TCP/443 UDP/16384:17383 UDP/3478 UDP/7200  | 
-
 ## H\.323 Room Systems<a name="h323"></a>
 
 Amazon Chime uses the following destinations and ports for H\.323 in\-room video systems\.
@@ -53,16 +38,6 @@ Amazon Chime uses the following destinations and ports for H\.323 in\-room video
 |  13\.248\.147\.139  |  TCP/1720  | 
 |  76\.223\.18\.152  |  TCP/1720  | 
 |  99\.77\.128\.0/18  |  TCP/10000:60000 UDP/10000:60000  | 
-
-Amazon Chime is in the process of retiring the following destinations and ports for H\.323\.
-
-
-| Destination | Ports | 
-| --- | --- | 
-|  52\.23\.133\.56  |  TCP/1720  | 
-|  52\.54\.206\.237  |  TCP/1720  | 
-|  52\.55\.62\.128/25  |  TCP/1024:65535 UDP/1024:65535  | 
-|  52\.55\.63\.0/25  |  TCP/1024:65535 UDP/1024:65535  | 
 
 ## Session Initiation Protocol \(SIP\) Room Systems<a name="sip"></a>
 
@@ -75,14 +50,6 @@ The following destinations and ports are recommended when running Amazon Chime f
 |  Global  |  meet\.chime\.in 13\.248\.147\.139 76\.223\.18\.152  |  TCP/5061  | 
 |  US East \(N\. Virginia\)  |  meet\.ue1\.chime\.in  |  TCP/5061  | 
 |  US West \(Oregon\)  |  meet\.uw2\.chime\.in  |  TCP/5061  | 
-
-Amazon Chime is in the process of retiring the following destinations and ports for SIP\.
-
-
-| Destination | Ports | 
-| --- | --- | 
-|  52\.55\.62\.128/25  |  UDP/10000:60000  | 
-|  52\.55\.63\.0/25  |  UDP/10000:60000  | 
 
 ## Amazon Chime Voice Connector<a name="cvc"></a>
 

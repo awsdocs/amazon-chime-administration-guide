@@ -1,7 +1,7 @@
 # Amazon Chime Administration Guide
 
 -----
-*****Copyright &copy; 2019 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
+*****Copyright &copy; 2020 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
 
 -----
 Amazon's trademarks and trade dress may not be used in 
@@ -50,6 +50,12 @@ Amazon's trademarks and trade dress may not be used in
    + [Requesting User Attachments](request-attachments.md)
 + [Managing Phone Numbers in Amazon Chime](manage-phone.md)
    + [Working with Phone Numbers](phone-numbers.md)
+      + [Provisioning Phone Numbers](provision-phone.md)
+      + [Porting Existing Phone Numbers](porting.md)
+      + [Managing Phone Number Inventory](phone-inventory.md)
+      + [Updating Outbound Calling Names](calling-name.md)
+      + [Deleting Phone Numbers](delete-phone.md)
+      + [Restoring Deleted Phone Numbers](restore-phone.md)
    + [Working with Amazon Chime Voice Connectors](voice-connectors.md)
       + [Streaming Amazon Chime Voice Connector Media to Kinesis](start-kinesis-vc.md)
       + [Working with Amazon Chime Voice Connector Groups](voice-connector-groups.md)

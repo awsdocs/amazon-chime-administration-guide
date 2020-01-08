@@ -2,7 +2,7 @@
 
 You can integrate an Amazon Chime Voice Connector with an existing phone system\. Amazon Chime Voice Connectors are limited to three per account by default\.
 
-After you create an Amazon Chime Voice Connector, edit the settings to integrate with your existing phone system\. Then, assign phone numbers to the Amazon Chime Voice Connector\. You can provision phone numbers for your Amazon Chime Voice Connector from your Amazon Chime **Phone number management** inventory\. For more information, see [Provisioning Phone Numbers](phone-numbers.md#provision-phone)\.
+After you create an Amazon Chime Voice Connector, edit the settings to integrate with your existing phone system\. Then, assign phone numbers to the Amazon Chime Voice Connector\. You can provision phone numbers for your Amazon Chime Voice Connector from your Amazon Chime **Phone number management** inventory\. For more information, see [Provisioning Phone Numbers](provision-phone.md)\.
 
 You can also create an Amazon Chime Voice Connector group for your account, and add Amazon Chime Voice Connectors to it\. You can include Amazon Chime Voice Connectors created in different AWS Regions in your group to create a fault\-tolerant mechanism for fallback if availability events occur\. For more information, see [Working with Amazon Chime Voice Connector Groups](voice-connector-groups.md)\.
 

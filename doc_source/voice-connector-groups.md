@@ -1,6 +1,6 @@
 # Working with Amazon Chime Voice Connector Groups<a name="voice-connector-groups"></a>
 
-You can create up to three Amazon Chime Voice Connector groups in your account and assign Amazon Chime Voice Connectors to them\. You can also provision phone numbers for your Amazon Chime Voice Connector group from your Amazon Chime **Phone number management** inventory\. For more information, see [Provisioning Phone Numbers](phone-numbers.md#provision-phone)\.
+You can create up to three Amazon Chime Voice Connector groups in your account and assign Amazon Chime Voice Connectors to them\. You can also provision phone numbers for your Amazon Chime Voice Connector group from your Amazon Chime **Phone number management** inventory\. For more information, see [Provisioning Phone Numbers](provision-phone.md)\.
 
 You can include in your group Amazon Chime Voice Connectors that are created in different AWS Regions\. This allows incoming calls to fail over across Regions, which creates a fault\-tolerant mechanism for fallback in case of availability events\.
 
