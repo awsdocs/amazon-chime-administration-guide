@@ -12,7 +12,7 @@ For more information, see [Kinesis Video Streams Parser Library](https://docs.aw
 
 For more information about using IAM service\-linked roles with Amazon Chime Voice Connectors, see [Using Roles to Stream Amazon Chime Voice Connector Media to Kinesis](using-service-linked-roles-stream.md)\. For more information about using CloudWatch with Amazon Chime, see [Logging and Monitoring in Amazon Chime](monitoring-overview.md)\.
 
-When you enable media streaming for your Amazon Chime Voice Connector, Amazon Chime creates an IAM service\-linked role called AWSServiceRoleForAmazonChimeVoiceConnector\.
+When you enable media streaming for your Amazon Chime Voice Connector, Amazon Chime creates an IAM service\-linked role called AWSServiceRoleForAmazonChimeVoiceConnector\. If you have configured call detail record logging for Amazon Chime Voice Connectors in the Amazon Chime console, streaming detail records are sent to your configured Amazon S3 bucket\. For more information, see [Amazon Chime Voice Connector Streaming Detail Records](manage-global.md#vc-sdr)\.
 
 ## Starting Media Streaming<a name="start-kinesis"></a>
 

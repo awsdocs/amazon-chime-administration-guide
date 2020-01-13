@@ -12,6 +12,6 @@ Use the Amazon Chime console to provision phone numbers for your Amazon Chime ac
 
 1. Select **Business Calling** or **Voice Connector**, and choose **Next**\.
 
-1. Search for available phone numbers by country and other location options\. Select the phonenumbers that you want, then choose **Provision**\.
+1. Search for available phone numbers by country and other location options\. Select the phone numbers that you want, then choose **Provision**\.
 
 The phone numbers display in your **Orders** and **Pending** lists while the provisioning occurs\. When provisioning is complete, the phone numbers then appear in your **Inventory**\. Your phone number **Inventory** quota defaults to 25\. For more information, see [Amazon Chime Endpoints and Quotas](https://docs.aws.amazon.com/general/latest/gr/chime.html) in the *AWS General Reference*\. You can now assign the numbers to individual users\. After you create Amazon Chime Voice Connectors, you can assign phone numbers to them as well\. For more information, see [Creating an Amazon Chime Voice Connector](voice-connectors.md#create-voicecon)\.

@@ -77,4 +77,4 @@ You can port toll\-free numbers for Amazon Chime Voice Connectors\. Toll\-free n
 
 AWS Support responds with an account ID and PIN to use when requesting the port from your new carrier\.
 
-When the porting process is complete and the phone numbers are ported to your new carrier, unassign and delete the phone numbers from your Amazon Chime inventory\. For more information, see the following sections\.
+When the porting process is complete and the phone numbers are ported to your new carrier, unassign and delete the phone numbers from your Amazon Chime inventory\. For more information, see [Managing Phone Number Inventory](phone-inventory.md) and [Deleting Phone Numbers](delete-phone.md)\.
