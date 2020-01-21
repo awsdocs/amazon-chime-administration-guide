@@ -1,6 +1,6 @@
 # Managing User Phone Numbers<a name="user-phone"></a>
 
-You can use the Amazon Chime console to manage phone numbers for your Amazon Chime administrative account\. For more information, see [Managing Phone Numbers in Amazon Chime](manage-phone.md)\.
+You can use the Amazon Chime console to manage phone numbers for your Amazon Chime administrative account\. For more information, see [Managing Phone Numbers in Amazon Chime](phone-numbers.md)\.
 
 The following tasks describe how to assign phone numbers to users, unassign phone numbers from users, and change calling and SMS permissions for users from the user profiles in your Amazon Chime administrative account\.
 

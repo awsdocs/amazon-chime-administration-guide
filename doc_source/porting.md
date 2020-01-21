@@ -2,7 +2,7 @@
 
 You can port existing United States phone numbers from your phone carrier to use with Amazon Chime Business Calling or Amazon Chime Voice Connectors\. To do so, submit a support request from the Amazon Chime console\. The porting process can take between 2\-4 weeks\.
 
-Before you can port phone numbers for Amazon Chime Voice Connectors, you must create an Amazon Chime Voice Connector\. For more information, see [Creating an Amazon Chime Voice Connector](voice-connectors.md#create-voicecon)\.
+Before you can port phone numbers for Amazon Chime Voice Connectors, you must create an Amazon Chime Voice Connector\. For more information, see [Creating an Amazon Chime Voice Connector](create-voicecon.md)\.
 
 **Note**  
 You can port toll\-free numbers for Amazon Chime Voice Connectors\. Toll\-free numbers are not currently supported for Amazon Chime Business Calling\.
@@ -51,7 +51,7 @@ You can port toll\-free numbers for Amazon Chime Voice Connectors\. Toll\-free n
 
 1. AWS Support contacts you with the FOC to confirm that the date and time works for you\.
 
-1. One day before the FOC date, the ported phone numbers appear in the Amazon Chime console under your **Phone number management Inventory**\. You can then assign the ported phone numbers to individual users as Amazon Chime Business Calling phone numbers, or assign the phone numbers to Amazon Chime Voice Connectors that you create\. For more information, see [Managing Phone Number Inventory](phone-inventory.md) and [Creating an Amazon Chime Voice Connector](voice-connectors.md#create-voicecon)\.
+1. One day before the FOC date, the ported phone numbers appear in the Amazon Chime console under your **Phone number management Inventory**\. You can then assign the ported phone numbers to individual users as Amazon Chime Business Calling phone numbers, or assign the phone numbers to Amazon Chime Voice Connectors that you create\. For more information, see [Managing Phone Number Inventory](phone-inventory.md) and [Creating an Amazon Chime Voice Connector](create-voicecon.md)\.
 
 1. On the FOC date, the ported phone numbers are activated for use with Amazon Chime\.
 

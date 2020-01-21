@@ -56,7 +56,7 @@ You can use an Amazon Chime Voice Connector to stream media from a SIPREC\-compa
 
 **To set up SIPREC\-compatible streaming**
 
-1. Create an Amazon Chime Voice Connector\. For more information, see [Creating an Amazon Chime Voice Connector](voice-connectors.md#create-voicecon)\.
+1. Create an Amazon Chime Voice Connector\. For more information, see [Creating an Amazon Chime Voice Connector](create-voicecon.md)\.
 
 1. Start media streaming for your Amazon Chime Voice Connector\. For more information, see [Starting Media Streaming](#start-kinesis)\.
 

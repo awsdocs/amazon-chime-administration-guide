@@ -2,7 +2,7 @@
 
 Use the phone number management **Inventory** page to assign or unassign phone numbers\. You can do this with Amazon Chime Business Calling phone numbers for individual users, or phone numbers for Amazon Chime Voice Connectors or Amazon Chime Voice Connector groups\.
 
-Manage Amazon Chime Business Calling phone numbers from within user profiles\. Manage Amazon Chime Voice Connector phone numbers on the corresponding **Voice connectors** or **Voice connector groups** page\. For more information, see [Managing User Phone Numbers](user-phone.md), [Assigning and Unassigning Amazon Chime Voice Connector Phone Numbers](voice-connectors.md#assign-voicecon), or [Assigning and Unassigning Phone Numbers for an Amazon Chime Voice Connector Group](voice-connector-groups.md#assign-voicecon-group)\.
+Manage Amazon Chime Business Calling phone numbers from within user profiles\. Manage Amazon Chime Voice Connector phone numbers on the corresponding **Voice connectors** or **Voice connector groups** page\. For more information, see [Managing User Phone Numbers](user-phone.md), [Assigning and Unassigning Amazon Chime Voice Connector Phone Numbers](assign-voicecon.md), or [Assigning and Unassigning Phone Numbers for an Amazon Chime Voice Connector Group](voice-connector-groups.md#assign-voicecon-group)\.
 
 **To assign an Amazon Chime Business Calling phone number to a user**
 

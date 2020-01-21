@@ -28,7 +28,7 @@ These users must have Basic or Pro permissions to use Amazon Chime and be a part
 
    1. To create a shared device profile, choose **Users**, **Shared devices**, **Create shared device profile**, enter the email address of the conference room, and choose **Create**\.
 
-1. Set up a phone number for the device to use for inbound and outbound calling\. To this, use Amazon Chime Business Calling to provision a phone number and assign a number from the Inventory to the shared device profile\. For more information, see [Working with Phone Numbers](phone-numbers.md)\.
+1. Set up a phone number for the device to use for inbound and outbound calling\. To this, use Amazon Chime Business Calling to provision a phone number and assign a number from the Inventory to the shared device profile\. For more information, see [Managing Phone Numbers in Amazon Chime](phone-numbers.md)\.
 **Note**  
 You can also complete this step after pairing the device below\. 
 
@@ -42,7 +42,7 @@ You can also complete this step after pairing the device below\.
 
 **To prepare setup for single user**
 
-1. Set up a phone number for the device to use for inbound and outbound calling\. To this, use Amazon Chime Business Calling to provision a phone number and assign a number from the Inventory to the shared device profile\. For more information, see [Working with Phone Numbers](phone-numbers.md)\.
+1. Set up a phone number for the device to use for inbound and outbound calling\. To this, use Amazon Chime Business Calling to provision a phone number and assign a number from the Inventory to the shared device profile\. For more information, see [Managing Phone Numbers in Amazon Chime](phone-numbers.md)\.
 **Note**  
 You can also complete this step after pairing the device below\. 
 
