@@ -319,9 +319,9 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Attendee Leaves a Meeting<a name="sdk-drop-attendee"></a>
+### Amazon Chime SDK Attendee Drops from a Meeting<a name="sdk-drop-attendee"></a>
 
-The Amazon Chime SDK sends this event when an existing attendee leaves an Amazon Chime SDK meeting using the specified network transport\.
+The Amazon Chime SDK sends this event when an existing attendee drops from an Amazon Chime SDK meeting using the specified network transport\.
 
 **Example Event Data**  
 The following is example data for this event\.  
