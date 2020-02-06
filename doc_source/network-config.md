@@ -94,3 +94,6 @@ Amazon Chime has the following bandwidth requirements for the media that it prov
 Amazon Chime Business Calling and Amazon Chime Voice Connector have the following bandwidth requirements:
 + Audio
   + Call: \~90 kbps up and down\. This includes media payload and packet overhead\.
++ T\.38 fax
+  + With V\.34: \~40 kbps\. This includes media payload and packet overhead\.
+  + Without V\.34: \~20 kbps\. This includes media payload and packet overhead\.

@@ -9,6 +9,7 @@ To learn how to create an IAM identity\-based policy using these example JSON po
 + [Using the Amazon Chime Console](#security_iam_id-based-policy-examples-console)
 + [Allow Users to View Their Own Permissions](#security_iam_id-based-policy-examples-view-own-permissions)
 + [Allow Users to Access User Management Actions](#security_iam_id-based-policy-examples-user-management)
++ [Allow Users to Access Amazon Chime SDK Actions](#security_iam_id-based-policy-examples-chime-sdk)
 
 ## Policy Best Practices<a name="security_iam_service-with-iam-policy-best-practices"></a>
 
@@ -170,5 +171,32 @@ Use the AWS managed **AmazonChimeUserManagement** policy to grant users access t
             "Resource": "*"
         }
     ]
+}
+```
+
+## Allow Users to Access Amazon Chime SDK Actions<a name="security_iam_id-based-policy-examples-chime-sdk"></a>
+
+Use the AWS managed **AmazonChimeSDK** policy to grant users access to Amazon Chime SDK actions\. For more information, see [Using the Amazon Chime SDK](https://docs.aws.amazon.com/chime/latest/dg/meetings-sdk.html) in the *Amazon Chime Developer Guide*\.
+
+```
+{
+  "Version": "2012-10-17",  
+  "Statement": [
+    {
+      "Action": [
+        "chime:CreateMeeting",
+        "chime:DeleteMeeting",
+        "chime:GetMeeting",
+        "chime:ListMeetings",
+        "chime:CreateAttendee",
+        "chime:BatchCreateAttendee",
+        "chime:DeleteAttendee",
+        "chime:GetAttendee",
+        "chime:ListAttendees"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
 }
 ```
