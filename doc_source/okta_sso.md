@@ -17,23 +17,13 @@ Connecting Amazon Chime to Okta requires configuring two applications in the Okt
 
       1. Name the application **Amazon Chime**\.
 
-      1. For **Login Redirect URI**, enter the following value:   
-**Example**  
-
-         ```
-         https://signin.id.ue1.app.chime.aws/auth/okta/callback
-         ```
+      1. For **Login Redirect URI**, enter the following value: **https://signin\.id\.ue1\.app\.chime\.aws/auth/okta/callback**
 
       1. In the **Allowed Grant Types** section, select all of the options to enable them\.
 
       1. On the **Login initiated by** drop\-down menu, choose **Either \(Okta or App\)**, and select all the related options\.
 
-      1. For the **Initiate Login URI**, enter the following value:   
-**Example**  
-
-         ```
-         https://signin.id.ue1.app.chime.aws/auth/okta
-         ```
+      1. For the **Initiate Login URI**, enter the following value: **https://signin\.id\.ue1\.app\.chime\.aws/auth/okta**
 
       1. Choose **Save**\.
 

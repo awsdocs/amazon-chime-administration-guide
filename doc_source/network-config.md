@@ -37,7 +37,7 @@ Amazon Chime uses the following destinations and ports for H\.323 in\-room video
 | --- | --- | 
 |  13\.248\.147\.139  |  TCP/1720  | 
 |  76\.223\.18\.152  |  TCP/1720  | 
-|  99\.77\.128\.0/18  |  TCP/10000:60000 UDP/10000:60000  | 
+|  99\.77\.128\.0/18 34\.212\.95\.128/25 34\.223\.21\.0/25 52\.55\.62\.128/25 52\.55\.63\.0/25  |  TCP/5100:6200 UDP/5100:6200  | 
 
 ## Session Initiation Protocol \(SIP\) Room Systems<a name="sip"></a>
 
@@ -46,10 +46,15 @@ The following destinations and ports are recommended when running Amazon Chime f
 
 | AWS Region | Destination | Ports | 
 | --- | --- | --- | 
-|  Global \(nearest Region\)  |  99\.77\.128\.0/18  |  UDP/10000:60000  | 
+|  Global \(nearest Region\)  |  99\.77\.128\.0/18 34\.212\.95\.128/25 34\.223\.21\.0/25 52\.55\.62\.128/25 52\.55\.63\.0/25   |  UDP/10000:60000  | 
 |  Global  |  meet\.chime\.in 13\.248\.147\.139 76\.223\.18\.152  |  TCP/5061  | 
 |  US East \(N\. Virginia\)  |  meet\.ue1\.chime\.in  |  TCP/5061  | 
 |  US West \(Oregon\)  |  meet\.uw2\.chime\.in  |  TCP/5061  | 
+|  Asia Pacific \(Singapore\)  |  meet\.as1\.chime\.in  |  TCP/5061  | 
+|  Asia Pacific \(Sydney\)  |  meet\.as2\.chime\.in  |  TCP/5061  | 
+|  Asia Pacific \(Tokyo\)  |  meet\.an1\.chime\.in  |  TCP/5061  | 
+|  Europe \(Ireland\)  |  meet\.ew1\.chime\.in  |  TCP/5061  | 
+|  South America \(São Paulo\)  |  meet\.se1\.chime\.in  |  TCP/5061  | 
 
 ## Amazon Chime Voice Connector<a name="cvc"></a>
 
@@ -91,7 +96,7 @@ Amazon Chime has the following bandwidth requirements for the media that it prov
   + 1\.2 mbps up \(when presenting\) and down \(when viewing\) for high quality\. This adapts as low as 320 kbps based on network conditions\.
   + Remote control: 800 kbps fixed
 
-Amazon Chime Business Calling and Amazon Chime Voice Connector have the following bandwidth requirements:
+Amazon Chime Voice Connectors have the following bandwidth requirements:
 + Audio
   + Call: \~90 kbps up and down\. This includes media payload and packet overhead\.
 + T\.38 fax
