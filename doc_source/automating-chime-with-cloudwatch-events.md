@@ -259,6 +259,7 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
+    "externalUserId": "87654321-4321-4321-1234-111122223333"
   }
 }
 ```
@@ -286,6 +287,7 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
+    "externalUserId": "87654321-4321-4321-1234-111122223333"
     "networkType" "Voip"
   }
 }
@@ -314,6 +316,7 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
+    "externalUserId": "87654321-4321-4321-1234-111122223333"
     "networkType" "Voip"
   }
 }
@@ -342,6 +345,7 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
+    "externalUserId": "87654321-4321-4321-1234-111122223333"
     "networkType" "Voip"
   }
 }
@@ -370,6 +374,7 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
+    "externalUserId": "87654321-4321-4321-1234-111122223333"
   }
 }
 ```
@@ -397,6 +402,7 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
+    "externalUserId": "87654321-4321-4321-1234-111122223333"
   }
 }
 ```
@@ -424,6 +430,7 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
+    "externalUserId": "87654321-4321-4321-1234-111122223333"
   }
 }
 ```
@@ -451,6 +458,150 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
+    "externalUserId": "87654321-4321-4321-1234-111122223333"
+  }
+}
+```
+
+### Amazon Chime SDK Attendee Content Joins a Meeting<a name="sdk-content-join"></a>
+
+The Amazon Chime SDK sends this event when a content share joins an Amazon Chime SDK meeting using the specified network transport\.
+
+**Example Event Data**  
+The following is example data for this event\.  
+
+```
+{
+  "version": "0",
+  "source": "aws.chime",
+  "account": "111122223333",
+  "id": "12345678-1234-1234-1234-111122223333",
+  "region": "us-east-1",
+  "detail-type": "Chime Meeting State Change",
+  "time": "yyyy-mm-ddThh:mm:ssZ",
+  "resources": []
+  "detail": {
+    "version": "0",
+    "eventType": "chime:AttendeeContentJoined",
+    "timestamp": 12344566754,
+    "meetingId": "87654321-4321-4321-1234-111122223333",
+    "attendeeId": "87654321-4321-4321-1234-111122223333",
+    "externalUserId": "87654321-4321-4321-1234-111122223333"
+    "networkType" "Voip"
+  }
+}
+```
+
+### Amazon Chime SDK Attendee Content Leaves a Meeting<a name="sdk-content-leave"></a>
+
+The Amazon Chime SDK sends this event when a content share leaves an Amazon Chime SDK meeting using the specified network transport\.
+
+**Example Event Data**  
+The following is example data for this event\.  
+
+```
+{
+  "version": "0",
+  "source": "aws.chime",
+  "account": "111122223333",
+  "id": "12345678-1234-1234-1234-111122223333",
+  "region": "us-east-1",
+  "detail-type": "Chime Meeting State Change",
+  "time": "yyyy-mm-ddThh:mm:ssZ",
+  "resources": []
+  "detail": {
+    "version": "0",
+    "eventType": "chime:AttendeeContentLeft",
+    "timestamp": 12344566754,
+    "meetingId": "87654321-4321-4321-1234-111122223333",
+    "attendeeId": "87654321-4321-4321-1234-111122223333",
+    "externalUserId": "87654321-4321-4321-1234-111122223333"
+    "networkType" "Voip"
+  }
+}
+```
+
+### Amazon Chime SDK Attendee Content Drops from a Meeting<a name="sdk-content-drop"></a>
+
+The Amazon Chime SDK sends this event when a content share drops from an Amazon Chime SDK meeting using the specified network transport\.
+
+**Example Event Data**  
+The following is example data for this event\.  
+
+```
+{
+  "version": "0",
+  "source": "aws.chime",
+  "account": "111122223333",
+  "id": "12345678-1234-1234-1234-111122223333",
+  "region": "us-east-1",
+  "detail-type": "Chime Meeting State Change",
+  "time": "yyyy-mm-ddThh:mm:ssZ",
+  "resources": []
+  "detail": {
+    "version": "0",
+    "eventType": "chime:AttendeeContentDropped",
+    "timestamp": 12344566754,
+    "meetingId": "87654321-4321-4321-1234-111122223333",
+    "attendeeId": "87654321-4321-4321-1234-111122223333",
+    "externalUserId": "87654321-4321-4321-1234-111122223333"
+    "networkType" "Voip"
+  }
+}
+```
+
+### Amazon Chime SDK Attendee Content Starts Streaming Video<a name="sdk-content-start-stream"></a>
+
+The Amazon Chime SDK sends this event when a content share starts streaming video\.
+
+**Example Event Data**  
+The following is example data for this event\.  
+
+```
+{
+  "version": "0",
+  "source": "aws.chime",
+  "account": "111122223333",
+  "id": "12345678-1234-1234-1234-111122223333",
+  "region": "us-east-1",
+  "detail-type": "Chime Meeting State Change",
+  "time": "yyyy-mm-ddThh:mm:ssZ",
+  "resources": []
+  "detail": {
+    "version": "0",
+    "eventType": "chime:AttendeeContentVideoStarted",
+    "timestamp": 12344566754,
+    "meetingId": "87654321-4321-4321-1234-111122223333",
+    "attendeeId": "87654321-4321-4321-1234-111122223333",
+    "externalUserId": "87654321-4321-4321-1234-111122223333"
+  }
+}
+```
+
+### Amazon Chime SDK Attendee Content Stops Streaming Video<a name="sdk-content-stop-stream"></a>
+
+The Amazon Chime SDK sends this event when a content share stops streaming video\.
+
+**Example Event Data**  
+The following is example data for this event\.  
+
+```
+{
+  "version": "0",
+  "source": "aws.chime",
+  "account": "111122223333",
+  "id": "12345678-1234-1234-1234-111122223333",
+  "region": "us-east-1",
+  "detail-type": "Chime Meeting State Change",
+  "time": "yyyy-mm-ddThh:mm:ssZ",
+  "resources": []
+  "detail": {
+    "version": "0",
+    "eventType": "chime:AttendeeContentVideoStopped",
+    "timestamp": 12344566754,
+    "meetingId": "87654321-4321-4321-1234-111122223333",
+    "attendeeId": "87654321-4321-4321-1234-111122223333",
+    "externalUserId": "87654321-4321-4321-1234-111122223333"
   }
 }
 ```

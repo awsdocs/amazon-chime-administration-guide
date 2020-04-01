@@ -76,7 +76,7 @@ You can opt to receive media quality metric logs for your Amazon Chime Voice Con
 | Field | Description | 
 | --- | --- | 
 |  voice\_connector\_id  |  The Amazon Chime Voice Connector ID carrying the call\.  | 
-|  event\_timestamp  |  The time when the metrics are emitted, in number of milliseconds since the UNIX Epoch \(midnight on Jan 1 1970\) in UTC\.  | 
+|  event\_timestamp  |  The time when the metrics are emitted, in number of milliseconds since the UNIX epoch \(midnight on January 1, 1970\) in UTC\.  | 
 |  call\_id  |  The call ID\.  | 
 |  from\_sip\_user  |  The initiating user for the call\.  | 
 |  from\_country  |  The initiating country for the call\.  | 
@@ -121,6 +121,6 @@ You can opt to receive SIP message logs for your Amazon Chime Voice Connector\. 
 | --- | --- | 
 |  voice\_connector\_id  |  The Amazon Chime Voice Connector ID\.  | 
 |  aws\_region  |  The AWS Region associated with the event\.  | 
-|  event\_timestamp  |  The time when the message is captured, in number of milliseconds since the UNIX Epoch \(midnight on Jan 1 1970\) in UTC\.  | 
+|  event\_timestamp  |  The time when the message is captured, in number of milliseconds since the UNIX epoch \(midnight on January 1, 1970\) in UTC\.  | 
 |  call\_id  |  The Amazon Chime Voice Connector call ID\.  | 
 |  sip\_message  |  The full SIP message that is captured\.  | 
