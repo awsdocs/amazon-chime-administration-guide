@@ -75,3 +75,4 @@ Amazon's trademarks and trade dress may not be used in
 + [Viewing Reports](view-reports.md)
 + [Administrative Support for Amazon Chime](chime-getting-admin-support.md)
 + [Document History for Amazon Chime](doc-history.md)
++ [AWS Glossary](glossary.md)
