@@ -15,7 +15,7 @@ Using your Active Directory has the following benefits:
 
 Before you can add your Active Directory to Amazon Chime, you must complete the following requirements:
 + Make sure that you have appropriate IAM permissions to configure Domains, Active Directory, and Directory Groups\.
-+ Set up a directory with AWS Directory Service that is configured in the US East \(N\. Virginia\) region\. For more information, see the [AWS Directory Service Administration Guide](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/)\. Amazon Chime can connect using AD Connector, Microsoft AD, or Simple AD\.
++ Set up a directory with AWS Directory Service that is configured in the US East \(N\. Virginia\) Region\. For more information, see the [AWS Directory Service Administration Guide](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/)\. Amazon Chime can connect using AD Connector, Microsoft AD, or Simple AD\.
 + Set up an Amazon Chime enterprise account\. For more information, see [Claiming a Domain](claim-domain.md)\.
 
 After you add a directory to Amazon Chime, users are prompted to log in with their directory credentials when they log in using an email address from one of the domains that you added to your Amazon Chime enterprise account\.
@@ -44,22 +44,22 @@ You can find your directory ID using the [AWS Directory Service console](https:/
 
 After you connect to your Active Directory, users that authenticate with Active Directory can use multiple email addresses\. They can use any of their work email addresses with Amazon Chime, as long as the email address is using a domain that has been claimed by your Amazon Chime account, and is associated with their user in Active Directory\. 
 
-Amazon Chime continues to use the single email address in the EmailAddress attribute in Active Directory as the user’s primary email address\. This is the only one you can see in the interface\. Users can use any additional addresses in the ProxyAddress attribute, as long as the domain is claimed for the account\.
+Amazon Chime continues to use the single email address in the `EmailAddress` attribute in Active Directory as the user’s primary email address\. This is the only one you can see in the interface\. Users can use any additional addresses in the `ProxyAddress` attribute, as long as the domain is claimed for the account\.
 
 ### Incorrect Configuration Example<a name="incorrect-config"></a>
 
-Username shirley\.rodriguez is a member of an Amazon Chime account that has claimed two domains: example\.com and anotherdomain\.com\. In Active Directory, she has the following three email addresses \(one primary and two proxy\):
+A user with the **username** shirley\.rodriguez is a member of an Amazon Chime account that has claimed two domains: example\.com and anotherdomain\.com\. In Active Directory, she has the following three email addresses:
 + Primary email address: shirley\.rodriguez@example\.com
 + Proxy email address 1: shirley\.rodriguez@example2\.com
 + Proxy email address 2: srodriguez@anotherdomain\.com
 
-This user can sign into Amazon Chime using shirley\.rodriguez@example\.com or srodriguez@anotherdomain\.com and her username shirley\.rodriguez\. If she attempts to sign in using shirley\.rodriguez@example2\.com, she is asked to **Log in with Amazon** and is not part of your managed account\. This is why it's important to claim all of the domains your users use for email\.
+This user can sign into Amazon Chime using shirley\.rodriguez@example\.com or srodriguez@anotherdomain\.com and her user name shirley\.rodriguez\. If she attempts to sign in using shirley\.rodriguez@example2\.com, she is asked to **Log in with Amazon** and is not part of your managed account\. This is why it's important to claim all of the domains your users use for email\.
 
 Other Amazon Chime users can add her as a contact, invite her to meetings, or add her as a delegate using either her shirley\.rodriguez@example\.com or srodriguez@anotherdomain\.com email address\. 
 
 ### Correct Configuration Example<a name="correct-config"></a>
 
-Username shirley\.rodriguez is a member of an Amazon Chime account that has claimed three domains: example\.com, example2\.com, and anotherdomain\.com\. In Active Directory, she has the following three email addresses:
+A user with the **username** shirley\.rodriguez is a member of an Amazon Chime account that has claimed three domains: example\.com, example2\.com, and anotherdomain\.com\. In Active Directory, she has the following three email addresses:
 + Primary email address: shirley\.rodriguez@example\.com
 + Proxy email address 1: shirley\.rodriguez@example2\.com
 + Proxy email address 2: srodriguez@anotherdomain\.com

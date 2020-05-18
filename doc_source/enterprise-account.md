@@ -1,6 +1,6 @@
 # Deleting Your Account<a name="enterprise-account"></a>
 
-If you delete your AWS account in the AWS console, your Amazon Chime accounts are automatically deleted\. Alternatively, you can use the Amazon Chime console to delete an Amazon Chime team or enterprise account\. 
+If you delete your AWS account in the AWS Management Console, your Amazon Chime accounts are automatically deleted\. Alternatively, you can use the Amazon Chime console to delete an Amazon Chime team or enterprise account\. 
 
 **Note**  
 Users who aren't managed on a team or enterprise account can request to be deleted using the Amazon Chime Assistant "Delete me" command\. For more information, see [Use the Amazon Chime Assistant](https://docs.aws.amazon.com/chime/latest/ug/chime-using-assistant.html)\.
@@ -31,7 +31,7 @@ Meetings scheduled by users from this domain no longer start\.
 Suspended users continue to be displayed as **Suspended** status on the **Users** and **User detail** pages and can't access their data\. They can't create new Amazon Chime accounts with their email address\.
 Registered users are displayed as **Released** on the **Users** and **User detail** pages and can't access their data\. They can create a new Amazon Chime account with their email address\.
 If you have an Active Directory account, and you remove a domain that is associated with a user’s primary email address, the user can't access Amazon Chime and their profile is deleted\. If you remove a domain that is associated with a user’s secondary email address, they can't log in with that email address, but they retain access to their Amazon Chime contacts and data\. 
-If you have an enterprise OpenID connect \(OIDC\) account, and you remove a domain that is associated with a user’s primary email address, the user can no longer access Amazon Chime and their profile is deleted\.
+If you have an enterprise OpenID Connect \(OIDC\) account, and you remove a domain that is associated with a user’s primary email address, the user can no longer access Amazon Chime and their profile is deleted\.
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 

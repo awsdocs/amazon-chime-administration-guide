@@ -15,6 +15,7 @@ You can convert your team account to enterprise by claiming one or more email do
 + [Renaming Your Account](rename-account.md)
 + [Deleting Your Account](enterprise-account.md)
 + [Managing Meeting Settings](mtg-settings.md)
++ [Managing Messages](message-settings.md)
 + [Claiming a Domain](claim-domain.md)
 + [Connecting to Your Active Directory](active_directory.md)
 + [Connecting to Okta SSO](okta_sso.md)

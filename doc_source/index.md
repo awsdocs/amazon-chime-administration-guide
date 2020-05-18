@@ -36,6 +36,7 @@ Amazon's trademarks and trade dress may not be used in
    + [Renaming Your Account](rename-account.md)
    + [Deleting Your Account](enterprise-account.md)
    + [Managing Meeting Settings](mtg-settings.md)
+   + [Managing Messages](message-settings.md)
    + [Claiming a Domain](claim-domain.md)
    + [Connecting to Your Active Directory](active_directory.md)
    + [Connecting to Okta SSO](okta_sso.md)
@@ -75,4 +76,4 @@ Amazon's trademarks and trade dress may not be used in
 + [Viewing Reports](view-reports.md)
 + [Administrative Support for Amazon Chime](chime-getting-admin-support.md)
 + [Document History for Amazon Chime](doc-history.md)
-+ [AWS Glossary](glossary.md)
++ [AWS glossary](glossary.md)

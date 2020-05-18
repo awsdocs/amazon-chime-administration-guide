@@ -8,7 +8,7 @@ Use the Kinesis Video Streams Parser Library to download the media streams sent 
 + TransactionId
 + VoiceConnectorId
 
-For more information, see [Kinesis Video Streams Parser Library](https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/parser-library.html) and [Using Streaming Metadata with Kinesis Video Streamss](https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/how-meta.html) in the *Amazon Kinesis Video Streams Developer Guide*\.
+For more information, see [Kinesis Video Streams Parser Library](https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/parser-library.html) and [Using Streaming Metadata with Kinesis Video Streams](https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/how-meta.html) in the *Amazon Kinesis Video Streams Developer Guide*\.
 
 For more information about using IAM service\-linked roles with Amazon Chime Voice Connectors, see [Using Roles to Stream Amazon Chime Voice Connector Media to Kinesis](using-service-linked-roles-stream.md)\. For more information about using CloudWatch with Amazon Chime, see [Logging and Monitoring in Amazon Chime](monitoring-overview.md)\.
 
@@ -50,11 +50,13 @@ Turn off media streaming from the Amazon Chime console\. If you no longer need t
 
 1. Choose **Save**\.
 
-## SIP\-Based Media Recording \(SIPREC\) Compatibility<a name="siprec"></a>
+## SIP\-Based Media Recording \(SIPREC\) and Network\-Based Recording \(NBR\) Compatibility<a name="siprec"></a>
 
-You can use an Amazon Chime Voice Connector to stream media from a SIPREC\-compatible voice infrastructure to Kinesis Video Streams\. You must have a Private Branch Exchange \(PBX\), Session Border Controller \(SBC\), or contact center that supports the SIPREC protocol\. They must be able to send signaling and media to AWS public IP addresses\. For more information, see [Before you Begin](voice-connectors.md#vc-prereq)\.
+You can use an Amazon Chime Voice Connector to stream media to Kinesis Video Streams\. You can stream from a SIPREC\-compatible voice infrastructure or the NBR feature associated with Cisco Unified Border Element \(CUBE\)\.
 
-**To set up SIPREC\-compatible streaming**
+You must have a Private Branch Exchange \(PBX\), Session Border Controller \(SBC\), or contact center that supports the SIPREC protocol or NBR feature\. The PBX or SBC must be able to send signaling and media to AWS public IP addresses\. For more information, see [Before you Begin](voice-connectors.md#vc-prereq)\.
+
+**To set up streaming of RTP audio streams forked with SIPREC or NBR**
 
 1. Create an Amazon Chime Voice Connector\. For more information, see [Creating an Amazon Chime Voice Connector](create-voicecon.md)\.
 
@@ -62,4 +64,6 @@ You can use an Amazon Chime Voice Connector to stream media from a SIPREC\-compa
 
 1. In the Amazon Chime console, under **Voice connectors**, view the **Outbound host name** for your Amazon Chime Voice Connector\. For example, `abcdef1ghij2klmno3pqr4.voiceconnector.chime.aws`\.
 
-1. Configure your PBX, SBC, or other voice infrastructure to send SIPREC media to the **Outbound host name** of your Amazon Chime Voice Connector\.
+1. Do one of the following:
+   + **For SIPREC** – Configure your PBX, SBC, or other voice infrastructure to fork RTP streams with SIPREC to the **Outbound host name** of your Amazon Chime Voice Connector\.
+   + **For NBR** – Configure your PBX, SBC, or other voice infrastructure to fork RTP streams with NBR to the **Outbound host name** of your Amazon Chime Voice Connector\. Send an additional header or URI parameter of `X-Voice-Connector-Record-Only` with the value `true` in the `SIP INVITE`\.

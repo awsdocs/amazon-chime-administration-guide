@@ -4,6 +4,7 @@ The following table describes important changes to the *Amazon Chime Administrat
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [Removing Chat Messages](#doc-history) | If you have the ability to program, you can use the Amazon Chime API to remove messages from chat rooms and conversations in your account\. For more information, see [Managing Messages](https://docs.aws.amazon.com/chime/latest/ag/message-settings.html) in the Amazon Chime Administrator Guide\. | May 18, 2020 | 
 | [CloudWatch Media Quality Metrics for Amazon Chime Voice Connector](#doc-history) | Amazon Chime supports sending media quality metrics for your Amazon Chime Voice Connector to CloudWatch\. For more information, see [Monitoring Amazon Chime with CloudWatch](https://docs.aws.amazon.com/chime/latest/ag/monitoring-cloudwatch.html) in the Amazon Chime Administrator Guide\. | January 23, 2020 | 
 | [Amazon Chime Meetings App for Slack](#doc-history) | Amazon Chime supports the Amazon Chime Meetings App for Slack\. For more information, see [Setting up the Amazon Chime Meetings App for Slack](https://docs.aws.amazon.com/chime/latest/ag/config-slack.html) in the Amazon Chime Administrator Guide\. | December 4, 2019 | 
 | [Meeting Region Settings](#doc-history) | Amazon Chime supports processing meetings in the optimal AWS Region for all participants\. For more information, see [Meeting Region Settings](https://docs.aws.amazon.com/chime/latest/ag/mtg-settings.html#mtg-regions) in the Amazon Chime Administrator Guide\. | December 3, 2019 | 
