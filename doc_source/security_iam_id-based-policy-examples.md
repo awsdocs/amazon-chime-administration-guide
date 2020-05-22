@@ -7,6 +7,7 @@ To learn how to create an IAM identity\-based policy using these example JSON po
 **Topics**
 + [Policy Best Practices](#security_iam_service-with-iam-policy-best-practices)
 + [Using the Amazon Chime Console](#security_iam_id-based-policy-examples-console)
++ [Allow Users Full Access to Amazon Chime](#security_iam_id-based-policy-examples-full-access)
 + [Allow Users to View Their Own Permissions](#security_iam_id-based-policy-examples-view-own-permissions)
 + [Allow Users to Access User Management Actions](#security_iam_id-based-policy-examples-user-management)
 + [Allow Users to Access Amazon Chime SDK Actions](#security_iam_id-based-policy-examples-chime-sdk)
@@ -31,45 +32,9 @@ To ensure that those entities can still use the Amazon Chime console, also attac
     "Statement": [
         {
             "Action": [
-                "chime:ListAccounts",
-                "chime:GetAccount",
-                "chime:GetAccountSettings",
-                "chime:ListUsers",
-                "chime:GetUser",
-                "chime:GetUserByEmail",
-                "chime:ListDomains",
-                "chime:GetDomain",
-                "chime:ListGroups",
-                "chime:ListDirectories",
-                "chime:ListCDRBucket",
-                "chime:GetCDRBucket",
-                "chime:ListDelegates",
-                "chime:GetAccountResource",
-                "chime:ListAccountUsageReportData",
-                "chime:GetUserActivityReportData",
-                "chime:GetGlobalSettings",
-                "chime:GetPhoneNumber",
-                "chime:GetPhoneNumberOrder",
-                "chime:GetPhoneNumberSettings",
-                "chime:GetUserSettings",
-                "chime:GetVoiceConnector",
-                "chime:GetVoiceConnectorOrigination",
-                "chime:GetVoiceConnectorTermination",
-                "chime:GetVoiceConnectorTerminationHealth",
-                "chime:GetVoiceConnectorStreamingConfiguration",
-                "chime:GetVoiceConnectorLoggingConfiguration",
-                "chime:GetVoiceConnectorGroup",
-                "chime:ListPhoneNumberOrders",
-                "chime:ListPhoneNumbers",
-                "chime:ListVoiceConnectorTerminationCredentials",
-                "chime:ListVoiceConnectors",
-                "chime:ListVoiceConnectorGroups",
-                "chime:SearchAvailablePhoneNumbers",
-                "chime:GetTelephonyLimits",
-                "chime:ListCallingRegions",
-                "chime:GetBot",
-                "chime:ListBots",
-                "chime:GetEventsConfiguration"
+                "chime:List*",
+                "chime:Get*",
+                "chime:SearchAvailablePhoneNumbers"
             ],
             "Effect": "Allow",
             "Resource": "*"
@@ -79,6 +44,72 @@ To ensure that those entities can still use the Amazon Chime console, also attac
 ```
 
 You don't need to allow minimum console permissions for users that are making calls only to the AWS CLI or the AWS API\. Instead, allow access to only the actions that match the API operation that you're trying to perform\.
+
+## Allow Users Full Access to Amazon Chime<a name="security_iam_id-based-policy-examples-full-access"></a>
+
+The following AWS managed **AmazonChimeFullAccess** policy grants an IAM user full access to Amazon Chime resources\. The policy gives the user access to all Amazon Chime operations, as well as other operations that Amazon Chime needs to be able to perform on your behalf\.
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "chime:*"
+            ],
+            "Effect": "Allow",
+            "Resource": "*"
+        },
+        {
+            "Action": [
+                "s3:ListBucket",
+                "s3:ListAllMyBuckets",
+                "s3:GetBucketAcl",
+                "s3:GetBucketLocation",
+                "s3:GetBucketLogging",
+                "s3:GetBucketVersioning",
+                "s3:GetBucketWebsite"
+            ],
+            "Effect": "Allow",
+            "Resource": "*"
+        },
+        {
+            "Action": [
+                "logs:CreateLogDelivery",
+                "logs:DeleteLogDelivery",
+                "logs:GetLogDelivery",
+                "logs:ListLogDeliveries",
+                "logs:DescribeResourcePolicies",
+                "logs:PutResourcePolicy",
+                "logs:CreateLogGroup",
+                "logs:DescribeLogGroups"
+            ],
+            "Effect": "Allow",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "sns:CreateTopic",
+                "sns:GetTopicAttributes"
+            ],
+            "Resource": [
+                "arn:aws:sns:*:*:ChimeVoiceConnector-Streaming*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "sqs:GetQueueAttributes",
+                "sqs:CreateQueue"
+            ],
+            "Resource": [
+                "arn:aws:sqs:*:*:ChimeVoiceConnector-Streaming*"
+            ]
+        }
+    ]
+}
+```
 
 ## Allow Users to View Their Own Permissions<a name="security_iam_id-based-policy-examples-view-own-permissions"></a>
 
@@ -163,7 +194,10 @@ Use the AWS managed **AmazonChimeUserManagement** policy to grant users access t
                 "chime:GetPhoneNumber",
                 "chime:ListPhoneNumbers",
                 "chime:GetUserSettings",
-                "chime:UpdateUserSettings"
+                "chime:UpdateUserSettings",
+                "chime:CreateUser",
+                "chime:AssociateSigninDelegateGroupsWithAccount",
+                "chime:DisassociateSigninDelegateGroupsFromAccount"
             ],
             "Effect": "Allow",
             "Resource": "*"
@@ -178,23 +212,32 @@ Use the AWS managed **AmazonChimeSDK** policy to grant users access to Amazon Ch
 
 ```
 {
-  "Version": "2012-10-17",  
-  "Statement": [
-    {
-      "Action": [
-        "chime:CreateMeeting",
-        "chime:DeleteMeeting",
-        "chime:GetMeeting",
-        "chime:ListMeetings",
-        "chime:CreateAttendee",
-        "chime:BatchCreateAttendee",
-        "chime:DeleteAttendee",
-        "chime:GetAttendee",
-        "chime:ListAttendees"
-      ],
-      "Effect": "Allow",
-      "Resource": "*"
-    }
-  ]
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "chime:CreateMeeting",
+                "chime:DeleteMeeting",
+                "chime:GetMeeting",
+                "chime:ListMeetings",
+                "chime:CreateAttendee",
+                "chime:BatchCreateAttendee",
+                "chime:DeleteAttendee",
+                "chime:GetAttendee",
+                "chime:ListAttendees",
+                "chime:ListAttendeeTags",
+                "chime:ListMeetingTags",
+                "chime:ListTagsForResource",
+                "chime:TagAttendee",
+                "chime:TagMeeting",
+                "chime:TagResource",
+                "chime:UntagAttendee",
+                "chime:UntagMeeting",
+                "chime:UntagResource"
+            ],
+            "Effect": "Allow",
+            "Resource": "*"
+        }
+    ]
 }
 ```

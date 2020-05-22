@@ -30,26 +30,43 @@ The following is example data for this event\.
 
 ```
 {
-  "version": "0",
-  "id": "12345678-1234-1234-1234-111122223333",
-  "detail-type": "Chime VoiceConnector Streaming Status",
-  "source": "aws.chime",
-  "account": "111122223333",
-  "time": "yyyy-mm-ddThh:mm:ssZ",
-  "region": "us-east-1",
-  "resources": [],
-  "detail": {
-       "streamingStatus":"STARTED",
-       "voiceConnectorId":"abcdefghi",
-       "transactionId":"12345678-1234-1234",
-       "callId":"1112-2222-4333",
-       "direction":"Inbound",
-       "mediaType":"audio/L16",
-       "startFragmentNumber":"1234567899444",
-       "startTime":"yyyy-mm-ddThh:mm:ssZ",
-       "streamArn":"arn:aws:kinesisvideo:us-east-1:123456:stream/ChimeVoiceConnector-abcdefghi-111aaa-22bb-33cc-44dd-111222/111122223333",
-       "version":"0"
-  }
+    "version": "0",
+    "id": "12345678-1234-1234-1234-111122223333",
+    "detail-type": "Chime VoiceConnector Streaming Status",
+    "source": "aws.chime",
+    "account": "111122223333",
+    "time": "yyyy-mm-ddThh:mm:ssZ",
+    "region": "us-east-1",
+    "resources": [],
+    "detail": {
+        "callId": "1112-2222-4333",
+        "direction": "Outbound",
+        "fromNumber": "+12065550100",
+        "inviteHeaders": {
+            "from": "\"John\" <sip:+12065550100@10.24.34.0;tag=abcdefg",
+            "to": "<sip:+13605550199@abcdef1ghij2klmno3pqr4.voiceconnector.chime.aws:5060",
+            "call-id": "1112-2222-4333",
+            "cseq": "101 INVITE",
+            "contact": "<sip:user@10.24.34.0:6090",
+            "content-type": "application/sdp",
+            "content-length": "246"
+        },
+        "isCaller": false,
+        "mediaType": "audio/L16",
+        "sdp": {
+            "mediaIndex": 0,
+            "mediaLabel": "1"
+        },
+        "siprecMetadata": "<&xml version=\"1.0\" encoding=\"UTF-8\"&\r\n<recording xmlns='urn:ietf:params:xml:ns:recording:1'",
+        "startFragmentNumber": "1234567899444",
+        "startTime": "yyyy-mm-ddThh:mm:ssZ",
+        "streamArn": "arn:aws:kinesisvideo:us-east-1:123456:stream/ChimeVoiceConnector-abcdef1ghij2klmno3pqr4-111aaa-22bb-33cc-44dd-111222/111122223333",
+        "toNumber": "+13605550199",
+        "transactionId": "12345678-1234-1234",
+        "voiceConnectorId": "abcdef1ghij2klmno3pqr4",
+        "streamingStatus": "STARTED",
+        "version": "0"
+    }
 }
 ```
 
@@ -62,27 +79,81 @@ The following is example data for this event\.
 
 ```
 {
-  "version": "0",
-  "id": "12345678-1234-1234-1234-111122223333",
-  "detail-type": "Chime VoiceConnector Streaming Status",
-  "source": "aws.chime",
-  "account": "111122223333",
-  "time": "yyyy-mm-ddThh:mm:ssZ",
-  "region": "us-east-1",
-  "resources": [],
-  "detail": {
-       "streamingStatus":"ENDED",
-       "voiceConnectorId":"abcdefghi",
-       "transactionId":"12345678-1234-1234",
-       "callId":"1112-2222-4333",
-       "direction":"Inbound",
-       "mediaType":"audio/L16",
-       "startFragmentNumber":"1234567899444",
-       "startTime":"yyyy-mm-ddThh:mm:ssZ",
-       "endTime":"yyyy-mm-ddThh:mm:ssZ",
-       "streamArn":"arn:aws:kinesisvideo:us-east-1:123456:stream/ChimeVoiceConnector-abcdefghi-111aaa-22bb-33cc-44dd-111222/111122223333",
-       "version":"0"
-  }
+    "version": "0",
+    "id": "12345678-1234-1234-1234-111122223333",
+    "detail-type": "Chime VoiceConnector Streaming Status",
+    "source": "aws.chime",
+    "account": "111122223333",
+    "time": "yyyy-mm-ddThh:mm:ssZ",
+    "region": "us-east-1",
+    "resources": [],
+    "detail": {
+        "streamingStatus": "ENDED",
+        "voiceConnectorId": "abcdef1ghij2klmno3pqr4",
+        "transactionId": "12345678-1234-1234",
+        "callId": "1112-2222-4333",
+        "direction": "Inbound",
+        "fromNumber": "+12065550100",
+        "inviteHeaders": {
+            "from": "\"John\" <sip:+12065550100@10.24.34.0;tag=abcdefg",
+            "to": "<sip:+13605550199@abcdef1ghij2klmno3pqr4.voiceconnector.chime.aws:5060",
+            "call-id": "1112-2222-4333",
+            "cseq": "101 INVITE",
+            "contact": "<sip:user@10.24.34.0:6090",
+            "content-type": "application/sdp",
+            "content-length": "246"
+        },
+        "isCaller": false,
+        "mediaType": "audio/L16",
+        "sdp": {
+            "mediaIndex": 0,
+            "mediaLabel": "1"
+        },
+        "siprecMetadata": "<&xml version=\"1.0\" encoding=\"UTF-8\"&\r\n<recording xmlns='urn:ietf:params:xml:ns:recording:1'",
+        "startFragmentNumber": "1234567899444",
+        "startTime": "yyyy-mm-ddThh:mm:ssZ",
+        "endTime": "yyyy-mm-ddThh:mm:ssZ",
+        "streamArn": "arn:aws:kinesisvideo:us-east-1:123456:stream/ChimeVoiceConnector-abcdef1ghij2klmno3pqr4-111aaa-22bb-33cc-44dd-111222/111122223333",
+        "toNumber": "+13605550199",
+        "version": "0"
+    }
+}
+```
+
+### Amazon Chime Voice Connector Streaming Updates<a name="stream-update-cvc"></a>
+
+Amazon Chime Voice Connectors send this event when media streaming to Kinesis Video Streams is updated\.
+
+**Example Event Data**  
+The following is example data for this event\.  
+
+```
+{
+    "version": "0",
+    "id": "12345678-1234-1234-1234-111122223333",
+    "detail-type": "Chime VoiceConnector Streaming Status",
+    "source": "aws.chime",
+    "account": "111122223333",
+    "time": "yyyy-mm-ddThh:mm:ssZ",
+    "region": "us-east-1",
+    "resources": [],
+    "detail": {
+        "callId": "1112-2222-4333",
+        "updateHeaders": {
+            "from": "\"John\" <sip:+12065550100@10.24.34.0;tag=abcdefg",
+            "to": "<sip:+13605550199@abcdef1ghij2klmno3pqr4.voiceconnector.chime.aws:5060",
+            "call-id": "1112-2222-4333",
+            "cseq": "101 INVITE",
+            "contact": "<sip:user@10.24.34.0:6090",
+            "content-type": "application/sdp",
+            "content-length": "246"
+        },
+        "siprecMetadata": "<&xml version=\"1.0\" encoding=\"UTF-8\"&\r\n<recording xmlns='urn:ietf:params:xml:ns:recording:1'",
+        "streamingStatus": "UPDATED",
+        "transactionId": "12345678-1234-1234",
+        "version": "0",
+        "voiceConnectorId": "abcdef1ghij2klmno3pqr4"
+    }
 }
 ```
 

@@ -37,7 +37,7 @@ Connecting Amazon Chime to Okta requires configuring two applications in the Okt
 
       1. Paste the **Client ID** and **Client secret** information from the **Okta Application Settings** page\.
 
-      1. Paste the appropriate **Issuer URI** from the **Okta API** page\.
+      1. Paste the appropriate **Issuer URI** from the **Okta API** page\. The **Issuer URI** must be an Okta domain, such as `https://example.okta.com`\.
 
 1. Set up the **Amazon Chime SCIM Provisioning** application in the **Okta Administration Console** to exchange select identity and group membership information with Amazon Chime:
 

@@ -36,6 +36,8 @@ Amazon's trademarks and trade dress may not be used in
    + [Renaming Your Account](rename-account.md)
    + [Deleting Your Account](enterprise-account.md)
    + [Managing Meeting Settings](mtg-settings.md)
+   + [Retention](archive-retention.md)
+      + [Managing Chat Retention Policies](chat-retention.md)
    + [Managing Messages](message-settings.md)
    + [Claiming a Domain](claim-domain.md)
    + [Connecting to Your Active Directory](active_directory.md)
