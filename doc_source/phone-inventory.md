@@ -1,8 +1,8 @@
-# Managing Phone Number Inventory<a name="phone-inventory"></a>
+# Managing phone number inventory<a name="phone-inventory"></a>
 
 Use the phone number management **Inventory** page to assign or unassign phone numbers\. You can do this with Amazon Chime Business Calling phone numbers for individual users, or phone numbers for Amazon Chime Voice Connectors or Amazon Chime Voice Connector groups\.
 
-Manage Amazon Chime Business Calling phone numbers from within user profiles\. Manage Amazon Chime Voice Connector phone numbers on the corresponding **Voice connectors** or **Voice connector groups** page\. For more information, see [Managing User Phone Numbers](user-phone.md), [Assigning and Unassigning Amazon Chime Voice Connector Phone Numbers](assign-voicecon.md), or [Assigning and Unassigning Phone Numbers for an Amazon Chime Voice Connector Group](voice-connector-groups.md#assign-voicecon-group)\.
+Manage Amazon Chime Business Calling phone numbers from within user profiles\. Manage Amazon Chime Voice Connector phone numbers on the corresponding **Voice connectors** or **Voice connector groups** page\. For more information, see [Managing user phone numbers](user-phone.md), [Assigning and unassigning Amazon Chime Voice Connector phone numbers](assign-voicecon.md), or [Assigning and unassigning phone numbers for an Amazon Chime Voice Connector group](voice-connector-groups.md#assign-voicecon-group)\.
 
 **To assign an Amazon Chime Business Calling phone number to a user**
 
@@ -18,7 +18,7 @@ Manage Amazon Chime Business Calling phone numbers from within user profiles\. M
 
 1. Select the user's full name, and choose **Assign**\.
 
-For instructions on how to edit the user's calling and SMS permissions, see [Editing Calling and SMS Permissions](user-phone.md#edit-phone-perms)\. When you change a user's Amazon Chime Business Calling phone number or phone number permissions, we recommend providing the user with their new phone number or permissions information\. Before users can access their new phone number or permissions features, they must sign out of their Amazon Chime account and sign in again\.
+For instructions on how to edit the user's calling and SMS permissions, see [Editing calling and SMS permissions](user-phone.md#edit-phone-perms)\. When you change a user's Amazon Chime Business Calling phone number or phone number permissions, we recommend providing the user with their new phone number or permissions information\. Before users can access their new phone number or permissions features, they must sign out of their Amazon Chime account and sign in again\.
 
 **To assign Amazon Chime Voice Connector phone numbers to an Amazon Chime Voice Connector or Amazon Chime Voice Connector group**
 

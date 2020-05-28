@@ -2,7 +2,7 @@
 
 You must have an AWS account to access the [Amazon Chime console](https://console.chime.aws.amazon.com/) and create an Amazon Chime administrator account\.
 
-## Creating an Amazon Web Services Account<a name="aws-account"></a>
+## Creating an Amazon Web Services account<a name="aws-account"></a>
 
 Before you can create an administrator account for Amazon Chime, you must first create an AWS account\.
 
@@ -14,4 +14,4 @@ Before you can create an administrator account for Amazon Chime, you must first 
 
    Part of the sign\-up procedure involves receiving a phone call and entering a verification code on the phone keypad\.
 
-For information about how to finish setting up your Amazon Chime administrator account, see [Getting Started](getting-started.md)\.
+For information about how to finish setting up your Amazon Chime administrator account, see [Getting started](getting-started.md)\.

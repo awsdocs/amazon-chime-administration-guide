@@ -1,6 +1,6 @@
-# Deleting Phone Numbers<a name="delete-phone"></a>
+# Deleting phone numbers<a name="delete-phone"></a>
 
-Delete unassigned phone numbers from your phone number management **Inventory**\. For more information about unassigning phone numbers, see [Managing Phone Number Inventory](phone-inventory.md)\.
+Delete unassigned phone numbers from your phone number management **Inventory**\. For more information about unassigning phone numbers, see [Managing phone number inventory](phone-inventory.md)\.
 
 **To delete unassigned phone numbers**
 

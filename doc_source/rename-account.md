@@ -1,6 +1,6 @@
-# Renaming Your Account<a name="rename-account"></a>
+# Renaming your account<a name="rename-account"></a>
 
-Use the following procedure to rename your account\. The new name you choose appears in invitation emails sent to users to join your team account\. 
+Use the following procedure to rename your account\. The new name you choose appears in invitation emails sent to users to join your account\. 
 
 **To rename your account**
 

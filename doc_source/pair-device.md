@@ -1,4 +1,4 @@
-# Pairing the Device<a name="pair-device"></a>
+# Pairing the device<a name="pair-device"></a>
 
 Depending on whether you are setting up the device in a shared room or for a single user, perform one of the following procedures\.
 

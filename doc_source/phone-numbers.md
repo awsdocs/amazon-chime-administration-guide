@@ -1,4 +1,4 @@
-# Managing Phone Numbers in Amazon Chime<a name="phone-numbers"></a>
+# Managing phone numbers in Amazon Chime<a name="phone-numbers"></a>
 
 Use the Amazon Chime console to provision phone numbers\. Choose from Amazon Chime Business Calling or Amazon Chime Voice Connector phone numbers\.
 
@@ -12,12 +12,12 @@ You can integrate an Amazon Chime Voice Connector with an existing phone system\
 **Note**  
 Amazon Chime does not replace your telephone capabilities\. For example, it cannot be used for emergency calling\.
 
-There are bandwidth requirements for using Amazon Chime Business Calling and integrating Amazon Chime Voice Connector\. For information, see [Bandwidth Requirements](network-config.md#bandwidth)\.
+There are bandwidth requirements for using Amazon Chime Business Calling and integrating Amazon Chime Voice Connector\. For information, see [Bandwidth requirements](network-config.md#bandwidth)\.
 
 **Topics**
-+ [Provisioning Phone Numbers](provision-phone.md)
-+ [Porting Existing Phone Numbers](porting.md)
-+ [Managing Phone Number Inventory](phone-inventory.md)
-+ [Updating Outbound Calling Names](calling-name.md)
-+ [Deleting Phone Numbers](delete-phone.md)
-+ [Restoring Deleted Phone Numbers](restore-phone.md)
++ [Provisioning phone numbers](provision-phone.md)
++ [Porting existing phone numbers](porting.md)
++ [Managing phone number inventory](phone-inventory.md)
++ [Updating outbound calling names](calling-name.md)
++ [Deleting phone numbers](delete-phone.md)
++ [Restoring deleted phone numbers](restore-phone.md)

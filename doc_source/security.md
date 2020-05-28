@@ -9,9 +9,9 @@ Security is a shared responsibility between AWS and you\. The [shared responsibi
 This documentation helps you understand how to apply the shared responsibility model when using Amazon Chime\. The following topics show you how to configure Amazon Chime to meet your security and compliance objectives\. You also learn how to use other AWS services that help you to monitor and secure your Amazon Chime resources\. 
 
 **Topics**
-+ [Identity and Access Management for Amazon Chime](security-iam.md)
-+ [Using Service\-Linked Roles for Amazon Chime](using-service-linked-roles.md)
-+ [Logging and Monitoring in Amazon Chime](monitoring-overview.md)
-+ [Compliance Validation for Amazon Chime](compliance.md)
++ [Identity and access management for Amazon Chime](security-iam.md)
++ [Using service\-linked roles for Amazon Chime](using-service-linked-roles.md)
++ [Logging and monitoring in Amazon Chime](monitoring-overview.md)
++ [Compliance validation for Amazon Chime](compliance.md)
 + [Resilience in Amazon Chime](disaster-recovery-resiliency.md)
-+ [Infrastructure Security in Amazon Chime](infrastructure-security.md)
++ [Infrastructure security in Amazon Chime](infrastructure-security.md)

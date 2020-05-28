@@ -1,4 +1,4 @@
-# Setting Up the Whiteboard<a name="setup-whiteboard"></a>
+# Setting up the whiteboard<a name="setup-whiteboard"></a>
 
 The whiteboard framing feature allows users to share drawings on any surface, such as a dry\-erase whiteboard, with meeting participants\. This requires a one\-time setup process to register the position of the whiteboard with the Dolby Voice Camera\. 
 

@@ -1,4 +1,4 @@
-# Verifying Device Settings<a name="device-settings"></a>
+# Verifying device settings<a name="device-settings"></a>
 
 You can view and configure settings for the device at any time\. 
 

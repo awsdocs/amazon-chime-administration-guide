@@ -2,7 +2,7 @@
 
 You can monitor Amazon Chime using CloudWatch, which collects raw data and processes it into readable, near real\-time metrics\. These statistics are kept for 15 months, so that you can access historical information and gain a better perspective about how your web application or service is performing\. You can also set alarms that watch for certain thresholds, and send notifications or take actions when those thresholds are met\. For more information, see the [Amazon CloudWatch User Guide](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/)\.
 
-## CloudWatch Metrics for Amazon Chime<a name="cw-metrics"></a>
+## CloudWatch metrics for Amazon Chime<a name="cw-metrics"></a>
 
 Amazon Chime sends the following metrics to CloudWatch\.
 
@@ -55,7 +55,7 @@ The `AWS/ChimeVoiceConnector` namespace includes the following metrics for phone
 |  `RTTBetweenVcAndRemote`  |  The average round\-trip time between the remote end and the Amazon Chime Voice Connector infrastructure\. Units: Microseconds  | 
 |  `MOSBetweenVcAndRemote`  |  The estimated Mean opinion score \(MOS\) associated with voice streams between the remote end and the Amazon Chime Voice Connector infrastructure\. Units: Units: Score between 1\.0\-4\.4\. A higher score indicates better perceived audio quality\.  | 
 
-## CloudWatch Dimensions for Amazon Chime<a name="cw-dimensions"></a>
+## CloudWatch dimensions for Amazon Chime<a name="cw-dimensions"></a>
 
 The CloudWatch dimensions that you can use with Amazon Chime are listed as follows\.
 
@@ -65,11 +65,11 @@ The CloudWatch dimensions that you can use with Amazon Chime are listed as follo
 |  `VoiceConnectorId`  |  The identifier of the Amazon Chime Voice Connector to display metrics for\.  | 
 |  `Region`  |  The AWS Region associated with the event\.  | 
 
-## CloudWatch Logs for Amazon Chime<a name="cw-logs"></a>
+## CloudWatch logs for Amazon Chime<a name="cw-logs"></a>
 
-You can send Amazon Chime Voice Connector metrics to CloudWatch Logs\. For more information, see [Editing Amazon Chime Voice Connector Settings](edit-voicecon.md)\.
+You can send Amazon Chime Voice Connector metrics to CloudWatch Logs\. For more information, see [Editing Amazon Chime Voice Connector settings](edit-voicecon.md)\.
 
-**Media Quality Metric Logs**  
+**Media quality metric logs**  
 You can opt to receive media quality metric logs for your Amazon Chime Voice Connector\. When you do, Amazon Chime sends detailed, per\-minute metrics for all of your Amazon Chime Voice Connector calls to a CloudWatch Logs log group that is created for you\. The log group name is `/aws/ChimeVoiceConnectorLogs/${VoiceConnectorID}`\. The following fields are included in the logs, in JSON format\.
 
 
@@ -82,7 +82,7 @@ You can opt to receive media quality metric logs for your Amazon Chime Voice Con
 |  from\_country  |  The initiating country for the call\.  | 
 |  to\_sip\_user  |  The receiving user for the call\.  | 
 |  to\_country  |  The receiving country for the call\.  | 
-|  endpoint\_id  |  An opaque identifier indicating the other endpoint of the call\. Use with CloudWatch Logs Insights\. For more information, see [Analyzing Log Data with CloudWatch Logs Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) in the *Amazon CloudWatch Logs User Guide*\.  | 
+|  endpoint\_id  |  An opaque identifier indicating the other endpoint of the call\. Use with CloudWatch Logs Insights\. For more information, see [Analyzing log data with CloudWatch Logs Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) in the *Amazon CloudWatch Logs User Guide*\.  | 
 |  aws\_region  |  The AWS Region for the call\.  | 
 |  cust2vc\_rtp\_packets  |  The number of RTP packets sent from the customer to the Amazon Chime Voice Connector infrastructure\.  | 
 |  cust2vc\_rtp\_bytes  |  The number of bytes sent from the customer to the Amazon Chime Voice Connector infrastructure in RTP packets\.  | 
@@ -113,7 +113,7 @@ You can opt to receive media quality metric logs for your Amazon Chime Voice Con
 |  rtt\_btwn\_vc\_and\_rem  |  The average round\-trip time between the remote end and the Amazon Chime Voice Connector infrastructure\.  | 
 |  mos\_btwn\_vc\_and\_rem  |  The estimated Mean opinion score \(MOS\) associated with voice streams between the remote end and the Amazon Chime Voice Connector infrastructure\.  | 
 
-**SIP Message Logs**  
+**SIP message logs**  
 You can opt to receive SIP message logs for your Amazon Chime Voice Connector\. When you do, Amazon Chime captures inbound and outbound SIP messages and sends them to a CloudWatch Logs log group that is created for you\. The log group name is `/aws/ChimeVoiceConnectorSipMessages/${VoiceConnectorID}`\. The following fields are included in the logs, in JSON format\.
 
 

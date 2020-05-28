@@ -1,6 +1,6 @@
-# Managing Amazon Chime Voice Connector Groups<a name="voice-connector-groups"></a>
+# Managing Amazon Chime Voice Connector groups<a name="voice-connector-groups"></a>
 
-You can create Amazon Chime Voice Connector groups in your account and assign Amazon Chime Voice Connectors to them\. You can also provision phone numbers for your Amazon Chime Voice Connector group from your Amazon Chime **Phone number management** inventory\. For more information, see [Provisioning Phone Numbers](provision-phone.md)\.
+You can create Amazon Chime Voice Connector groups in your account and assign Amazon Chime Voice Connectors to them\. You can also provision phone numbers for your Amazon Chime Voice Connector group from your Amazon Chime **Phone number management** inventory\. For more information, see [Provisioning phone numbers](provision-phone.md)\.
 
 You can include in your group Amazon Chime Voice Connectors that are created in different AWS Regions\. This allows incoming calls to fail over across Regions, which creates a fault\-tolerant mechanism for fallback in case of availability events\.
 
@@ -11,12 +11,12 @@ An incoming call is placed to a phone number associated with the Amazon Chime Vo
 For more information about creating Amazon Chime Voice Connectors in different AWS Regions, see [Managing Amazon Chime Voice Connectors](voice-connectors.md)\.
 
 **Topics**
-+ [Creating an Amazon Chime Voice Connector Group](#create-voicecon-group)
-+ [Editing an Amazon Chime Voice Connector Group](#edit-voicecon-group)
-+ [Assigning and Unassigning Phone Numbers for an Amazon Chime Voice Connector Group](#assign-voicecon-group)
-+ [Deleting an Amazon Chime Voice Connector Group](#delete-voicecon-group)
++ [Creating an Amazon Chime Voice Connector group](#create-voicecon-group)
++ [Editing an Amazon Chime Voice Connector group](#edit-voicecon-group)
++ [Assigning and unassigning phone numbers for an Amazon Chime Voice Connector group](#assign-voicecon-group)
++ [Deleting an Amazon Chime Voice Connector group](#delete-voicecon-group)
 
-## Creating an Amazon Chime Voice Connector Group<a name="create-voicecon-group"></a>
+## Creating an Amazon Chime Voice Connector group<a name="create-voicecon-group"></a>
 
 You can create up to three Amazon Chime Voice Connector groups for your account\.
 
@@ -32,7 +32,7 @@ You can create up to three Amazon Chime Voice Connector groups for your account\
 
 1. Choose **Create**\.
 
-## Editing an Amazon Chime Voice Connector Group<a name="edit-voicecon-group"></a>
+## Editing an Amazon Chime Voice Connector group<a name="edit-voicecon-group"></a>
 
 After you create an Amazon Chime Voice Connector group, you can add or remove Amazon Chime Voice Connectors for it\. You can also edit the priority for the Amazon Chime Voice Connectors in the group\.
 
@@ -78,7 +78,7 @@ After you create an Amazon Chime Voice Connector group, you can add or remove Am
 
 1. Choose **Remove**\.
 
-## Assigning and Unassigning Phone Numbers for an Amazon Chime Voice Connector Group<a name="assign-voicecon-group"></a>
+## Assigning and unassigning phone numbers for an Amazon Chime Voice Connector group<a name="assign-voicecon-group"></a>
 
 You can assign and unassign phone numbers for an Amazon Chime Voice Connector group in the Amazon Chime console\.
 
@@ -114,7 +114,7 @@ You can also choose **Reassign** to reassign phone numbers with the **Voice Conn
 
 1. Choose **Unassign**\.
 
-## Deleting an Amazon Chime Voice Connector Group<a name="delete-voicecon-group"></a>
+## Deleting an Amazon Chime Voice Connector group<a name="delete-voicecon-group"></a>
 
 Before you can delete an Amazon Chime Voice Connector group, you must unassign all Amazon Chime Voice Connectors and phone numbers from it\. For more information, see the previous section\.
 

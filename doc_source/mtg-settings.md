@@ -1,8 +1,8 @@
-# Managing Meeting Settings<a name="mtg-settings"></a>
+# Managing meeting settings<a name="mtg-settings"></a>
 
 Manage your meeting settings from the Amazon Chime console\. 
 
-## Meeting Policy Settings<a name="mtg-policy"></a>
+## Meeting policy settings<a name="mtg-policy"></a>
 
 Manage account policies in the Amazon Chime console under **Settings**, **Meetings**\. Choose from the following policy options\.
 
@@ -12,14 +12,14 @@ Choose whether users in your organization can grant shared control of their comp
 **Enable outbound calling to join meetings**  
 Turns on the Amazon Chime call me feature\. Provides the option for meeting attendees to join meetings by receiving a phone call from Amazon Chime\.
 
-## Meeting Application Settings<a name="mtg-app"></a>
+## Meeting application settings<a name="mtg-app"></a>
 
 Manage meeting application access under **Settings**, **Meetings** in the Amazon Chime console\. You can choose the following option:
 
 **Allow users to sign in to Amazon Chime using the Amazon Chime Meetings App for Slack**  
 This option lets users in your organization sign in to Amazon Chime from the Amazon Chime Meetings App for Slack\. For more information, see [Setting up the Amazon Chime Meetings App for Slack](config-slack.md)\.
 
-## Meeting Region Settings<a name="mtg-regions"></a>
+## Meeting Region settings<a name="mtg-regions"></a>
 
 To improve meeting quality and reduce latency, Amazon Chime processes meetings in the optimal AWS Region for all participants\. You can choose whether to let Amazon Chime select the optimal Region for a meeting from all available Regions, or to use only the Regions that you select\.
 

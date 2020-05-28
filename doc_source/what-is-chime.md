@@ -1,21 +1,21 @@
-# What Is Amazon Chime?<a name="what-is-chime"></a>
+# What is Amazon Chime?<a name="what-is-chime"></a>
 
 Amazon Chime is a communications service that transforms online meetings with an application that is secure and comprehensive\. Amazon Chime works across your devices so that you can stay connected\. You can use Amazon Chime for online meetings, video conferencing, calls, and chat\. You can also share content inside and outside of your organization\. Amazon Chime is a fully managed service that runs securely on the AWS cloud, which frees IT from deploying and managing complex infrastructures\. 
 
 For more information, see [Amazon Chime](https://aws.amazon.com/chime)\.
 
-## Administration Overview<a name="overview"></a>
+## Administration overview<a name="overview"></a>
 
 As an administrator, you use the [Amazon Chime console](https://console.chime.aws.amazon.com/) to perform key tasks, such as creating Amazon Chime accounts and managing users and permissions\. To access the Amazon Chime console and create an Amazon Chime administrator account, first create an AWS account\. For more information, see [Prerequisites](prereqs.md)\.
 
-## How to Get Started<a name="start"></a>
+## How to get started<a name="start"></a>
 
 After you complete the [Prerequisites](prereqs.md), you can create and configure your Amazon Chime administrative account, then add users to it\. Choose Pro or Basic permissions for your users\.
 
 If you're ready to get started now, see the following tutorial:
-+ [Getting Started](getting-started.md)
++ [Getting started](getting-started.md)
 
-For more information on user access and permissions, see [Managing User Access and Permissions](manage-access.md)\. For more information on the features that users with Pro and Basic permissions can access, see [Plans and pricing](https://aws.amazon.com/chime/pricing)\.
+For more information on user access and permissions, see [Managing user access and permissions](manage-access.md)\. For more information on the features that users with Pro and Basic permissions can access, see [Plans and pricing](https://aws.amazon.com/chime/pricing)\.
 
 ## Pricing<a name="pricing"></a>
 

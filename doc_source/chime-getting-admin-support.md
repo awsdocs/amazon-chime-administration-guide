@@ -1,4 +1,4 @@
-# Administrative Support for Amazon Chime<a name="chime-getting-admin-support"></a>
+# Administrative support for Amazon Chime<a name="chime-getting-admin-support"></a>
 
 If you are an administrator and need to contact support for Amazon Chime, choose one of the following options:
 + If you have an AWS Support account, go to [Support Center](https://console.aws.amazon.com/support/home) and submit a ticket\.

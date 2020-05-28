@@ -1,4 +1,4 @@
-# Restoring Deleted Phone Numbers<a name="restore-phone"></a>
+# Restoring deleted phone numbers<a name="restore-phone"></a>
 
 You can restore deleted phone numbers from the **Deletion queue** for up to 7 days after they are deleted\. Restoring a phone number moves it back into your **Inventory**\.
 

@@ -1,4 +1,4 @@
-# Assigning and Unassigning Amazon Chime Voice Connector Phone Numbers<a name="assign-voicecon"></a>
+# Assigning and unassigning Amazon Chime Voice Connector phone numbers<a name="assign-voicecon"></a>
 
 You can assign phone numbers to an Amazon Chime Voice Connector\.
 

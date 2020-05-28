@@ -1,4 +1,4 @@
-# Editing Amazon Chime Voice Connector Settings<a name="edit-voicecon"></a>
+# Editing Amazon Chime Voice Connector settings<a name="edit-voicecon"></a>
 
 To finish setting up your Amazon Chime Voice Connector, edit the settings from the Amazon Chime console\.
 
@@ -9,9 +9,9 @@ Under the origination settings, configure inbound routes for your SIP hosts to r
 **Note**  
 Encryption\-enabled Voice Connectors use TLS \(TCP\) protocol for all calls\.
 
-You can choose to send logs from your Amazon Chime Voice Connector to CloudWatch Logs\. For more information, see [CloudWatch Logs for Amazon Chime](monitoring-cloudwatch.md#cw-logs)\.
+You can choose to send logs from your Amazon Chime Voice Connector to CloudWatch Logs\. For more information, see [CloudWatch logs for Amazon Chime](monitoring-cloudwatch.md#cw-logs)\.
 
-You can also enable media streaming from your Amazon Chime Voice Connector to Amazon Kinesis\. For more information, see [Streaming Amazon Chime Voice Connector Media to Kinesis](start-kinesis-vc.md)\.
+You can also enable media streaming from your Amazon Chime Voice Connector to Amazon Kinesis\. For more information, see [Streaming Amazon Chime Voice Connector media to Kinesis](start-kinesis-vc.md)\.
 
 **To edit Amazon Chime Voice Connector settings**
 
@@ -57,4 +57,4 @@ You can also enable media streaming from your Amazon Chime Voice Connector to Am
 
    1. \(Optional\) For **Logging**, choose **Enabled** to send logs to CloudWatch Logs, then choose **Save**\.
 
-For more information about assigning phone numbers to an Amazon Chime Voice Connector, see [Assigning and Unassigning Amazon Chime Voice Connector Phone Numbers](assign-voicecon.md)\.
+For more information about assigning phone numbers to an Amazon Chime Voice Connector, see [Assigning and unassigning Amazon Chime Voice Connector phone numbers](assign-voicecon.md)\.

@@ -1,6 +1,6 @@
-# Setting Up the Hardware<a name="setup-hardware"></a>
+# Setting up the hardware<a name="setup-hardware"></a>
 
-Before you proceed, make sure that you have a physical Ethernet network connection and cables\. Confirm that your firewall rules enable your Dolby Voice Room Hardware to connect with Amazon Chime\. See [Network Configuration and Bandwidth Requirements](network-config.md) for firewall host, port, and protocol requirements\.
+Before you proceed, make sure that you have a physical Ethernet network connection and cables\. Confirm that your firewall rules enable your Dolby Voice Room Hardware to connect with Amazon Chime\. See [Network configuration and bandwidth requirements](network-config.md) for firewall host, port, and protocol requirements\.
 
 The Amazon Chime on Dolby Voice Room hardware consists of three components: the hub, conference phone \(with a small screen\), and camera\. Follow these steps to connect them together\.
 

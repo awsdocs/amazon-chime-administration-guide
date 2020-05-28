@@ -1,4 +1,4 @@
-# Streaming Amazon Chime Voice Connector Media to Kinesis<a name="start-kinesis-vc"></a>
+# Streaming Amazon Chime Voice Connector media to Kinesis<a name="start-kinesis-vc"></a>
 
 You can stream phone call audio from Amazon Chime Voice Connectors to Amazon Kinesis Video Streams for analytics, machine learning, and other processing\. Developers can store and encrypt audio data in Kinesis Video Streams, and access the data using the Kinesis Video Streams API operation\. For more information, see the [https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/what-is-kinesis-video.html](https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/what-is-kinesis-video.html)\.
 
@@ -8,13 +8,13 @@ Use the Kinesis Video Streams Parser Library to download the media streams sent 
 + TransactionId
 + VoiceConnectorId
 
-For more information, see [Kinesis Video Streams Parser Library](https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/parser-library.html) and [Using Streaming Metadata with Kinesis Video Streams](https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/how-meta.html) in the *Amazon Kinesis Video Streams Developer Guide*\.
+For more information, see [Kinesis Video Streams Parser Library](https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/parser-library.html) and [Using streaming metadata with Kinesis Video Streams](https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/how-meta.html) in the *Amazon Kinesis Video Streams Developer Guide*\.
 
-For more information about using IAM service\-linked roles with Amazon Chime Voice Connectors, see [Using Roles to Stream Amazon Chime Voice Connector Media to Kinesis](using-service-linked-roles-stream.md)\. For more information about using CloudWatch with Amazon Chime, see [Logging and Monitoring in Amazon Chime](monitoring-overview.md)\.
+For more information about using IAM service\-linked roles with Amazon Chime Voice Connectors, see [Using roles to stream Amazon Chime Voice Connector media to Kinesis](using-service-linked-roles-stream.md)\. For more information about using CloudWatch with Amazon Chime, see [Logging and monitoring in Amazon Chime](monitoring-overview.md)\.
 
-When you enable media streaming for your Amazon Chime Voice Connector, Amazon Chime creates an IAM service\-linked role called AWSServiceRoleForAmazonChimeVoiceConnector\. If you have configured call detail record logging for Amazon Chime Voice Connectors in the Amazon Chime console, streaming detail records are sent to your configured Amazon S3 bucket\. For more information, see [Amazon Chime Voice Connector Streaming Detail Records](manage-global.md#vc-sdr)\.
+When you enable media streaming for your Amazon Chime Voice Connector, Amazon Chime creates an IAM service\-linked role called AWSServiceRoleForAmazonChimeVoiceConnector\. If you have configured call detail record logging for Amazon Chime Voice Connectors in the Amazon Chime console, streaming detail records are sent to your configured Amazon S3 bucket\. For more information, see [Amazon Chime Voice Connector streaming detail records](manage-global.md#vc-sdr)\.
 
-## Starting Media Streaming<a name="start-kinesis"></a>
+## Starting media streaming<a name="start-kinesis"></a>
 
 Start media streaming for your Amazon Chime Voice Connector from the Amazon Chime console\.
 
@@ -34,7 +34,7 @@ Start media streaming for your Amazon Chime Voice Connector from the Amazon Chim
 
 1. Choose **Save**\.
 
-Turn off media streaming from the Amazon Chime console\. If you no longer need to use media streaming for any of your Amazon Chime Voice Connectors, we recommend that you also delete the related service\-linked role\. For more information, see [Deleting a Service\-Linked Role for Amazon Chime Voice Connectors](using-service-linked-roles-stream.md#delete-service-linked-role-stream)\.
+Turn off media streaming from the Amazon Chime console\. If you no longer need to use media streaming for any of your Amazon Chime Voice Connectors, we recommend that you also delete the related service\-linked role\. For more information, see [Deleting a service\-linked role for Amazon Chime Voice Connectors](using-service-linked-roles-stream.md#delete-service-linked-role-stream)\.
 
 **To stop media streaming for your Amazon Chime Voice Connector**
 
@@ -50,17 +50,17 @@ Turn off media streaming from the Amazon Chime console\. If you no longer need t
 
 1. Choose **Save**\.
 
-## SIP\-Based Media Recording \(SIPREC\) and Network\-Based Recording \(NBR\) Compatibility<a name="siprec"></a>
+## SIP\-based media recording \(SIPREC\) and network\-based recording \(NBR\) compatibility<a name="siprec"></a>
 
 You can use an Amazon Chime Voice Connector to stream media to Kinesis Video Streams\. You can stream from a SIPREC\-compatible voice infrastructure or the NBR feature associated with Cisco Unified Border Element \(CUBE\)\.
 
-You must have a Private Branch Exchange \(PBX\), Session Border Controller \(SBC\), or contact center that supports the SIPREC protocol or NBR feature\. The PBX or SBC must be able to send signaling and media to AWS public IP addresses\. For more information, see [Before you Begin](voice-connectors.md#vc-prereq)\.
+You must have a Private Branch Exchange \(PBX\), Session Border Controller \(SBC\), or contact center that supports the SIPREC protocol or NBR feature\. The PBX or SBC must be able to send signaling and media to AWS public IP addresses\. For more information, see [Before you begin](voice-connectors.md#vc-prereq)\.
 
 **To set up streaming of RTP audio streams forked with SIPREC or NBR**
 
 1. Create an Amazon Chime Voice Connector\. For more information, see [Creating an Amazon Chime Voice Connector](create-voicecon.md)\.
 
-1. Start media streaming for your Amazon Chime Voice Connector\. For more information, see [Starting Media Streaming](#start-kinesis)\.
+1. Start media streaming for your Amazon Chime Voice Connector\. For more information, see [Starting media streaming](#start-kinesis)\.
 
 1. In the Amazon Chime console, under **Voice connectors**, view the **Outbound host name** for your Amazon Chime Voice Connector\. For example, `abcdef1ghij2klmno3pqr4.voiceconnector.chime.aws`\.
 

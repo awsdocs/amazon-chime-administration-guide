@@ -1,12 +1,12 @@
-# Claiming a Domain<a name="claim-domain"></a>
+# Claiming a domain<a name="claim-domain"></a>
 
-To create an enterprise account and benefit from the greater control that it provides over your account and users, you must claim at least one email domain\. 
+To create an Enterprise account and benefit from the greater control that it provides over your account and users, you must claim at least one email domain\. 
 
 **To claim a domain**
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. On the **Accounts** page, select the name of the team account\.
+1. On the **Accounts** page, select the name of the Team account\.
 
 1. In the navigation pane, choose **Identity**, **Domains**\.
 

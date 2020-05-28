@@ -3,4 +3,4 @@
 Manage your retention settings from the Amazon Chime console\.
 
 **Topics**
-+ [Managing Chat Retention Policies](chat-retention.md)
++ [Managing chat retention policies](chat-retention.md)

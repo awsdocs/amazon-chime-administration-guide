@@ -1,4 +1,4 @@
-# Preparing for Setup<a name="prepare-setup"></a>
+# Preparing for setup<a name="prepare-setup"></a>
 
 There are two ways to set up Amazon Chime on Dolby Voice room\. If your company has an Enterprise Active Directory account, you can set it up in a shared conference room that many attendees can use\. As a shared conference room device, organizers invite the conference room to a meeting\. Attendees in the room can join with a single tap or voice command using Alexa\.
 
@@ -16,7 +16,7 @@ Alternately, you can associate it to a single, dedicated user\. As a dedicated d
 
    1. Enter the Active Directory group name that contains the users who have permissions to use their Amazon Chime to set up Dolby Voice Room devices in conference rooms \(for example, IT\-AudioVisual\-owners\)\.
 **Note**  
-These users must have Basic or Pro permissions to use Amazon Chime and be a part of an Active Directory group\. For more information, see [Managing User Access and Permissions](manage-access.md)\.
+These users must have Basic or Pro permissions to use Amazon Chime and be a part of an Active Directory group\. For more information, see [Managing user access and permissions](manage-access.md)\.
 
 1. Create a profile for the conference room:
 
@@ -28,7 +28,7 @@ These users must have Basic or Pro permissions to use Amazon Chime and be a part
 
    1. To create a shared device profile, choose **Users**, **Shared devices**, **Create shared device profile**, enter the email address of the conference room, and choose **Create**\.
 
-1. Set up a phone number for the device to use for inbound and outbound calling\. To this, use Amazon Chime Business Calling to provision a phone number and assign a number from the Inventory to the shared device profile\. For more information, see [Managing Phone Numbers in Amazon Chime](phone-numbers.md)\.
+1. Set up a phone number for the device to use for inbound and outbound calling\. To this, use Amazon Chime Business Calling to provision a phone number and assign a number from the Inventory to the shared device profile\. For more information, see [Managing phone numbers in Amazon Chime](phone-numbers.md)\.
 **Note**  
 You can also complete this step after pairing the device below\. 
 
@@ -42,7 +42,7 @@ You can also complete this step after pairing the device below\.
 
 **To prepare setup for single user**
 
-1. Set up a phone number for the device to use for inbound and outbound calling\. To this, use Amazon Chime Business Calling to provision a phone number and assign a number from the Inventory to the shared device profile\. For more information, see [Managing Phone Numbers in Amazon Chime](phone-numbers.md)\.
+1. Set up a phone number for the device to use for inbound and outbound calling\. To this, use Amazon Chime Business Calling to provision a phone number and assign a number from the Inventory to the shared device profile\. For more information, see [Managing phone numbers in Amazon Chime](phone-numbers.md)\.
 **Note**  
 You can also complete this step after pairing the device below\. 
 

@@ -1,4 +1,4 @@
-# Verifying Setup<a name="verify-setup"></a>
+# Verifying setup<a name="verify-setup"></a>
 
 To make sure that everything is set up correctly, check the following\.
 
@@ -16,4 +16,4 @@ To make sure that everything is set up correctly, check the following\.
 
 1. To make sure that Business Calling is working, make an inbound and outbound call by pressing the **Call** button\.
 
-1. To make sure that Alexa for Business is enabled, open the Alexa for Business console and choose **Rooms**, select the room, and verify the Dolby hub serial number under **Shared devices**\.
+1. To make sure that Alexa for Business is enabled, open the console and choose **Rooms**, select the room, and verify the Dolby hub serial number under **Shared devices**\.

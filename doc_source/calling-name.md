@@ -1,4 +1,4 @@
-# Updating Outbound Calling Names<a name="calling-name"></a>
+# Updating outbound calling names<a name="calling-name"></a>
 
 Set a default calling name that appears to recipients of outbound calls made using the phone numbers in your **Inventory**\. Default calling names apply to all phone number product types\. You can update the names once every seven days\.
 

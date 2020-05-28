@@ -1,8 +1,8 @@
-# Network Configuration and Bandwidth Requirements<a name="network-config"></a>
+# Network configuration and bandwidth requirements<a name="network-config"></a>
 
 Amazon Chime requires the destinations and ports described in this topic to support various services\. If inbound or outbound traffic is blocked, this blockage might affect the ability to use various services, including audio, video, screen sharing, or chat\.
 
-Amazon Chime uses Amazon Elastic Compute Cloud \(Amazon EC2\) and other AWS services on port TCP/443\. If your firewall blocks port TCP/443, you must put `*.amazonaws.com` on an allow list, or put [AWS IP Address Ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) in the *AWS General Reference* for the following services:
+Amazon Chime uses Amazon Elastic Compute Cloud \(Amazon EC2\) and other AWS services on port TCP/443\. If your firewall blocks port TCP/443, you must put `*.amazonaws.com` on an allow list, or put [AWS IP address ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) in the *AWS General Reference* for the following services:
 + Amazon EC2
 + Amazon CloudFront
 + Amazon Route 53
@@ -28,7 +28,7 @@ Amazon Chime uses the following destination and port for meetings and Amazon Chi
 | --- | --- | 
 |  99\.77\.128\.0/18  |  UDP/3478  | 
 
-## H\.323 Room Systems<a name="h323"></a>
+## H\.323 room systems<a name="h323"></a>
 
 Amazon Chime uses the following destinations and ports for H\.323 in\-room video systems\.
 
@@ -39,7 +39,7 @@ Amazon Chime uses the following destinations and ports for H\.323 in\-room video
 |  76\.223\.18\.152  |  TCP/1720  | 
 |  99\.77\.128\.0/18 34\.212\.95\.128/25 34\.223\.21\.0/25 52\.55\.62\.128/25 52\.55\.63\.0/25  |  TCP/5100:6200 UDP/5100:6200  | 
 
-## Session Initiation Protocol \(SIP\) Room Systems<a name="sip"></a>
+## Session Initiation Protocol \(SIP\) room systems<a name="sip"></a>
 
 The following destinations and ports are recommended when running Amazon Chime for SIP in\-room video systems in your environment\.
 
@@ -80,7 +80,7 @@ The following destinations and ports are recommended if you use Amazon Chime Voi
 | US East \(N\. Virginia\) |  34\.223\.21\.0/25  |  UDP/1024:65535  | 
 | US West \(Oregon\) |  99\.77\.253\.0/24  |  UDP/5000:65000  | 
 
-## Bandwidth Requirements<a name="bandwidth"></a>
+## Bandwidth requirements<a name="bandwidth"></a>
 
 Amazon Chime has the following bandwidth requirements for the media that it provides:
 + Audio 

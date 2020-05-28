@@ -17,15 +17,15 @@ Some examples of using EventBridge with Amazon Chime Voice Connectors include:
 
 For more information, see the [Amazon EventBridge User Guide](https://docs.aws.amazon.com/eventbridge/latest/userguide/)\.
 
-## Amazon Chime Voice Connector Streaming Events<a name="stream-events-cvc"></a>
+## Amazon Chime Voice Connector streaming events<a name="stream-events-cvc"></a>
 
 Amazon Chime Voice Connectors support sending events to EventBridge when the events discussed in this section occur\.
 
-### Amazon Chime Voice Connector Streaming Starts<a name="stream-start-cvc"></a>
+### Amazon Chime Voice Connector streaming starts<a name="stream-start-cvc"></a>
 
 Amazon Chime Voice Connectors send this event when media streaming to Kinesis Video Streams starts\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -70,11 +70,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime Voice Connector Streaming Ends<a name="stream-end-cvc"></a>
+### Amazon Chime Voice Connector streaming ends<a name="stream-end-cvc"></a>
 
 Amazon Chime Voice Connectors send this event when media streaming to Kinesis Video Streams ends\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -120,11 +120,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime Voice Connector Streaming Updates<a name="stream-update-cvc"></a>
+### Amazon Chime Voice Connector streaming updates<a name="stream-update-cvc"></a>
 
 Amazon Chime Voice Connectors send this event when media streaming to Kinesis Video Streams is updated\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -157,11 +157,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime Voice Connector Streaming Fails<a name="stream-fail-cvc"></a>
+### Amazon Chime Voice Connector streaming fails<a name="stream-fail-cvc"></a>
 
 Amazon Chime Voice Connectors send this event when media streaming to Kinesis Video Streams fails\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -195,15 +195,15 @@ Some examples of using EventBridge with the Amazon Chime SDK include:
 
 For more information, see the [Amazon EventBridge User Guide](https://docs.aws.amazon.com/eventbridge/latest/userguide/) and [Using the Amazon Chime SDK](https://docs.aws.amazon.com/chime/latest/dg/meetings-sdk.html) in the *Amazon Chime Developer Guide*\.
 
-## Amazon Chime SDK Events<a name="sdk-events"></a>
+## Amazon Chime SDK events<a name="sdk-events"></a>
 
 The Amazon Chime SDK supports sending events to EventBridge when the events discussed in this section occur\.
 
-### Amazon Chime SDK Meeting Starts<a name="sdk-start-mtg"></a>
+### Amazon Chime SDK meeting starts<a name="sdk-start-mtg"></a>
 
 The Amazon Chime SDK sends this event when a new meeting starts\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -225,11 +225,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Meeting Ends<a name="sdk-end-mtg"></a>
+### Amazon Chime SDK meeting ends<a name="sdk-end-mtg"></a>
 
 The Amazon Chime SDK sends this event when an active meeting ends\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -251,11 +251,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Attendee Is Added<a name="sdk-add-attendee"></a>
+### Amazon Chime SDK attendee is added<a name="sdk-add-attendee"></a>
 
 The Amazon Chime SDK sends this event when a new attendee is added to an active meeting\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -279,11 +279,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Attendee Is Removed<a name="sdk-remove-attendee"></a>
+### Amazon Chime SDK attendee is removed<a name="sdk-remove-attendee"></a>
 
 The Amazon Chime SDK sends this event when an attendee is removed from an active meeting\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -307,11 +307,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Attendee Is Authorized<a name="sdk-auth-attendee"></a>
+### Amazon Chime SDK attendee is authorized<a name="sdk-auth-attendee"></a>
 
 The Amazon Chime SDK sends this event when an existing attendee joins a meeting\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -335,11 +335,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Attendee Joins a Meeting<a name="sdk-join-attendee"></a>
+### Amazon Chime SDK attendee joins a meeting<a name="sdk-join-attendee"></a>
 
 The Amazon Chime SDK sends this event when an existing attendee joins an Amazon Chime SDK meeting using the specified network transport\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -364,11 +364,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Attendee Leaves a Meeting<a name="sdk-leave-attendee"></a>
+### Amazon Chime SDK attendee leaves a meeting<a name="sdk-leave-attendee"></a>
 
 The Amazon Chime SDK sends this event when an existing attendee leaves an Amazon Chime SDK meeting using the specified network transport\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -393,11 +393,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Attendee Drops from a Meeting<a name="sdk-drop-attendee"></a>
+### Amazon Chime SDK attendee drops from a meeting<a name="sdk-drop-attendee"></a>
 
 The Amazon Chime SDK sends this event when an existing attendee drops from an Amazon Chime SDK meeting using the specified network transport\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -422,11 +422,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Attendee Starts Streaming Video<a name="sdk-attendee-video-start"></a>
+### Amazon Chime SDK attendee starts streaming video<a name="sdk-attendee-video-start"></a>
 
 The Amazon Chime SDK sends this event when an existing attendee starts streaming video\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -450,11 +450,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Attendee Stops Streaming Video<a name="sdk-attendee-video-stop"></a>
+### Amazon Chime SDK attendee stops streaming video<a name="sdk-attendee-video-stop"></a>
 
 The Amazon Chime SDK sends this event when an existing attendee stops streaming video\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -478,11 +478,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Attendee Starts Sharing Screen<a name="sdk-attendee-screenshare-start"></a>
+### Amazon Chime SDK attendee starts sharing screen<a name="sdk-attendee-screenshare-start"></a>
 
 The Amazon Chime SDK sends this event when an existing attendee starts sharing their screen\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -506,11 +506,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Attendee Stops Sharing Screen<a name="sdk-attendee-screenshare-stop"></a>
+### Amazon Chime SDK attendee stops sharing screen<a name="sdk-attendee-screenshare-stop"></a>
 
 The Amazon Chime SDK sends this event when an existing attendee stops sharing their screen\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -534,11 +534,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Attendee Content Joins a Meeting<a name="sdk-content-join"></a>
+### Amazon Chime SDK attendee content joins a meeting<a name="sdk-content-join"></a>
 
 The Amazon Chime SDK sends this event when a content share joins an Amazon Chime SDK meeting using the specified network transport\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -563,11 +563,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Attendee Content Leaves a Meeting<a name="sdk-content-leave"></a>
+### Amazon Chime SDK attendee content leaves a meeting<a name="sdk-content-leave"></a>
 
 The Amazon Chime SDK sends this event when a content share leaves an Amazon Chime SDK meeting using the specified network transport\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -592,11 +592,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Attendee Content Drops from a Meeting<a name="sdk-content-drop"></a>
+### Amazon Chime SDK attendee content drops from a meeting<a name="sdk-content-drop"></a>
 
 The Amazon Chime SDK sends this event when a content share drops from an Amazon Chime SDK meeting using the specified network transport\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -621,11 +621,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Attendee Content Starts Streaming Video<a name="sdk-content-start-stream"></a>
+### Amazon Chime SDK attendee content starts streaming video<a name="sdk-content-start-stream"></a>
 
 The Amazon Chime SDK sends this event when a content share starts streaming video\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```
@@ -649,11 +649,11 @@ The following is example data for this event\.
 }
 ```
 
-### Amazon Chime SDK Attendee Content Stops Streaming Video<a name="sdk-content-stop-stream"></a>
+### Amazon Chime SDK attendee content stops streaming video<a name="sdk-content-stop-stream"></a>
 
 The Amazon Chime SDK sends this event when a content share stops streaming video\.
 
-**Example Event Data**  
+**Example : Event data**  
 The following is example data for this event\.  
 
 ```

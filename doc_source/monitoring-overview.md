@@ -1,4 +1,4 @@
-# Logging and Monitoring in Amazon Chime<a name="monitoring-overview"></a>
+# Logging and monitoring in Amazon Chime<a name="monitoring-overview"></a>
 
 Monitoring is an important part of maintaining the reliability, availability, and performance of Amazon Chime and your other AWS solutions\. AWS provides the following tools to monitor Amazon Chime, report issues, and take automatic actions when appropriate:
 + *Amazon CloudWatch* monitors in real time your AWS resources and the applications that you run on AWS\. You can collect and track metrics, create customized dashboards, and set alarms that notify you or take actions when a specified metric reaches a threshold that you specify\. For example, you can have CloudWatch track CPU usage or other metrics of your Amazon EC2 instances and automatically launch new instances when needed\. For more information, see the [Amazon CloudWatch User Guide](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/)\.
@@ -9,4 +9,4 @@ Monitoring is an important part of maintaining the reliability, availability, an
 **Topics**
 + [Monitoring Amazon Chime with Amazon CloudWatch](monitoring-cloudwatch.md)
 + [Automating Amazon Chime with EventBridge](automating-chime-with-cloudwatch-events.md)
-+ [Logging Amazon Chime API Calls with AWS CloudTrail](cloudtrail.md)
++ [Logging Amazon Chime API calls with AWS CloudTrail](cloudtrail.md)
