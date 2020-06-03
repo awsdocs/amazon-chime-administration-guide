@@ -1,10 +1,10 @@
-# Setting up the whiteboard<a name="setup-whiteboard"></a>
+# Setting up a Dolby Voice Room whiteboard<a name="setup-whiteboard"></a>
 
-The whiteboard framing feature allows users to share drawings on any surface, such as a dry\-erase whiteboard, with meeting participants\. This requires a one\-time setup process to register the position of the whiteboard with the Dolby Voice Camera\. 
+The Dolby Voice Room whiteboard framing feature allows users to share drawings on any surface, such as a dry\-erase whiteboard, with meeting participants\. This requires a one\-time setup process to register the position of the whiteboard with the Dolby Voice Camera\.
 
-The whiteboard configuration wizard lets you register the whiteboard position with the Dolby Voice Camera for optimal results\. Before you start the setup process, we recommend that you draw something on the whiteboard and clearly mark all four corners\. This lets you evaluate the quality of the setup\. 
+The whiteboard configuration wizard lets you register the whiteboard position with the Dolby Voice Camera for optimal results\. Before you start the setup process, we recommend that you draw something on the whiteboard and clearly mark all four corners\. This lets you evaluate the quality of the setup\.
 
-**To set up the whiteboard**
+**To set up a Dolby Voice Room whiteboard**
 
 1. On the device, choose **Settings**, **Device Settings**, **Dolby Voice Camera**, and set the mode to **Whiteboard**\.
 

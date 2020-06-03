@@ -1,8 +1,8 @@
-# Pairing the device<a name="pair-device"></a>
+# Pairing a Dolby device<a name="pair-device"></a>
 
-Depending on whether you are setting up the device in a shared room or for a single user, perform one of the following procedures\.
+Depending on whether you are setting up a Dolby device in a shared room or for a single user, perform one of the following procedures\.
 
-**To pair the device for a shared conference room**
+**To pair a Dolby device for a shared conference room**
 
 1. Open a browser window on your laptop or phone, then go to [https://app\.chime\.aws/pair/input](https://app.chime.aws/pair/input)\.
 
@@ -10,7 +10,7 @@ Depending on whether you are setting up the device in a shared room or for a sin
 **Note**  
 The pairing code automatically refreshes after 10 minutes\. 
 
-1. On the **Sign into Dolby Voice Room?** screen, choose **Continue**\.
+1. On the **Sign into Dolby Voice Room?** or **Sign into Dolby Voice Huddle?** screen, choose **Continue**\.
 
 1. Enter the email address of an admin user who has permissions to configure the conference room, and choose **Sign in**\. 
 
@@ -22,7 +22,7 @@ The pairing code automatically refreshes after 10 minutes\.
 
 1. If pairing is successful, you receive a **Sign in successful** message\.
 
-**To pair the device for single user**
+**To pair a Dolby device for a single user**
 
 1. Open a browser window on your laptop or phone, then go to [https://app\.chime\.aws/pair/input](https://app.chime.aws/pair/input)\.
 
@@ -30,7 +30,7 @@ The pairing code automatically refreshes after 10 minutes\.
 **Note**  
 The pairing code automatically refreshes after 10 minutes\. 
 
-1. On the **Sign into Dolby Voice Room?** screen, choose **Continue**\.
+1. On the **Sign into Dolby Voice Room?** or **Sign into Dolby Voice Huddle?** screen, choose **Continue**\.
 
 1. Enter the user's email address and choose **Sign in**\. 
 

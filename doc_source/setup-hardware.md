@@ -1,6 +1,8 @@
-# Setting up the hardware<a name="setup-hardware"></a>
+# Setting up the Dolby hardware<a name="setup-hardware"></a>
 
-Before you proceed, make sure that you have a physical Ethernet network connection and cables\. Confirm that your firewall rules enable your Dolby Voice Room Hardware to connect with Amazon Chime\. See [Network configuration and bandwidth requirements](network-config.md) for firewall host, port, and protocol requirements\.
+Before you proceed, make sure that you have a physical Ethernet network connection and cables\. Confirm that your firewall rules enable your Dolby hardware to connect with Amazon Chime\. See [Network configuration and bandwidth requirements](network-config.md) for firewall host, port, and protocol requirements\.
+
+## Setting up Dolby Voice Room<a name="setup-dolby-voice-room"></a>
 
 The Amazon Chime on Dolby Voice Room hardware consists of three components: the hub, conference phone \(with a small screen\), and camera\. Follow these steps to connect them together\.
 
@@ -25,5 +27,29 @@ You can perform this step now or at any time\.
    1. Under **Select time zone**, select the local time zone\.
 
    1. Under **Network setup**, choose **Next**\.
+
+1. Confirm that you see the following message on both screens of the device: **Visit app\.chime\.aws/pair/input to sign in and activate your device**\.
+
+## Setting up Dolby Voice Huddle<a name="setup-dolby-voice-huddle"></a>
+
+The Amazon Chime on Dolby Voice Huddle hardware consists of two components: the hub \(with a built\-in camera\), and a touch screen\. Follow these steps to connect them together\.
+
+**To set up the hardware**
+
+1. Connect an Ethernet cable from the hub to a network source\.
+
+1. Connect the touch screen to the USB port on the hub\.
+**Note**  
+You can perform this step now or at any time\.
+
+1. Connect the power cable to the power port in the hub and an electrical outlet\.
+
+1. Choose the following settings when prompted:
+
+   1. Under **Select time zone**, select the local time zone\.
+
+   1. Under **Network setup**, choose **Next**\.
+
+   1. Under **Provisioning setup**, choose **Amazon Chime**\.
 
 1. Confirm that you see the following message on both screens of the device: **Visit app\.chime\.aws/pair/input to sign in and activate your device**\.
