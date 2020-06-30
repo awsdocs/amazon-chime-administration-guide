@@ -1,6 +1,6 @@
 # Porting existing phone numbers<a name="porting"></a>
 
-You can port existing United States phone numbers from your phone carrier to use with Amazon Chime Business Calling or Amazon Chime Voice Connectors\. To do so, submit a support request from the Amazon Chime console\. The porting process can take between 2\-4 weeks\.
+If you want to turn on Amazon Chime Business Calling for your Amazon Chime users, or if you want to use an Amazon Chime Voice Connector for SIP trunking with an existing phone system, you have the option to provision new phone numbers in the Amazon Chime console\. However, if you want to keep your existing phone numbers, you can port United States phone numbers from your phone carrier\. To start the porting process, submit a support request from the Amazon Chime console\. Porting can take between 2\-4 weeks\.
 
 Before you can port phone numbers for Amazon Chime Voice Connectors, you must create an Amazon Chime Voice Connector\. For more information, see [Creating an Amazon Chime Voice Connector](create-voicecon.md)\.
 
@@ -19,7 +19,7 @@ Before you start porting, download the [Letter of Agency \(LOA\) for Local Telep
    + Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
      Choose **Support**, **Submit request**\.
-   + If you are an AWS Premium Support customer, open the [AWS Support Center](https://console.aws.amazon.com/support/home#/) page, sign in if necessary, and choose **Create case**\. Choose **Technical Support**\. For **Service**, choose **Chime**\.
+   + If you are an AWS Support customer, open the [AWS Support Center](https://console.aws.amazon.com/support/home#/) page, sign in if necessary, and choose **Create case**\. Choose **Technical support**\. For **Service**, choose **Chime**\.
 
 1. For **Category**, choose **Other**\.
 
@@ -71,7 +71,7 @@ Before you start porting, download the [Letter of Agency \(LOA\) for Local Telep
    + Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
      Choose **Support**, **Submit request**\.
-   + If you are an AWS Premium Support customer, open the [AWS Support Center](https://console.aws.amazon.com/support/home#/) page, sign in if necessary, and choose **Create case**\. Choose **Technical Support**\. For **Service**, choose **Chime**\.
+   + If you are an AWS Support customer, open the [AWS Support Center](https://console.aws.amazon.com/support/home#/) page, sign in if necessary, and choose **Create case**\. Choose **Technical support**\. For **Service**, choose **Chime**\.
 
 1. For **Category**, choose **Other**\.
 
@@ -102,10 +102,10 @@ AWS Support cancelled the porting order because of an issue with the port, such 
 AWS Support is processing a cancellation of the porting order because of an issue with the port, such as a cancellation request from the carrier or from you\. AWS Support contacts you with details\.
 
 **CHANGE\_REQUESTED**  
-AWS Support is processing your change request and the carrier response is pending\. Allow for additional processing time\.
+AWS Support is processing your change request, and the carrier response is pending\. Allow for additional processing time\.
 
 **COMPLETED**  
-Your porting order is completed and your phone numbers are activated\.
+Your porting order is completed, and your phone numbers are activated\.
 
 **EXCEPTION**  
 AWS Support contacts you for additional details needed to complete the port request\. Allow for additional processing time\.
@@ -117,4 +117,4 @@ The FOC date is confirmed with the carrier\. AWS Support contacts you to confirm
 AWS Support contacts you for additional documents needed to complete the port request\. Allow for additional processing time\.
 
 **SUBMITTED**  
-Your porting order is submitted and the carrier response is pending\.
+Your porting order is submitted, and the carrier response is pending\.

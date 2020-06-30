@@ -13,11 +13,11 @@ If you manage an Amazon Chime Team account, you can upgrade to an Enterprise acc
 
 1. Under **Settings**, choose **Account**, **Account actions**, **Request attachments**\. 
 
-1. Within approximately 24 hours, the **Account summary** page provides a link to a file containing a list of pre\-signed URLs that you use to access each attachment\.
+1. Within approximately 24 hours, the **Account summary** page provides a link to a file containing a list of presigned URLs that you use to access each attachment\.
 
 1. Download the file\.
 **Note**  
 Be sure to maintain an appropriate level of access control on the file\. Any user that obtains the file can use the provided list of URLs to download the associated attachments\.  
-Pre\-signed URLs expire after 6 days\. You can submit a request one time every 7 days\. 
+Presigned URLs expire after 6 days\. You can submit a request one time every 7 days\. 
 
-To use IAM policies to manage access to the Amazon Chime administration console and the **Request attachments** action, use one of the Amazon Chime managed policies \(FullAccess, UserManagement, or ReadOnly\)\. Alternatively, you can update the custom policies to include the `StartDataExport` action and `RetrieveDataExport` action\. For more information about these actions, see [Actions defined by Amazon Chime](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonchime.html#amazonchime-actions-as-permissions) in the *IAM User Guide*\.
+To use AWS Identity and Access Management \(IAM\) policies to manage access to the Amazon Chime administration console and the **Request attachments** action, use one of the Amazon Chime managed policies \(FullAccess, UserManagement, or ReadOnly\)\. Alternatively, you can update the custom policies to include the `StartDataExport` action and `RetrieveDataExport` action\. For more information about these actions, see [Actions defined by Amazon Chime](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonchime.html#amazonchime-actions-as-permissions) in the *IAM User Guide*\.

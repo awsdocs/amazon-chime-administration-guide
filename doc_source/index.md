@@ -33,6 +33,8 @@ Amazon's trademarks and trade dress may not be used in
    + [Infrastructure security in Amazon Chime](infrastructure-security.md)
 + [Getting started](getting-started.md)
 + [Managing your Amazon Chime accounts](manage-chime-account.md)
+   + [Choosing between an Amazon Chime Team account or Enterprise account](choose-team-enterprise-account.md)
+   + [Converting a Team account to an Enterprise account](convert-team-to-enterprise.md)
    + [Renaming your account](rename-account.md)
    + [Deleting your account](enterprise-account.md)
    + [Managing meeting settings](mtg-settings.md)

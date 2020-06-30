@@ -1,84 +1,104 @@
 # Managing user access and permissions<a name="manage-access"></a>
 
-Access to features within Amazon Chime is determined by the permissions tier assigned to the user\. The ability to sign into Amazon Chime is managed by suspending or activating users\. 
+Manage which features your Amazon Chime users can access by assigning them Pro or Basic permissions\. Users with Basic permissions cannot host meetings, but they can attend meetings and use chat\. For more information about the features that users with Pro and Basic permissions can access, see [Plans and pricing](https://aws.amazon.com/chime/pricing)\.
 
-As an Amazon Chime administrator, you can manage the permissions tiers of users in your account\. However, the ability to suspend a user account is only available to Enterprise account administrators\. Administrators of Team accounts can remove users from their accounts so that they are no longer paying for the user’s permissions\. However, they can't suspend the user and prevent them from signing in\. 
+Manage who can sign into your Amazon Chime administrative account by inviting or suspending users\. Only Enterprise account administrators can suspend users\. Team account administrators can remove users from their accounts so that they are no longer paying for the user’s permissions\. However, they can't suspend the user to prevent them from signing in\. For more information about the differences between Enterprise and Team accounts, see [Managing your Amazon Chime accounts](manage-chime-account.md)\.
 
-## Managing permissions<a name="manage-licenses"></a>
+## Managing user permissions<a name="manage-licenses"></a>
 
-How permissions are managed is determined by whether Active Directory or Okta is configured\. If you have Active Directory or Okta configured for your account, permissions management is handled through group memberships\. If Active Directory or Okta is not configured, permissions are managed through the Amazon Chime console\. 
+As an Amazon Chime administrator, you can manage Pro and Basic permissions for the users in your Amazon Chime account\.
 
-### Team accounts and Enterprise Login with Amazon<a name="manage-team-licenses"></a>
+If Active Directory or Okta is configured for your Amazon Chime account, manage user permissions through their directory group membership\. If you do not have Active Directory or Okta configured, manage user permissions from the Amazon Chime console\.
 
-For administrators of Team and Enterprise LWA accounts, where users sign in with their Login with Amazon \(LwA\) accounts, licenses are managed from either the **Users** or **User details** pages\. 
+### Team accounts and Enterprise Login with Amazon<a name="manage-team-lwa-permissions"></a>
 
-**To manage Amazon Chime licenses for Team accounts and Enterprise LWA**
+If you administer an Amazon Chime Team account or Enterprise LWA account, where users sign in with their Login with Amazon \(LWA\) accounts, you can manage Pro and Basic permissions in the Amazon Chime console\.
+
+**To manage user permissions for Team and Enterprise LWA accounts**
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. On the **Accounts** page, select the name of the Amazon Chime account\.
+1. For **Accounts**, choose the name of the Amazon Chime account\.
 
-1. In the navigation pane, choose **Users**\.
+1. Choose **Users**\.
 
-1. Select the check boxes for the users and then choose **Actions**, **Assign permissions**, **Pro** or **Basic**, and **Assign**\.
+1. Select the users and choose **Actions**, **Assign permissions**\.
 
-### Enterprise Active Directory or Enterprise OpenID Connect accounts<a name="manage-AD-licenses"></a>
+1. Choose one of the following permissions:
+   + **Pro**
+   + **Basic**
 
-The permissions tier for users who sign in with their Active Directory or Okta credentials is determined by directory memberships\. If they are a member of an Active Directory or Okta group that has been assigned Pro, they are Pro\. If they are a member of an Active Directory or Okta group that has been assigned Basic, they are Basic\. Users without Pro or Basic permissions can't sign into Amazon Chime\.
+1. Choose **Assign**\.
 
-## Inviting and suspending users<a name="invite-users-team"></a>
+### Enterprise Active Directory or Enterprise OpenID Connect \(Okta\) accounts<a name="manage-AD-enterprise-permissions"></a>
 
-Use the following information to invite or suspend users from your Amazon Chime account\. The procedures are different for Team accounts and Enterprise accounts\.
+If your users sign in with Active Directory or Okta credentials, manage their permissions by making them members of a directory group that has Pro or Basic permissions assigned to it\.
 
-### Team accounts<a name="invite-team"></a>
+To assign Pro permissions to a user, make them a member of an Active Directory or Okta group that you have assigned Pro permissions to\. To assign Basic permissions to a user, make them a member of a group that you have assigned Basic permissions to\. Users who don't have either Pro or Basic permissions aren't able to sign into Amazon Chime\.
 
-With a Team account, you can use the Amazon Chime console to invite users from any email domain\.
+## Managing user access<a name="manage-user-access"></a>
+
+If you administer an Amazon Chime account, you can invite users to allow to them to sign in to your account\. Enterprise account administrators can suspend user access to prevent them from signing in to the account\.
+
+### Inviting and removing Team account users<a name="invite-remove-team-user"></a>
+
+If you administer a Team account, use the Amazon Chime console to invite users from any email domain\.
 
 **Note**  
-A user's 30\-day trial ends when they accept the invitation\.
+A user's free 30\-day Pro trial ends when they accept your invitation\.
 
 **To invite users to a Team account**
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. On the **Accounts** page, select the name of the Team account\.
+1. For **Accounts**, choose the name of the Team account\.
 
-1. On the **Users** page, choose **Invite users**\.
+1. Choose **Users**, **Invite users**\.
 
-1. Type the email addresses of the users to invite \(separate multiple email addresses with a semicolon **;**\) and choose **Invite users**\.
+1. Enter the email addresses of the users to invite, separating multiple email addresses with a semicolon \(**;**\)\.
 
-Use the following procedure to remove users from a Team account\. This disassociates the user from the account and removes any permissions that you purchased for them\. The user can still access Amazon Chime, but is no longer a paid member of your Amazon Chime account\. The user can no longer use autocomplete in **Contacts** to find new Team users\.
+1. Choose **Invite users**\.
+
+The following procedure disassociates users from your Team account by removing any Pro or Basic permissions assigned to them\. Removed users can still sign in to Amazon Chime, but they are no longer paid members of your Amazon Chime account\.
 
 **To remove users from a Team account**
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. On the **Accounts** page, select the name of the Team account\.
+1. For **Accounts**, choose the name of the Team account\.
 
-1. On the **Users** page, select the users to remove and choose **Actions**, **Remove user**\.
+1. Choose **Users**\. 
 
-### Enterprise accounts<a name="invite-enterprise"></a>
+1. Select the users to remove and choose **Actions**, **Remove user**\.
 
-With an Enterprise account, any users that register for Amazon Chime with an email address for your claimed domains are automatically added to your account\. If you configured Active Directory or Okta, the user must not only have an email address that uses one of your claimed domains, but they must also be members of the directory you configured for Amazon Chime\.
+Any Pro or Basic permissions assigned to the users are removed\. The users can no longer use autocomplete to find new Team users in their **Contacts**\.
+
+### Inviting and suspending Enterprise account users<a name="invite-suspend-enterprise-user"></a>
+
+If you administer an Enterprise account, any users that register for Amazon Chime with an email address from your claimed domains are automatically added to your account\. If you configured Active Directory or Okta, the users must also be members of the directory group you configured for Amazon Chime\.
 
 **To invite users to an Enterprise account**
 + Send an invitation email to the users in your organization and instruct them to follow the steps in [Create an Amazon Chime account](https://docs.aws.amazon.com/chime/latest/ug/chime-create-account.html) in the *Amazon Chime User Guide*\.
 
-Users use an email address with the one of the domains that you claimed for your account\. After your users complete the steps to create their Amazon Chime accounts, they automatically appear on the **Users** page for the Enterprise account\.
+Users sign in with an email address from one of the domains that you claimed for your account\. After they complete the steps to create their Amazon Chime user accounts, they automatically appear under your Enterprise account **Users** in the Amazon Chime console\.
 
-Use the following procedure to suspend users from an Enterprise account\. This prevents users from logging in to Amazon Chime\.
+The following procedure suspends users from an Enterprise account that does not have Active Directory or Okta configured\. This prevents the users from signing in to Amazon Chime\.
 
 **To suspend users from an Enterprise account**
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
-1. On the **Accounts** page, select the name of the Enterprise account\.
+1. For **Accounts**, choose the name of the Enterprise account\.
 
-1. On the **Users** page, select the users to suspend and choose **Actions**, **Suspend user**\.
+1. Choose **Users**\.
 
-1. Select the check box, and choose **Suspend**\.
+1. Select the users to suspend and choose **Actions**, **Suspend user**\.
+
+1. Select the check box and choose **Suspend**\.
+
+If you have Active Directory or Okta configured for your Enterprise account, use the following procedure to suspend users\.
 
 **To suspend users from an Enterprise Active Directory or OpenID Connect \(Okta\) account**
-+ Choose one of the following options:
-  + Suspend or mark the user inactive from your Active Directory or Okta Administrator Dashboard\.
-  + Make sure that the user is not in an Active Directory group that has Basic or Pro permissions\.
++ Do one of the following:
+  + From your Active Directory or Okta Administrator Dashboard, suspend the user or mark them inactive\.
+  + Remove the user from any Active Directory group that has Basic or Pro permissions assigned to it\.

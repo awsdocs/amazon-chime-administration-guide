@@ -1,17 +1,12 @@
 # Managing your Amazon Chime accounts<a name="manage-chime-account"></a>
 
-If you are using Amazon Chime as an individual user or as a group with no administrators, and you want to expand your pilot or proof of concept to include administrator functionality or you want to buy Amazon Chime Pro, you must create an Amazon Chime account in the AWS Management Console\. You can decide whether to create a Team account or Enterprise account\. 
+You can use Amazon Chime as an individual user or as a group with no administrators\. But if you want to add administrator functionality or purchase Amazon Chime Pro, you must create an Amazon Chime account in the AWS Management Console\. To learn how to create an Amazon Chime administrator account, or for more information about purchasing Amazon Chime Pro, see [Getting started](getting-started.md)\.
 
-A Team account is the easiest way to start inviting users to your organization and grant them Amazon Chime Pro permissions\. You only pay for users when they host meetings\. You don’t have to claim a domain, and you can invite users from any email domain that hasn't been claimed by another company\. Everyone in the same Team account is able to search and locate other registered Amazon Chime users in the team\. A Team account is also the right choice for paying for Pro users outside of your organization\.
-
-An Enterprise account provides more control over your users from your company domains\. It includes the ability to connect to your own identity provider or Okta SSO to authenticate and assign user permissions\. If you're using your own identity provider, note that Amazon Chime supports Microsoft Active Directory\.
-
-Enterprise accounts provide full management of users within your account\. This ensures that all users joining Amazon Chime through your claimed domains are included in your centrally managed Amazon Chime account\. Enterprise accounts require claiming at least one email domain\. Enterprise administrators can suspend and activate users, and use the full administrative capabilities of Amazon Chime, such as preventing specific users from signing in\. Enterprise accounts simplify the process of adding users and are required for managing your users through a supported directory integration\. 
-
-**Note**  
-You can convert your Team account to an Enterprise account by claiming one or more email domains\. After your account is converted, the ability to connect an Active Directory instance through AWS Directory Service becomes available\. You can decide whether to continue to have your users sign in with Login with Amazon, or connect and authenticate via their Active Directory credentials\. If you don't connect to an Active Directory, your users sign in with Login with Amazon \(or an Amazon\.com account\)\. When Active Directory is set up, your users authenticate with their Active Directory credentials\.
+For more information about the different types of Amazon Chime administrator accounts, see [Choosing between an Amazon Chime Team account or Enterprise account](choose-team-enterprise-account.md)\. For more information about managing an existing administrator account, see the following topics\.
 
 **Topics**
++ [Choosing between an Amazon Chime Team account or Enterprise account](choose-team-enterprise-account.md)
++ [Converting a Team account to an Enterprise account](convert-team-to-enterprise.md)
 + [Renaming your account](rename-account.md)
 + [Deleting your account](enterprise-account.md)
 + [Managing meeting settings](mtg-settings.md)

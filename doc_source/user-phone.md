@@ -47,6 +47,8 @@ Change the calling and SMS permissions for a user from the Amazon Chime console\
 
 1. Select the desired calling and SMS permissions for the user, and choose **Save**\.
 
+For more information about how users can dial phone numbers and send text messages from Amazon Chime, see [Dialing phone numbers with Amazon Chime](https://docs.aws.amazon.com/chime/latest/ug/phone.html) in the *Amazon Chime User Guide*\.
+
 ## Unassigning phone numbers from users<a name="unassign-phone"></a>
 
 Unassign a user's phone number using the Amazon Chime console\.

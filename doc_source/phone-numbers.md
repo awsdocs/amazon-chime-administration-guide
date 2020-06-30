@@ -2,17 +2,16 @@
 
 Use the Amazon Chime console to provision phone numbers\. Choose from Amazon Chime Business Calling or Amazon Chime Voice Connector phone numbers\.
 
-Amazon Chime Business Calling lets you provision your phone numbers and assign them to your existing Amazon Chime users\. You can then grant your users permissions to send and receive phone calls and text messages using Amazon Chime\.
+**Amazon Chime Business Calling**  
+Lets your users send and receive phone calls and text messages directly from Amazon Chime\. Provision your phone numbers in the Amazon Chime console or port in existing phone numbers\. Assign the phone numbers to your Amazon Chime users and grant them permissions to send and receive phone calls and text messages using Amazon Chime\.
+
+**Amazon Chime Voice Connector**  
+Provides SIP trunking service for an existing phone system\. Port in existing phone numbers or provision new phone numbers in the Amazon Chime console\. Use the Amazon Chime Voice Connector phone numbers for inbound or outbound calling, or both\. For more information, see [Managing Amazon Chime Voice Connectors](voice-connectors.md)\.
 
 **Note**  
-Text messaging to and from short codes or short numbers is not supported\.
+Amazon Chime does not replace your telephone capabilities\. For example, it cannot be used for emergency calling\. Text messaging to and from short codes or short numbers is not supported\. 
 
-You can integrate an Amazon Chime Voice Connector with an existing phone system\. You can also use the Amazon Chime console to provision phone numbers for your Amazon Chime Voice Connector\. For more information, see [Managing Amazon Chime Voice Connectors](voice-connectors.md)\.
-
-**Note**  
-Amazon Chime does not replace your telephone capabilities\. For example, it cannot be used for emergency calling\.
-
-There are bandwidth requirements for using Amazon Chime Business Calling and integrating Amazon Chime Voice Connector\. For information, see [Bandwidth requirements](network-config.md#bandwidth)\.
+There are bandwidth requirements for using Amazon Chime Business Calling and integrating an Amazon Chime Voice Connector\. For information, see [Bandwidth requirements](network-config.md#bandwidth)\.
 
 **Topics**
 + [Provisioning phone numbers](provision-phone.md)

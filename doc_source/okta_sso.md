@@ -3,7 +3,7 @@
 If you have an Enterprise account, you can connect to Okta SSO to authenticate and assign user permissions\.
 
 **Note**  
-If you need to create an Enterprise account, which allows you to manage all users within a given set of email address domains, see [Step 2 \(optional\): Configuring account settings](getting-started.md#acct-settings)\.
+If you need to create an Enterprise account, which allows you to manage all users within a given set of email address domains, see [Claiming a domain](claim-domain.md)\.
 
 Connecting Amazon Chime to Okta requires configuring two applications in the Okta Administration Console\. The first application is manually configured, and uses OpenID Connect to authenticate users to the Amazon Chime service\. The second application is available as **Amazon Chime SCIM Provisioning** in the Okta Integration Network \(OIN\)\. It is configured to push updates to Amazon Chime about changes to users and groups\.
 
