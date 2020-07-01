@@ -63,6 +63,7 @@ Amazon's trademarks and trade dress may not be used in
 + [Managing Amazon Chime Voice Connectors](voice-connectors.md)
    + [Creating an Amazon Chime Voice Connector](create-voicecon.md)
    + [Editing Amazon Chime Voice Connector settings](edit-voicecon.md)
+      + [Setting up emergency call routing numbers for your Amazon Chime Voice Connector](chime-voice-connector-emergency-calling.md)
    + [Assigning and unassigning Amazon Chime Voice Connector phone numbers](assign-voicecon.md)
    + [Deleting an Amazon Chime Voice Connector](delete-voicecon.md)
    + [Managing Amazon Chime Voice Connector groups](voice-connector-groups.md)

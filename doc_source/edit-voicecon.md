@@ -47,6 +47,8 @@ You can also enable media streaming from your Amazon Chime Voice Connector to Am
 
    1. Choose **Save**\.
 
+   1. \(Optional\) For **Emergency calling**, choose **Add** to add emergency call routing numbers that you have obtained from a third\-party emergency service provider\. For more information, see [Setting up emergency call routing numbers for your Amazon Chime Voice Connector](chime-voice-connector-emergency-calling.md)\.
+
    1. \(Optional\) For **Streaming**, choose **Start** to send audio to a Kinesis Video Stream, then choose **Save**\.
 
    1. Choose **Phone numbers**\.
