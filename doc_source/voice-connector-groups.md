@@ -1,14 +1,14 @@
 # Managing Amazon Chime Voice Connector groups<a name="voice-connector-groups"></a>
 
-You can create Amazon Chime Voice Connector groups in your account and assign Amazon Chime Voice Connectors to them\. You can also provision phone numbers for your Amazon Chime Voice Connector group from your Amazon Chime **Phone number management** inventory\. For more information, see [Provisioning phone numbers](provision-phone.md)\.
-
-You can include in your group Amazon Chime Voice Connectors that are created in different AWS Regions\. This allows incoming calls to fail over across Regions, which creates a fault\-tolerant mechanism for fallback in case of availability events\.
+**How an Amazon Chime Voice Connector group works**  
+You can create an Amazon Chime Voice Connector group and add Amazon Chime Voice Connectors to it that are created in different AWS Regions\. This allows incoming calls to fail over across Regions, which creates a fault\-tolerant mechanism for fallback in case of availability events\.
 
 For example, an Amazon Chime Voice Connector group is created with two Amazon Chime Voice Connectors assigned to it\. One Amazon Chime Voice Connector is in the US East \(N\. Virginia\) Region, and the other Amazon Chime Voice Connector is in the US West \(Oregon\) Region\.
 
 An incoming call is placed to a phone number associated with the Amazon Chime Voice Connector in the US East \(N\. Virginia\) Region\. However, there is a connectivity issue in that Region, so the call is then routed through the US West \(Oregon\) Region\.
 
-For more information about creating Amazon Chime Voice Connectors in different AWS Regions, see [Managing Amazon Chime Voice Connectors](voice-connectors.md)\.
+**Get started with an Amazon Chime Voice Connector group**  
+To get started, first create Amazon Chime Voice Connectors in different AWS Regions\. Then, create an Amazon Chime Voice Connector group and assign the Amazon Chime Voice Connectors to it\. You can also provision phone numbers for your Amazon Chime Voice Connector group from your Amazon Chime **Phone number management** inventory\. For more information, see [Provisioning phone numbers](provision-phone.md)\. For more information about creating Amazon Chime Voice Connectors in different AWS Regions, see [Managing Amazon Chime Voice Connectors](voice-connectors.md)\.
 
 **Topics**
 + [Creating an Amazon Chime Voice Connector group](#create-voicecon-group)

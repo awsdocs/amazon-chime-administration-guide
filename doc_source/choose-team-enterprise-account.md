@@ -12,4 +12,4 @@ With an Enterprise account, you have more control over the users from your organ
 
 To create an Enterprise account, you must claim at least one email domain\. This ensures that all users who sign in to Amazon Chime using your claimed domains are included in your centrally managed Amazon Chime account\. Enterprise accounts are required for managing your users through a supported directory integration\. For more information, see [Claiming a domain](claim-domain.md) and [Connecting to your Active Directory](active_directory.md)\.
 
-You can also manage user activation and suspension from your Enterprise account\. For more information, see [Managing user access and permissions](manage-access.md)\.
+You can also manage user activation and suspension from your Enterprise account\. For more information, see [Managing user permissions and access](manage-access.md)\.

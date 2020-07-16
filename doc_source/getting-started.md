@@ -10,6 +10,7 @@ To continue using the Amazon Chime Pro version after the 30\-day free trial peri
 + [Step 2 \(optional\): Configuring account settings](#acct-settings)
 + [Step 3: Adding users to your account](#add-users)
 + [\(Optional\) Setting up phone numbers for your Amazon Chime account](#add-phone-options)
++ [\(Optional\) Configuring your conference rooms to use Amazon Chime](#conference-room-options)
 
 ## Step 1: Creating an Amazon Chime administrator account<a name="create-account"></a>
 
@@ -102,3 +103,7 @@ Lets your users send and receive phone calls and text messages directly from Ama
 
 **Amazon Chime Voice Connector**  
 Provides SIP trunking service for an existing phone system\. Port in existing phone numbers or provision new phone numbers in the Amazon Chime console\. For more information, see [Managing Amazon Chime Voice Connectors](voice-connectors.md)\.
+
+## \(Optional\) Configuring your conference rooms to use Amazon Chime<a name="conference-room-options"></a>
+
+Amazon Chime can integrate with your in\-room video conference systems\. For more information, see [Conference room configuration](configure-rooms.md) and [Setting up Amazon Chime on Dolby hardware](setup-dolby.md)\.

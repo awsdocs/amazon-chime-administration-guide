@@ -1,17 +1,15 @@
 # Editing Amazon Chime Voice Connector settings<a name="edit-voicecon"></a>
 
-To finish setting up your Amazon Chime Voice Connector, edit the settings from the Amazon Chime console\.
+To finish setting up your Amazon Chime Voice Connector, edit the settings from the Amazon Chime console\. Edit the termination and origination settings to allow outbound or inbound calls, or both\.
 
-Set up your calling plan and caller ID options under the termination settings\. You can also specify the IP addresses allowed to make calls using your Amazon Chime Voice Connector, and require credentials for making outbound calls to your Amazon Chime Voice Connector\. If no credentials are specified, no authentication is required\.
+**Termination settings**  
+Termination settings apply to outbound calls from your Amazon Chime Voice Connector\. Here, set up your calling plan and caller ID options\. You can also specify the IP addresses allowed to make outbound calls using your Amazon Chime Voice Connector, and require credentials for making outbound calls to your Amazon Chime Voice Connector\. If no credentials are specified, no authentication is required\.
 
-Under the origination settings, configure inbound routes for your SIP hosts to receive inbound calls\. Inbound calls are routed to hosts in your SIP infrastructure by the priority and weight you set for each host\. Calls are routed in priority order first, with 1 being the highest priority\. If hosts are equal in priority, calls are distributed among them based on their relative weight\.
+**Origination settings**  
+Origination settings apply to inbound calls to your Amazon Chime Voice Connector\. Here, configure inbound routes for your SIP hosts to receive inbound calls\. Inbound calls are routed to hosts in your SIP infrastructure by the priority and weight you set for each host\. Calls are routed in priority order first, with 1 being the highest priority\. If hosts are equal in priority, calls are distributed among them based on their relative weight\.
 
 **Note**  
 Encryption\-enabled Voice Connectors use TLS \(TCP\) protocol for all calls\.
-
-You can choose to send logs from your Amazon Chime Voice Connector to CloudWatch Logs\. For more information, see [CloudWatch logs for Amazon Chime](monitoring-cloudwatch.md#cw-logs)\.
-
-You can also enable media streaming from your Amazon Chime Voice Connector to Amazon Kinesis\. For more information, see [Streaming Amazon Chime Voice Connector media to Kinesis](start-kinesis-vc.md)\.
 
 **To edit Amazon Chime Voice Connector settings**
 

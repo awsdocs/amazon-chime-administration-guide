@@ -15,7 +15,7 @@ After you complete the [Prerequisites](prereqs.md), you can create and configure
 If you're ready to get started now, see the following tutorial:
 + [Getting started](getting-started.md)
 
-For more information on user access and permissions, see [Managing user access and permissions](manage-access.md)\. For more information on the features that users with Pro and Basic permissions can access, see [Plans and pricing](https://aws.amazon.com/chime/pricing)\.
+For more information on user access and permissions, see [Managing user permissions and access](manage-access.md)\. For more information on the features that users with Pro and Basic permissions can access, see [Plans and pricing](https://aws.amazon.com/chime/pricing)\.
 
 ## Pricing<a name="pricing"></a>
 

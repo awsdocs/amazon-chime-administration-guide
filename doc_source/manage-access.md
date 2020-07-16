@@ -1,4 +1,4 @@
-# Managing user access and permissions<a name="manage-access"></a>
+# Managing user permissions and access<a name="manage-access"></a>
 
 Manage which features your Amazon Chime users can access by assigning them Pro or Basic permissions\. Users with Basic permissions cannot host meetings, but they can attend meetings and use chat\. For more information about the features that users with Pro and Basic permissions can access, see [Plans and pricing](https://aws.amazon.com/chime/pricing)\.
 
@@ -78,7 +78,7 @@ Any Pro or Basic permissions assigned to the users are removed\. The users can n
 If you administer an Enterprise account, any users that register for Amazon Chime with an email address from your claimed domains are automatically added to your account\. If you configured Active Directory or Okta, the users must also be members of the directory group you configured for Amazon Chime\.
 
 **To invite users to an Enterprise account**
-+ Send an invitation email to the users in your organization and instruct them to follow the steps in [Create an Amazon Chime account](https://docs.aws.amazon.com/chime/latest/ug/chime-create-account.html) in the *Amazon Chime User Guide*\.
++ Send an invitation email to the users in your organization and instruct them to follow the steps in [Creating an Amazon Chime account](https://docs.aws.amazon.com/chime/latest/ug/chime-create-account.html) in the *Amazon Chime User Guide*\.
 
 Users sign in with an email address from one of the domains that you claimed for your account\. After they complete the steps to create their Amazon Chime user accounts, they automatically appear under your Enterprise account **Users** in the Amazon Chime console\.
 

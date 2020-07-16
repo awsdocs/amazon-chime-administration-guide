@@ -48,7 +48,7 @@ Amazon's trademarks and trade dress may not be used in
    + [Setting up the Amazon Chime Meetings App for Slack](config-slack.md)
 + [Managing users](manage-users.md)
    + [Viewing user details](user-details.md)
-   + [Managing user access and permissions](manage-access.md)
+   + [Managing user permissions and access](manage-access.md)
    + [Managing user phone numbers](user-phone.md)
    + [Changing personal meeting PINs](change-PINs.md)
    + [Managing Pro trials](manage-protrials.md)

@@ -16,7 +16,7 @@ Alternately, you can associate Dolby hardware with a single, dedicated user\. As
 
    1. Enter the Active Directory group name that contains the users who have permissions to use their Amazon Chime to set up Dolby devices in conference rooms \(for example, IT\-AudioVisual\-owners\)\.
 **Note**  
-These users must have Basic or Pro permissions to use Amazon Chime and be a part of an Active Directory group\. For more information, see [Managing user access and permissions](manage-access.md)\.
+These users must have Basic or Pro permissions to use Amazon Chime and be a part of an Active Directory group\. For more information, see [Managing user permissions and access](manage-access.md)\.
 
 1. Create a profile for the conference room:
 
