@@ -1,10 +1,13 @@
 # Managing Amazon Chime Voice Connectors<a name="voice-connectors"></a>
 
 **What is an Amazon Chime Voice Connector?**  
-An Amazon Chime Voice Connector provides SIP trunking service for your existing phone system\. You can manage your Amazon Chime Voice Connector from the Amazon Chime console, and access it over your internet connection or with AWS Direct Connect\. For more information, see [What is AWS Direct Connect?](https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html) in the *AWS Direct Connect User Guide*\.
+An Amazon Chime Voice Connector provides Session Initiation Protocol \(SIP\) trunking service for your existing phone system\. You can manage your Amazon Chime Voice Connector from the Amazon Chime console, and access it over your internet connection or with AWS Direct Connect\. For more information, see [What is AWS Direct Connect?](https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html) in the *AWS Direct Connect User Guide*\.
 
 **Amazon Chime Voice Connector outbound and inbound calling**  
 After you create an Amazon Chime Voice Connector, edit the termination and origination settings to allow outbound or inbound calls, or both\. Then, assign phone numbers to the Amazon Chime Voice Connector\. You can port in existing phone numbers or provision new phone numbers in the Amazon Chime console\. For more information, see [Porting existing phone numbers](porting.md), [Provisioning phone numbers](provision-phone.md), and [Assigning and unassigning Amazon Chime Voice Connector phone numbers](assign-voicecon.md)\.
+
+**Note**  
+Amazon Chime Voice Connectors don’t support international calls\. Instead, you use a local number to dial internationally, and you pay a per\-minute rate\. For a current list of the countries in which Amazon Chime is available, and the call rates for each country, see [https://aws\.amazon\.com/chime/call\-me\-rates/](http://aws.amazon.com/chime/call-me-rates/.)\.
 
 **Amazon Chime Voice Connector groups**  
 You can also create an Amazon Chime Voice Connector group and add Amazon Chime Voice Connectors to it that are created in different AWS Regions\. This creates a fault\-tolerant mechanism for fallback if availability events occur\. For more information, see [Managing Amazon Chime Voice Connector groups](voice-connector-groups.md)\.
@@ -23,7 +26,7 @@ Optionally, you can send logs from your Amazon Chime Voice Connector to CloudWat
 
 ## Before you begin<a name="vc-prereq"></a>
 
-To use an Amazon Chime Voice Connector, you must have an IP Private Branch Exchange \(PBX\), Session Border Controller \(SBC\), or other voice infrastructure with internet access that supports Session Initiation Protocol \(SIP\)\. Make sure to confirm that you have sufficient bandwidth to support peak call volume\. For information about bandwidth requirements, see [Bandwidth requirements](network-config.md#bandwidth)\.
+To use an Amazon Chime Voice Connector, you must have an IP Private Branch Exchange \(PBX\), Session Border Controller \(SBC\), or other voice infrastructure with internet access that supports Session Initiation Protocol \(SIP\)\. Make sure that you have enough bandwidth to support peak call volume\. For information about bandwidth requirements, see [Bandwidth requirements](network-config.md#bandwidth)\.
 
 To ensure security for calls sent from AWS to your on\-premises phone system, we recommend configuring an SBC between AWS and your phone system\. Allowlist SIP traffic to the SBC from the Amazon Chime Voice Connector signaling and media IP addresses\. For more information, see the recommended ports and protocols for [Amazon Chime Voice Connector](network-config.md#cvc)\.
 

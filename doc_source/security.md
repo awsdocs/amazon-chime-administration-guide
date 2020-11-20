@@ -15,3 +15,4 @@ This documentation helps you understand how to apply the shared responsibility m
 + [Compliance validation for Amazon Chime](compliance.md)
 + [Resilience in Amazon Chime](disaster-recovery-resiliency.md)
 + [Infrastructure security in Amazon Chime](infrastructure-security.md)
++ [Understanding Amazon Chime automatic updates](chime-auto-update.md)

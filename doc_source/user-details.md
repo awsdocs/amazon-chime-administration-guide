@@ -2,7 +2,7 @@
 
 In the Amazon Chime console, under **Users**, you can view a list of all the users in your account and see their user details\. Search for a specific user by their email address and choose their name to see their user details\. Under **User details**, you can see detailed information about the user, and make updates to their user account\.
 
-The following table lists the user details that you can view in the console\.
+The following table lists the user details that appear in the console\.
 
 **Note**  
 Complete user details don't appear for Team account users until after they accept their invites\.

@@ -77,7 +77,7 @@ You can opt to receive media quality metric logs for your Amazon Chime Voice Con
 | --- | --- | 
 |  voice\_connector\_id  |  The Amazon Chime Voice Connector ID carrying the call\.  | 
 |  event\_timestamp  |  The time when the metrics are emitted, in number of milliseconds since the UNIX epoch \(midnight on January 1, 1970\) in UTC\.  | 
-|  call\_id  |  The call ID\.  | 
+|  call\_id  |  Corresponds to the Transaction ID\.  | 
 |  from\_sip\_user  |  The initiating user for the call\.  | 
 |  from\_country  |  The initiating country for the call\.  | 
 |  to\_sip\_user  |  The receiving user for the call\.  | 
