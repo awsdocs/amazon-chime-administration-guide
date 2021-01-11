@@ -1,6 +1,10 @@
-# Enabling SIP rules<a name="enable-sip-rule"></a>
+# Enabling a SIP rule<a name="enable-sip-rule"></a>
 
-You can enable any rule created by any other administrator\. As a best practice, view the rule's details before you enable it\. For more information, see [ Viewing SIP rules  Other administrators can see your SIP rules, and you can see theirs\. You can also view the details of any SIP rule, and other administrators can view the details of yours\.  In the navigation pane, choose **SIP rules**\. The **Sip rules** page appears and displays all the rules in your organization\. To view a rule's details, choose the rule's hyperlinked name\.  ](viewing-sip-rules.md#viewing-sip-rules.title)\.
+You can enable any SIP rule, even rules created by another administrator\. As a best practice, view the rule's details before you enable it\. For more information, see [Viewing a SIP rule](view-a-rule.md)\.
+
+**To enable a SIP rule**
+
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. In the navigation pane, choose **SIP rules**\.
 
@@ -14,14 +18,14 @@ You can enable any rule created by any other administrator\. As a best practice,
 
    **Use the Actions list**
 
-   1. Scroll over and choose the radio button next to the rule's hypelinked name\.
+   1. Scroll over and choose the option button next to the rule's name\.
 
-   1. Scroll up, open the **Actions** list and choose **Enable**, then go to step 4\.
+   1. Scroll up, open the **Actions** list and choose **Enable**, then go to step 5\.
 
    **Use the Enable button**
 
-   1. Choose the rule's hyperlinked name\.
+   1. Choose the rule's name\.
 
-   1. Choose **Enable**, located next to the **Edit** button, then go to step 4\.
+   1. Choose **Enable**, located next to **Edit**, then go to step 5\.
 
-1. When you choose **Enable** using either method, The **Enable rule\(s\)** dialog box appears\. Choose the ****I understand that the rule\(s\) listed here will trigger the Sip media application\.**** checkbox, then choose **Enable**\. 
+1. When you choose **Enable** using either method described in step 4, the **Enable rule\(s\)** dialog box appears\. Select ****I understand that the rule\(s\) listed here will trigger the SIP media application****, then choose **Enable**\. 

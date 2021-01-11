@@ -359,6 +359,7 @@ The following is example data for this event\.
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
     "externalUserId": "87654321-4321-4321-1234-111122223333"
+    
     "networkType" "Voip"
   }
 }

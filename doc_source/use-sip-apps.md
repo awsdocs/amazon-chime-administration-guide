@@ -1,12 +1,12 @@
-# Using SIP applications<a name="use-sip-apps"></a>
+# Using SIP media applications<a name="use-sip-apps"></a>
 
-The steps in the following sections explain how to create, view, update, and delete SIP media applications\. As you go, remember that you can view the details of any application, and other administrators can view yours\.
+You can create, view, update, and delete SIP media applications\. Be aware that you can view the details of any application, and other administrators can view your applications\.
 
 **Note**  
-You need an AWS Lambda before you can create a SIP application\. For more information about Lambdas, see [ Getting started with AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html) and [ Building Lambdas for SIP media applications SDK ](https://docs.aws.amazon.com/chime/latest/dg/build-lambdas-for-sip.html)\.
+You need an AWS Lambda function before you can create a SIP media application\. For more information, see [ Getting started with AWS Lambda](https://docs.aws.amazon.com/https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html)\.
 
 **Topics**
-+ [Creating a SIP application](create-sip-app.md)
-+ [Viewing SIP applications](view-sip-app.md)
-+ [Updating SIP applications](update-sip-app.md)
-+ [Deleting SIP applications](delete-sip-app.md)
++ [Creating a SIP media application](create-sip-app.md)
++ [Viewing a SIP media application](view-sip-app.md)
++ [Updating a SIP media application](update-sip-app.md)
++ [Deleting a SIP media application](delete-sip-app.md)

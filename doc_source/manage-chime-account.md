@@ -10,7 +10,7 @@ For more information about the different types of Amazon Chime administrator acc
 + [Renaming your account](rename-account.md)
 + [Deleting your account](enterprise-account.md)
 + [Managing meeting settings](mtg-settings.md)
-+ [Retention](archive-retention.md)
++ [Managing chat retention policies](archive-retention.md)
 + [Managing messages](message-settings.md)
 + [Claiming a domain](claim-domain.md)
 + [Connecting to your Active Directory](active_directory.md)

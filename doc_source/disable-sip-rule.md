@@ -1,6 +1,10 @@
-# Disabling SIP rules<a name="disable-sip-rule"></a>
+# Disabling a SIP rule<a name="disable-sip-rule"></a>
 
-You disable rules when you don't need the connection that the rule provides, and also before you delete a rule\. You can disable any rule created by any other administrator\. As a best practice, view the rule's details before you disable it, and check to ensure that your won't disrupt the call flow\. For more information, see [ Viewing SIP rules  Other administrators can see your SIP rules, and you can see theirs\. You can also view the details of any SIP rule, and other administrators can view the details of yours\.  In the navigation pane, choose **SIP rules**\. The **Sip rules** page appears and displays all the rules in your organization\. To view a rule's details, choose the rule's hyperlinked name\.  ](viewing-sip-rules.md#viewing-sip-rules.title)\.
+Disable SIP rules when you don't need the connection that the rule provides\. Also, you must disable a SIP rule before you delete that rule or an associated SIP media application\. You can disable any rule created by any administrator\. As a best practice, view the rule's details before you disable it, and check to ensure that disabling the rule won't disrupt a call flow\. For more information, see [Viewing a SIP rule](view-a-rule.md)
+
+**To disable a SIP rule**
+
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. In the navigation pane, choose **SIP rules**\.
 
@@ -14,18 +18,18 @@ You disable rules when you don't need the connection that the rule provides, and
 
    **Use the Actions list**
 
-   1. Scroll over and choose the radio button next to the rule's hypelinked name\.
+   1. Scroll over and choose the option button next to the rule's name\.
 
    1. Scroll up, open the **Actions** list and choose **Disable**\.
 
-      The **Disable rule\(s\)** dialog box appears\. Go to step 4\.
+      The **Disable rule\(s\)** dialog box appears\. Go to step 5\.
 
    **Use the Disable button**
 
-   1. Scroll over and select the rule's hyperlinked name\.
+   1. Scroll over and select the rule's name\.
 
-   1. Choose **Disable**, located next to the **Edit** button\.
+   1. Choose **Disable**, located next to **Edit**\.
 
-      The **Disable rule\(s\)** dialog box appears\. Go to step 4\.
+      The **Disable rule\(s\)** dialog box appears\. Go to step 5\.
 
-1. Choose the **I understand that this action will stop above rules triggering the Sip media application** checkbox, then choose **Disable**\.
+1. Select **I understand that this action will stop above rules triggering the SIP media application**, then choose **Disable**\.

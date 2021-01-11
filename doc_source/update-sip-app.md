@@ -1,14 +1,18 @@
-# Updating SIP applications<a name="update-sip-app"></a>
+# Updating a SIP media application<a name="update-sip-app"></a>
 
-You can update the name and Lambda ARN of your SIP applications\. You can't update the region\.
+You can update the name and Amazon Resource Name \(ARN\) of your Lambda function for your SIP media applications\. You can't update the AWS Region\.
+
+**To update a SIP media application**
+
+1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.
 
 1. In the navigation pane, choose **SIP media applications**\.
 
-   The **Sip media application** page appears\.
+   The **SIP media application** page appears\.
 
-1. Choose the hyperlinked name of the application that you want to update\.
+1. Choose the name of the application that you want to update\.
 
-   The application appears in its own page\.
+   The application appears on its own page\.
 
 1. Choose **Edit**\.
 
