@@ -10,7 +10,7 @@ You must be an AWS Lambda user before you can create SIP media applications\. Th
 
 For more information about AWS Lambda, see [ Getting started with AWS Lambda](https://docs.aws.amazon.com/https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html)\.
 
-To create SIP rules, you need private phone numbers or at least one Request URI hostname\. For more information about phone numbers, see [ Managing phone numbers](https://docs.aws.amazon.com/https://docs.aws.amazon.com/chime/latest/ag/phone-numbers.html)\. For more information about Request URI hostnames, see [Creating a SIP rule](create-sip-rule.md)\. 
+To create SIP rules, you need private phone numbers or at least one Request URI hostname\. For more information about phone numbers, see [ Managing phone numbers](https://docs.aws.amazon.com/chime/latest/ag/phone-numbers.html)\. For more information about Request URI hostnames, see [Creating a SIP rule](create-sip-rule.md)\. 
 
 **Topics**
 + [Understanding the SIP data models](understand-sip-data-models.md)
