@@ -1,6 +1,6 @@
 # Automating Amazon Chime with EventBridge<a name="automating-chime-with-cloudwatch-events"></a>
 
-Amazon EventBridge lets you automate your AWS services and respond automatically to system events, such as application availability issues or resource changes\. Events from AWS services are delivered to EventBridge in near real time\. You can write simple rules to specify the events that are of interest to you, and the automated actions to take when any of those events matches a rule\.
+Amazon EventBridge lets you automate your AWS services and respond automatically to system events, such as application availability issues or resource changes\. Events from AWS services are delivered to EventBridge in near real time\. Events are emitted on a best\-effort basis for Voice Connector streaming and Amazon Chime SDK events\. You can write simple rules to specify the events that are of interest to you, and the automated actions to take when any of those events matches a rule\.
 
 ## Automating Amazon Chime Voice Connectors with EventBridge<a name="events-cvc"></a>
 
