@@ -63,7 +63,7 @@ We recommend granting permissions through a group that contains all the users wh
 
    1. Under **Directory groups**, choose **Add new groups**\. 
 
-   1. Type the name of a directory group to add to Amazon Chime\. The name must be an exact match of one of the **Push Groups** configured previously in step 3\-f\.
+   1. Enter the name of a directory group to add to Amazon Chime\. The name must be an exact match of one of the **Push Groups** configured previously in step 3\-f\.
 
    1. Choose whether users in this group should receive **Basic** or **Pro** capabilities, and choose **Save**\. Repeat this process to configure additional groups\.
 **Note**  

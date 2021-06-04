@@ -13,7 +13,7 @@ To create an Enterprise account and benefit from the greater control that it pro
 1. On the **Domains** page, choose **Claim a new domain**\.
 
 1. For **Domain**, type the domain that your organization uses for email addresses\. Choose **Verify this domain**\.  
-![\[The Verify a new domain dialog box in the Amazon Chime console\]](http://docs.aws.amazon.com/chime/latest/ag/images/verify_new_domain_dialog.png)
+![\[The Verify a new domain dialog box in the Amazon Chime console\]](http://docs.aws.amazon.com/chime/latest/ag/images/verify_new_domain_dialog2.png)
 
 1. Follow the directions on the screen to add a TXT record to the DNS server for your domain\. In general, the process involves signing in to your domain's account, finding the DNS records for your domain, and adding a TXT record with the name and value provided by Amazon Chime\. For more information about updating the DNS records for your domain, see the documentation for your DNS provider or domain name registrar\.
 

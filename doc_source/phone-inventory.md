@@ -62,7 +62,10 @@ You can then view the details about your inventory phone numbers\. You can see w
 
 1. For **Actions**, choose **View details**\.
 
-If you have unassigned Amazon Chime Business Calling and Amazon Chime Voice Connector phone numbers, you can switch them from one product type to another\.
+If you have unassigned Amazon Chime Business Calling, Amazon Chime Voice Connector, or Amazon Chime SIP media application phone numbers, you can switch them from one product type to another\.
+
+**Note**  
+For non\-US numbers, you must use the SIP Media Application Dial\-In product type\.
 
 **To edit product types**
 
@@ -72,4 +75,4 @@ If you have unassigned Amazon Chime Business Calling and Amazon Chime Voice Conn
 
 1. Choose **Inventory**, and select the phone number or numbers to change product types for\.
 
-1. Select **Business Calling** or **Voice Connector**, and choose **Save**\.
+1. Select **Business Calling**, **Voice Connector**, or **SIP Media Application Dial\-In** and choose **Save**\.

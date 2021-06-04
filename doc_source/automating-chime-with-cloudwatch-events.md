@@ -1,6 +1,6 @@
 # Automating Amazon Chime with EventBridge<a name="automating-chime-with-cloudwatch-events"></a>
 
-Amazon EventBridge lets you automate your AWS services and respond automatically to system events, such as application availability issues or resource changes\. Events from AWS services are delivered to EventBridge in near real time\. Events are emitted on a best\-effort basis for Voice Connector streaming and Amazon Chime SDK events\. You can write simple rules to specify the events that are of interest to you, and the automated actions to take when any of those events matches a rule\.
+Amazon EventBridge lets you automate your AWS services and respond automatically to system events, such as application availability issues or resource changes\. AWS services deliver events to EventBridge in near real time\. Chime SDK services emit events on a best\-effort basis for Voice Connector streaming and Amazon Chime SDK events\. You can write simple rules to specify the events that interest you, and the automated actions to take when any of those events matches a rule\.
 
 ## Automating Amazon Chime Voice Connectors with EventBridge<a name="events-cvc"></a>
 
@@ -221,6 +221,8 @@ The following is example data for this event\.
     "eventType": "chime:MeetingStarted",
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
+    "externalMeetingId": "mymeeting",
+    "mediaRegion": "us-east-1"
   }
 }
 ```
@@ -247,6 +249,8 @@ The following is example data for this event\.
     "eventType": "chime:MeetingEnded",
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
+    "externalMeetingId": "mymeeting",
+    "mediaRegion": "us-east-1"
   }
 }
 ```
@@ -275,6 +279,7 @@ The following is example data for this event\.
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
     "externalUserId": "87654321-4321-4321-1234-111122223333",
+    "mediaRegion": "us-east-1"
   }
 }
 ```
@@ -303,6 +308,7 @@ The following is example data for this event\.
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
     "externalUserId": "87654321-4321-4321-1234-111122223333",
+    "mediaRegion": "us-east-1"
   }
 }
 ```
@@ -330,7 +336,8 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
-    "externalUserId": "87654321-4321-4321-1234-111122223333"
+    "externalUserId": "87654321-4321-4321-1234-111122223333",
+    "mediaRegion": "us-east-1"
   }
 }
 ```
@@ -358,9 +365,9 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
-    "externalUserId": "87654321-4321-4321-1234-111122223333"
-    
-    "networkType" "Voip"
+    "externalUserId": "87654321-4321-4321-1234-111122223333",    
+    "networkType": "Voip",
+    "mediaRegion": "us-east-1"
   }
 }
 ```
@@ -388,8 +395,9 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
-    "externalUserId": "87654321-4321-4321-1234-111122223333"
-    "networkType" "Voip"
+    "externalUserId": "87654321-4321-4321-1234-111122223333",
+    "networkType": "Voip",
+    "mediaRegion": "us-east-1"
   }
 }
 ```
@@ -417,8 +425,9 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
-    "externalUserId": "87654321-4321-4321-1234-111122223333"
-    "networkType" "Voip"
+    "externalUserId": "87654321-4321-4321-1234-111122223333",
+    "networkType": "Voip",
+    "mediaRegion": "us-east-1"
   }
 }
 ```
@@ -446,7 +455,8 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
-    "externalUserId": "87654321-4321-4321-1234-111122223333"
+    "externalUserId": "87654321-4321-4321-1234-111122223333",
+    "mediaRegion": "us-east-1"
   }
 }
 ```
@@ -474,7 +484,8 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
-    "externalUserId": "87654321-4321-4321-1234-111122223333"
+    "externalUserId": "87654321-4321-4321-1234-111122223333",
+    "mediaRegion": "us-east-1"
   }
 }
 ```
@@ -502,7 +513,8 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
-    "externalUserId": "87654321-4321-4321-1234-111122223333"
+    "externalUserId": "87654321-4321-4321-1234-111122223333",
+    "mediaRegion": "us-east-1"
   }
 }
 ```
@@ -530,7 +542,8 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
-    "externalUserId": "87654321-4321-4321-1234-111122223333"
+    "externalUserId": "87654321-4321-4321-1234-111122223333",
+    "mediaRegion": "us-east-1"
   }
 }
 ```
@@ -558,8 +571,9 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
-    "externalUserId": "87654321-4321-4321-1234-111122223333"
-    "networkType" "Voip"
+    "externalUserId": "87654321-4321-4321-1234-111122223333",
+    "networkType": "Voip",
+    "mediaRegion": "us-east-1"
   }
 }
 ```
@@ -587,8 +601,9 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
-    "externalUserId": "87654321-4321-4321-1234-111122223333"
-    "networkType" "Voip"
+    "externalUserId": "87654321-4321-4321-1234-111122223333",
+    "networkType": "Voip",
+    "mediaRegion": "us-east-1"
   }
 }
 ```
@@ -616,8 +631,9 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
-    "externalUserId": "87654321-4321-4321-1234-111122223333"
-    "networkType" "Voip"
+    "externalUserId": "87654321-4321-4321-1234-111122223333",
+    "networkType": "Voip",
+    "mediaRegion": "us-east-1"
   }
 }
 ```
@@ -645,7 +661,8 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
-    "externalUserId": "87654321-4321-4321-1234-111122223333"
+    "externalUserId": "87654321-4321-4321-1234-111122223333",
+    "mediaRegion": "us-east-1"
   }
 }
 ```
@@ -673,7 +690,8 @@ The following is example data for this event\.
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
-    "externalUserId": "87654321-4321-4321-1234-111122223333"
+    "externalUserId": "87654321-4321-4321-1234-111122223333",
+    "mediaRegion": "us-east-1"
   }
 }
 ```

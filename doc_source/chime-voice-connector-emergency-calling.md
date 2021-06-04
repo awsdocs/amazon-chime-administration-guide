@@ -3,10 +3,10 @@
 Amazon Chime does not offer emergency calling services, and is not responsible for routing calls to emergency services\. If you need to contact emergency services in the United States with Amazon Chime, you must obtain an emergency call routing number from a third\-party emergency service provider and provide it to Amazon Chime\. When you place a call to emergency services \(such as a 911 call\), Amazon Chime uses your emergency call routing number to route your call to your emergency services provider via the public switched telephone network \(PSTN\)\. Your third\-party emergency service provider then routes your call to emergency services\.
 
 **Note**  
-You must use an Amazon Chime Voice Connector for emergency calls\. Business Calling does not support emergency calls\.
+You must use an Amazon Chime Voice Connector for emergency calls\. Business Calling does not support emergency calls\. Also, make sure you have a US emergency number\. AWS does not support emergency numbers outside the US\. 
 
 **Setting up emergency call routing numbers requires that you perform the following prerequisites:**
-+ Obtain emergency call routing numbers from a third\-party emergency service provider\.
++ Obtain emergency call routing numbers from a third\-party emergency service provider\. Ensure they're US numbers\. 
 + Turn on and configure termination and origination settings for an Amazon Chime Voice Connector\. For more information, see [Editing Amazon Chime Voice Connector settings](edit-voicecon.md)\.
 
 **To set up emergency call routing numbers for your Amazon Chime Voice Connector**

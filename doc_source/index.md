@@ -1,7 +1,7 @@
 # Amazon Chime Administration Guide
 
 -----
-*****Copyright &copy; 2021 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
+*****Copyright &copy; Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
 
 -----
 Amazon's trademarks and trade dress may not be used in 
@@ -61,6 +61,16 @@ Amazon's trademarks and trade dress may not be used in
    + [Migrating users to another Team account](migrate-users.md)
 + [Managing phone numbers in Amazon Chime](phone-numbers.md)
    + [Provisioning phone numbers](provision-phone.md)
+   + [Requesting international phone numbers](request-intl-numbers.md)
+      + [Country requirements for phone numbers](phone-country-reqs.md)
+         + [Australia](order-port-australia.md)
+         + [Austria](order-port-austria.md)
+         + [Canada](order-port-canada.md)
+         + [Germany](order-port-germany.md)
+         + [New Zealand](order-port-nz.md)
+         + [Puerto Rico](order-port-pr.md)
+         + [Switzerland](order-port-switzerland.md)
+         + [United Kingdom](order-port-uk.md)
    + [Porting existing phone numbers](porting.md)
    + [Managing phone number inventory](phone-inventory.md)
    + [Updating outbound calling names](calling-name.md)

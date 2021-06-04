@@ -1,6 +1,6 @@
 # Managing phone numbers in Amazon Chime<a name="phone-numbers"></a>
 
-Use the Amazon Chime console to provision phone numbers\. Choose from Amazon Chime Business Calling or Amazon Chime Voice Connector phone numbers\.
+Use the Amazon Chime console to provision phone numbers\. Choose from Amazon Chime Business Calling, Amazon Chime Voice Connector, or Amazon Chime SIP media application phone numbers\.
 
 **Amazon Chime Business Calling**  
 Lets your users send and receive phone calls and text messages directly from Amazon Chime\. Provision your phone numbers in the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com), or port in existing phone numbers\. Assign the phone numbers to your Amazon Chime users and grant them permissions to send and receive phone calls and text messages using Amazon Chime\.  
@@ -16,6 +16,7 @@ There are bandwidth requirements for using Amazon Chime Business Calling and int
 
 **Topics**
 + [Provisioning phone numbers](provision-phone.md)
++ [Requesting international phone numbers](request-intl-numbers.md)
 + [Porting existing phone numbers](porting.md)
 + [Managing phone number inventory](phone-inventory.md)
 + [Updating outbound calling names](calling-name.md)

@@ -1,6 +1,6 @@
 # Preparing for setup<a name="prepare-setup"></a>
 
-There are two ways to set up Amazon Chime on Dolby hardware\. If your company has an Enterprise Active Directory account, you can set it up in a shared conference room that many attendees can use\. As a shared conference room device, organizers invite the conference room to a meeting\. Attendees in the room can join with a single tap\. When Alexa for Business is enabled for Dolby Voice Room, attendees can also join with a voice command using Alexa\.
+You have two ways to set up Amazon Chime on Dolby hardware\. If your company has an Enterprise Active Directory account, you can set it up in a shared conference room that many attendees can use\. As a shared conference room device, organizers invite the conference room to a meeting\. Attendees in the room can join with a single tap\. When Alexa for Business is enabled for Dolby Voice Room, attendees can also join with a voice command using Alexa\.
 
 Alternately, you can associate Dolby hardware with a single, dedicated user\. As a dedicated device, the Dolby Voice Room or Dolby Voice Huddle device is paired with an Amazon Chime profile\. This lets the user conveniently select a meeting to join, just like they would using a desktop or mobile client\. Dedicated devices can only be paired with registered profiles with either Basic or Pro permission\. Make sure that the user is registered before proceeding\.
 

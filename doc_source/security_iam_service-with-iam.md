@@ -50,8 +50,6 @@ Amazon Chime does not provide any service\-specific condition keys\. To see all 
 
 ### Examples<a name="security_iam_service-with-iam-id-based-policies-examples"></a>
 
-
-
 To view examples of Amazon Chime identity\-based policies, see [Amazon Chime identity\-based policy examples](security_iam_id-based-policy-examples.md)\.
 
 ## Amazon Chime resource\-based policies<a name="security_iam_service-with-iam-resource-based-policies"></a>

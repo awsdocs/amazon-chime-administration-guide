@@ -1,6 +1,6 @@
 # Setting up Amazon Chime on Dolby hardware<a name="setup-dolby"></a>
 
-If you manage small or medium\-size conference rooms and want your users to join meetings conveniently, Amazon Chime offers a native or first\-party meeting experience on Dolby Voice Room and Dolby Voice Huddle audio and video conferencing hardware\. When Dolby Voice Room or Dolby Voice Huddle is enabled with Amazon Chime, users can join an Amazon Chime meeting quickly from a conference room\. In\-room calendar integration lets attendees quickly select a meeting with a single tap\. When Amazon Chime Business Calling is enabled, you can associate a phone number with the device to use to receive inbound and place outbound calls\.
+If you manage small or medium\-size conference rooms and want your users to join meetings conveniently, Amazon Chime offers a native or first\-party meeting experience on Dolby Voice Room and Dolby Voice Huddle audio and video conferencing hardware\. When you enable Dolby Voice Room or Dolby Voice Huddle with Amazon Chime, users can join an Amazon Chime meeting quickly from a conference room\. In\-room calendar integration lets attendees quickly select a meeting with a single tap\. If you enable Amazon Chime Business Calling, you can associate a phone number with the device used to receive inbound and place outbound calls\.
 
 When Alexa for Business is enabled for Dolby Voice Room, meeting attendees can ask Alexa to join a meeting\. 
 
