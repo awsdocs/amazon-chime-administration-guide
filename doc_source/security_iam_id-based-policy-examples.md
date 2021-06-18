@@ -216,6 +216,10 @@ Use the AWS managed **AmazonChimeSDK** policy to grant users access to Amazon Ch
     "Statement": [
         {
             "Action": [
+                "chime:CreateMediaCapturePipeline",
+                "chime:GetMediaCapturePipeline",
+                "chime:ListMediaCapturePipelines",
+                "chime:DeleteMediaCapturePipeline",
                 "chime:CreateMeeting",
                 "chime:DeleteMeeting",
                 "chime:GetMeeting",
