@@ -2,6 +2,9 @@
 
 Amazon EventBridge lets you automate your AWS services and respond automatically to system events, such as application availability issues or resource changes\. AWS services deliver events to EventBridge in near real time\. Chime SDK services emit events on a best\-effort basis for Voice Connector streaming and Amazon Chime SDK events\. You can write simple rules to specify the events that interest you, and the automated actions to take when any of those events matches a rule\.
 
+**Note**  
+If you need to encrypt data, you must use Amazon S3\-Managed Keys\. We don't support server\-side encryption using Customer Master Keys stored in the AWS Key Management Service\. 
+
 ## Automating Amazon Chime Voice Connectors with EventBridge<a name="events-cvc"></a>
 
 The actions that can be automatically triggered for Amazon Chime Voice Connectors include the following:
@@ -509,7 +512,7 @@ The following is example data for this event\.
   "resources": []
   "detail": {
     "version": "0",
-    "eventType": "chime:AttendeeScreenShareStarted",
+    "eventType": "chime:AttendeeContentJoined",
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
@@ -538,7 +541,7 @@ The following is example data for this event\.
   "resources": []
   "detail": {
     "version": "0",
-    "eventType": "chime:AttendeeScreenShareStopped",
+    "eventType": "chime:AttendeeContentLeft",
     "timestamp": 12344566754,
     "meetingId": "87654321-4321-4321-1234-111122223333",
     "attendeeId": "87654321-4321-4321-1234-111122223333",
@@ -693,5 +696,124 @@ The following is example data for this event\.
     "externalUserId": "87654321-4321-4321-1234-111122223333",
     "mediaRegion": "us-east-1"
   }
+}
+```
+
+### User starts a media capture operation<a name="sdk-content-media-capture"></a>
+
+The Amazon Chime SDK sends the following messages when you start and stop a media capture pipeline, and when a media capture pipeline pauses and fails\.
+
+Amazon Chime SDK media capture pipeline in progress:
+
+```
+{
+    "version": "0",
+    "id": "5ee6265a-0a40-104e-d8fd-a3b4bdd78483",
+    "detail-type": "Chime Media Pipeline State Change",
+    "source": "aws.chime",
+    "account": "365135496707",
+    "time": "2021-07-28T20:20:49Z",
+    "region": "us-east-1",
+    "resources": [],
+    "detail": {
+        "version": "0",
+        "eventType": "chime:MediaPipelineInProgress",
+        "timestamp": 1627503649251,
+        "meetingId": "1e6bf4f5-f4b5-4917-b8c9-bda45c340706",
+        "mediaPipelineId": "e40ee45e-2ed1-408e-9156-f52b8208a491",
+        "mediaRegion": "ap-southeast-1"
+    }
+}
+```
+
+Media capture pipeline deleted:
+
+```
+{
+    "version": "0",
+    "id": "9e11e429-97fd-9532-5670-fac3f7abc05f",
+    "detail-type": "Chime Media Pipeline State Change",
+    "source": "aws.chime",
+    "account": "365135496707",
+    "time": "2021-07-28T20:21:50Z",
+    "region": "us-east-1",
+    "resources": [],
+    "detail": {
+        "version": "0",
+        "eventType": "chime:MediaPipelineDeleted",
+        "timestamp": 1627503710485,
+        "meetingId": "1e6bf4f5-f4b5-4917-b8c9-bda45c340706",
+        "mediaPipelineId": "e40ee45e-2ed1-408e-9156-f52b8208a491",
+        "mediaRegion": "ap-southeast-1"
+    }
+}
+```
+
+Media pipeline has temporary failure:
+
+```
+{
+    "version": "0",
+    "id": "abc141e1-fc2e-65e8-5f18-ab5130f1035a",
+    "detail-type": "Chime Media Pipeline State Change",
+    "source": "aws.chime",
+    "account": "365135496707",
+    "time": "2021-07-28T21:16:42Z",
+    "region": "us-east-1",
+    "resources": [],
+    "detail": {
+        "version": "0",
+        "eventType": "chime:MediaPipelineTemporaryFailure",
+        "timestamp": 1627507002882,
+        "meetingId": "7a5434e3-724a-4bbb-9eb6-2fb209dc0706",
+        "mediaPipelineId": "ebd62f4e-04a9-426d-bcb0-974c0f266400",
+        "mediaRegion": "eu-south-1"
+    }
+}
+```
+
+Media pipeline resumed from temporary failure:
+
+```
+{
+    "version": "0",
+    "id": "9e11e429-97fd-9532-5670-fac3f7abc05f",
+    "detail-type": "Chime Media Pipeline State Change",
+    "source": "aws.chime",
+    "account": "365135496707",
+    "time": "2021-07-28T20:21:50Z",
+    "region": "us-east-1",
+    "resources": [],
+    "detail": {
+        "version": "0",
+        "eventType": "chime:MediaPipelineResumed",
+        "timestamp": 1627503710485,
+        "meetingId": "1e6bf4f5-f4b5-4917-b8c9-bda45c340706",
+        "mediaPipelineId": "e40ee45e-2ed1-408e-9156-f52b8208a491",
+        "mediaRegion": "ap-southeast-1"
+    }
+}
+```
+
+Media pipeline permanent failure:
+
+```
+{
+    "version": "0",
+    "id": "9e11e429-97fd-9532-5670-fac3f7abc05f",
+    "detail-type": "Chime Media Pipeline State Change",
+    "source": "aws.chime",
+    "account": "365135496707",
+    "time": "2021-07-28T20:21:50Z",
+    "region": "us-east-1",
+    "resources": [],
+    "detail": {
+        "version": "0",
+        "eventType": "chime:MediaPipelinePermanentFailure",
+        "timestamp": 1627503710485,
+        "meetingId": "1e6bf4f5-f4b5-4917-b8c9-bda45c340706",
+        "mediaPipelineId": "e40ee45e-2ed1-408e-9156-f52b8208a491",
+        "mediaRegion": "ap-southeast-1"
+    }
 }
 ```

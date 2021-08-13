@@ -72,7 +72,7 @@ Amazon Chime supports using temporary credentials\.
 
 ### Service\-linked roles<a name="security_iam_service-with-iam-roles-service-linked"></a>
 
-[Service\-linked roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html#iam-term-service-linked-role) allow AWS services to access resources in other services to complete an action on your behalf\. Service\-linked roles appear in your IAM account and are owned by the service\. An IAM administrator can view but not edit the permissions for service\-linked roles\.
+[Service\-linked roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html#iam-term-service-linked-role) allow AWS services to access resources in other services that complete actions on your behalf\. Service\-linked roles appear in your IAM account, and the services own the roles\. An IAM administrator can view but not edit the permissions for service\-linked roles\.
 
 Amazon Chime supports service\-linked roles\. For details about creating or managing Amazon Chime service\-linked roles, see [Using service\-linked roles for Amazon Chime](using-service-linked-roles.md)\.
 

@@ -1,12 +1,13 @@
 # Using roles to stream Amazon Chime Voice Connector media to Kinesis<a name="using-service-linked-roles-stream"></a>
 
-Amazon Chime uses AWS Identity and Access Management \(IAM\)[ service\-linked roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html#iam-term-service-linked-role)\. A service\-linked role is a unique type of IAM role that is linked directly to Amazon Chime\. Service\-linked roles are predefined by Amazon Chime and include all the permissions that the service requires to call other AWS services on your behalf\. 
+The information in the following sections explains how to use roles to stream Amazon Chime Voice Connector media to Kinesis\. 
 
-A service\-linked role makes setting up Amazon Chime more efficient because you aren't required to manually add the necessary permissions\. Amazon Chime defines the permissions of its service\-linked roles, and unless defined otherwise, only Amazon Chime can assume its roles\. The defined permissions include the trust policy and the permissions policy\. The permissions policy cannot be attached to any other IAM entity\.
-
-You can delete a service\-linked role only after first deleting their related resources\. This protects your Amazon Chime resources because you can't inadvertently remove permission to access the resources\.
-
-For information about other services that support service\-linked roles, see [AWS services that work with IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_aws-services-that-work-with-iam.html)\. Look for the services that have **Yes **in the **Service\-Linked Role** column\. Choose a **Yes** with a link to view the service\-linked role documentation for that service\.
+**Topics**
++ [Service\-linked role permissions for Amazon Chime Voice Connectors](#service-linked-role-permissions-stream)
++ [Creating a service\-linked role for Amazon Chime Voice Connectors](#create-service-linked-role-stream)
++ [Editing a service\-linked role for Amazon Chime Voice Connectors](#edit-service-linked-role-stream)
++ [Deleting a service\-linked role for Amazon Chime Voice Connectors](#delete-service-linked-role-stream)
++ [Supported Regions for Amazon Chime service\-linked roles](#slr-regions-stream)
 
 ## Service\-linked role permissions for Amazon Chime Voice Connectors<a name="service-linked-role-permissions-stream"></a>
 

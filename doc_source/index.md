@@ -24,6 +24,7 @@ Amazon's trademarks and trade dress may not be used in
    + [Using service-linked roles for Amazon Chime](using-service-linked-roles.md)
       + [Using roles to stream Amazon Chime Voice Connector media to Kinesis](using-service-linked-roles-stream.md)
       + [Using roles with shared Alexa for Business devices](using-service-linked-roles-a4b.md)
+      + [Using roles with live transcription](using-service-linked-roles-transcription.md)
    + [Logging and monitoring in Amazon Chime](monitoring-overview.md)
       + [Monitoring Amazon Chime with Amazon CloudWatch](monitoring-cloudwatch.md)
       + [Automating Amazon Chime with EventBridge](automating-chime-with-cloudwatch-events.md)
