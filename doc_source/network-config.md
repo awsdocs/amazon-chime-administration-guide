@@ -5,7 +5,7 @@ Amazon Chime requires the destinations and ports described in this topic to supp
 Amazon Chime uses Amazon Elastic Compute Cloud \(Amazon EC2\) and other AWS services on port TCP/443\. If your firewall blocks port TCP/443, you must put `*.amazonaws.com` on an allow list, or put [AWS IP address ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) in the *AWS General Reference* for the following services:
 + Amazon EC2
 + Amazon CloudFront
-+ Amazon Route 53
++ Amazon Route 53
 
 ## Common<a name="common"></a>
 

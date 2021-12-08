@@ -1,6 +1,6 @@
 # Using roles with live transcription<a name="using-service-linked-roles-transcription"></a>
 
-The information in the following sections explains how to create and manage a service\-linked role for Amazon Chime live transcription\. For more information about the live transcription service, see [Using Amazon Chime SDK live transcription](https://docs.aws.amazon.com/chime/latest/developerguide/meeting-transcription.html)\.
+The information in the following sections explains how to create and manage a service\-linked role for Amazon Chime live transcription\. For more information about the live transcription service, see [Using Amazon Chime SDK live transcription](https://docs.aws.amazon.com/chime/latest/dg/meeting-transcription.html)\.
 
 **Topics**
 + [Service\-Linked Role Permissions for Amazon Chime Live Transcription](#service-linked-role-permissions-transcription)

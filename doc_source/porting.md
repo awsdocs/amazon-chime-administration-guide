@@ -1,17 +1,15 @@
 # Porting existing phone numbers<a name="porting"></a>
 
-To turn on Amazon Chime Business Calling for your Amazon Chime users, to use an Amazon Chime Voice Connector for SIP trunking with an existing phone system, or to dial in to an Amazon Chime SIP media application, you have these options:
-+ Use the Amazon Chime console to provision new phone numbers\.
-+ Port your existing phone numbers from your phone carrier to your Amazon Chime inventory\. To start the porting process, submit a support request from the Amazon Chime console\. Porting can take between 2\-4 weeks\.
+In addition to provisioning phone numbers, you can also port numbers from your phone carrier into your Amazon Chime inventory\. You can use ported numbers with n Amazon Chime Business Calling, Amazon Chime Voice Connectors, and Amazon Chime SIP media applications\. 
 
-Before you can port phone numbers for Amazon Chime Voice Connectors, you must create an Amazon Chime Voice Connector\. For more information, see [Creating an Amazon Chime Voice Connector](create-voicecon.md)\.
+Before you can port phone numbers for Amazon Chime Voice Connectors, you must create one\.\. For more information, see [Creating an Amazon Chime Voice Connector](create-voicecon.md)\.
 
 **Note**  
-You can port toll\-free numbers for use with Amazon Chime Voice Connectors, and with Amazon Chime SIP media applications\. Toll\-free numbers are not currently supported for Amazon Chime Business Calling\.
+You can port toll\-free numbers for use with Amazon Chime Voice Connectors, and with Amazon Chime SIP media applications\. Amazon Chime Business Calling doesn't support toll\-free numbers\.\.
 
 ## Porting phone numbers into Amazon Chime<a name="port-in"></a>
 
-Create a support request to port existing phone numbers into Amazon Chime\.
+You create a support request to port existing phone numbers into Amazon Chime\.
 
 **To port existing phone numbers into Amazon Chime**
 
@@ -54,7 +52,7 @@ Create a support request to port existing phone numbers into Amazon Chime\.
    + If you are submitting a support request from the Amazon Chime console, for **Email**, enter the email address associated with your Amazon Chime administrator account\. Choose **Submit request**\.
    + If you are creating a case in [AWS Support Center](https://console.aws.amazon.com/support/home#/), for **Attachments**, choose **Choose files**, and attach the required documents\. For **Contact options**, select a contact method\. Optionally, for **Additional contacts**, enter email addresses of people to be notified of case status updates\.
 
-   AWS Support responds to your support request to let you know whether your phone numbers can be ported from your existing phone carrier\. You receive responses from AWS Support in one of the following ways:
+   AWS Support lets you know whether your phone numbers can be ported from your existing phone carrier\. You receive responses from AWS Support in one of the following ways:
    + If you submitted a support request from the Amazon Chime console, AWS Support emails the **Operations** contact specified under **Alternate Contacts** in the **Contact Information** for your AWS account\. For more information, see [Editing contact information](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-account-payment.html#manage-account-payment-edit-contacts) in the *AWS Billing and Cost Management User Guide*\.
    + If you created a case in [AWS Support Center](https://console.aws.amazon.com/support/home#/), you receive responses based on your selected contact methods and any email addresses you entered for additional contacts\.
 
@@ -69,7 +67,7 @@ Create a support request to port existing phone numbers into Amazon Chime\.
 1. Assign the ported phone numbers\.
    + Assign Amazon Chime Business Calling phone numbers to invidual users\.
    + Assign Amazon Chime Voice Connector numbers to your Voice Connectors\.
-   + For Amazon Chime SIP Media Application Dial\-In numbers, use SIP rules to assign numbers\.
+   + For Amazon Chime SIP Media Application Dial\-In numbers, use SIP rules to assign numbers\. For more information about SIP rules, refer to [Creating SIP rules](https://docs.aws.amazon.com/chime/latest/ag/create-sip-rule.html)\.
 
    The phone numbers are not activated for use until after the Firm Order Commit \(FOC\) date is established, as shown in the following steps\. For more information, see [Managing phone number inventory](phone-inventory.md) and [Creating an Amazon Chime Voice Connector](create-voicecon.md)\.
 
@@ -77,7 +75,7 @@ Create a support request to port existing phone numbers into Amazon Chime\.
 
 1. AWS Support contacts you with the FOC to confirm that the date and time works for you\.
 **Note**  
-The phone numbers can not place or receive calls until you assign them\.
+The phone numbers cannot place or receive calls until you assign them\.
 
 1. On the FOC date, the ported phone numbers are activated for use with Amazon Chime\.
 

@@ -19,7 +19,7 @@ When you place a call using an Amazon Chime Voice Connector, the call is routed 
 
 1. Choose **Save**\.
 
-The default calling name is updated within 72 hours\.
+Allow 72 hours for the system to update the default calling name\.
 
 Set a unique calling name for individual phone numbers on the phone number details screen\.
 
@@ -41,4 +41,4 @@ Set a unique calling name for individual phone numbers on the phone number detai
 
 1. Choose **Save**\.
 
-The unique calling name is updated within 72 hours\. After the update is complete, you can update the calling name again\.
+The system updates the unique calling name within 72 hours\. After the update finishes, you can update the calling name again\.
