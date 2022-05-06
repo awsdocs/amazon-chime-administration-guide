@@ -1,11 +1,9 @@
 # Porting existing phone numbers<a name="porting"></a>
 
-In addition to provisioning phone numbers, you can also port numbers from your phone carrier into your Amazon Chime inventory\. You can use ported numbers with n Amazon Chime Business Calling, Amazon Chime Voice Connectors, and Amazon Chime SIP media applications\. 
-
-Before you can port phone numbers for Amazon Chime Voice Connectors, you must create one\.\. For more information, see [Creating an Amazon Chime Voice Connector](create-voicecon.md)\.
+In addition to provisioning phone numbers, you can also port numbers from your phone carrier into your Amazon Chime inventory\. You can use ported numbers within Amazon Chime Business Calling\.
 
 **Note**  
-You can port toll\-free numbers for use with Amazon Chime Voice Connectors, and with Amazon Chime SIP media applications\. Amazon Chime Business Calling doesn't support toll\-free numbers\.\.
+You can port toll\-free numbers for use with Amazon Chime Voice Connectors, and with Amazon Chime SIP media applications\. Amazon Chime Business Calling doesn't support toll\-free numbers\. For more information, see [Porting existing phone numbers](https://docs.aws.amazon.com/chime-sdk/latest/ag/porting.html) in the *Amazon Chime SDK Administration Guide*\.
 
 ## Porting phone numbers into Amazon Chime<a name="port-in"></a>
 
@@ -24,8 +22,8 @@ You create a support request to port existing phone numbers into Amazon Chime\.
 
 1. For **Issue** or **Description**, enter the following:
 
-   **For porting U\.S\. numbers:**
-   + Existing phone numbers to port in\. Indicate the phone number type—**Business Calling**, **Voice Connector**, or **SIP Media Application Dial\-In**\.
+   **For porting U\.S\. toll numbers:**
+   + Existing phone numbers to port in\. Indicate the phone number type—**Business Calling**\.
    + Billing Telephone Number \(BTN\) of the account\.
    + Authorizing person’s name\. This is the person in charge of account billing with the current carrier\.
    + Current carrier, if known\.
@@ -39,37 +37,45 @@ You create a support request to port existing phone numbers into Amazon Chime\.
      + **I am porting my BTN because my account is currently set up so that each phone number is its own BTN\.** \(Select this option only when your account with the current carrier is set up this way\.\)
      + Download the Letter of Agency \(LOA\) for Local Telephone Number Porting and fill it out\. If you are porting phone numbers from different carriers, fill out a separate LOA for each carrier\.
 
-   **For porting international numbers:**
-   + You must use the SIP Media Application Dial\-In product type for non\-US phone numbers\.
-   + Type of number \(Local or Toll\-Free\)
-   + Existing phone numbers to port in\.
-   + Estimate usage volume
-   + Country
-   + You need to fill out the Letter Of Agency document provided by AWS Support\. 
-   + See [Country requirements for phone numbers](phone-country-reqs.md) for information about the documents required for porting in countries that support porting\. 
-
 1. Do one of the following:
    + If you are submitting a support request from the Amazon Chime console, for **Email**, enter the email address associated with your Amazon Chime administrator account\. Choose **Submit request**\.
-   + If you are creating a case in [AWS Support Center](https://console.aws.amazon.com/support/home#/), for **Attachments**, choose **Choose files**, and attach the required documents\. For **Contact options**, select a contact method\. Optionally, for **Additional contacts**, enter email addresses of people to be notified of case status updates\.
+   + If you are creating a case in [AWS Support Center](https://console.aws.amazon.com/support/home#/) **Contact options**, select a contact method\. Optionally, for **Additional contacts**, enter email addresses of people to be notified of case status updates\.
 
    AWS Support lets you know whether your phone numbers can be ported from your existing phone carrier\. You receive responses from AWS Support in one of the following ways:
-   + If you submitted a support request from the Amazon Chime console, AWS Support emails the **Operations** contact specified under **Alternate Contacts** in the **Contact Information** for your AWS account\. For more information, see [Editing contact information](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-account-payment.html#manage-account-payment-edit-contacts) in the *AWS Billing and Cost Management User Guide*\.
+   + If you submitted a support request from the Amazon Chime console, AWS Support emails the **Operations** contact specified under **Alternate Contacts** in the **Contact Information** for your AWS account\. For more information, see [Editing contact information](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-account-payment.html#manage-account-payment-edit-contacts) in the *AWS Billing User Guide*\.
    + If you created a case in [AWS Support Center](https://console.aws.amazon.com/support/home#/), you receive responses based on your selected contact methods and any email addresses you entered for additional contacts\.
 
-1. If your phone numbers can be ported, one of the following happens:
-   + If you submitted a support request from the Amazon Chime console, AWS Support asks you to provide your completed [Letter of Agency \(LOA\)](https://d1.awsstatic.com/whitepapers/AmazonChimeLOA.pdf)\. If you are porting phone numbers from different carriers, fill out a separate LOA for each carrier\. This authorizes your existing phone carrier to release your existing phone numbers for porting\.
-   + If you created a case in [AWS Support Center](https://console.aws.amazon.com/support/home#/) and attached your completed LOA, AWS Support proceeds to step 8\.
+1. To submit required documents please follow the below steps:
+**Note**  
+AWS Support will provide a secure Amazon S3 link to upload all requested documents\. Do not proceed until you have received the link\.
+
+   1. Open the AWS Management Console at [https://console\.aws\.amazon\.com/](https://console.aws.amazon.com/)\.
+
+   1. After you are signed in to your AWS account, open the Amazon S3 upload link generated specifically for your account\.
+**Note**  
+The link expires after ten days\. It is generated specifically for the account that created the case\. The link requires an authorized user from the account to successfully perform the upload action\.
+
+   1. Choose **Add Files**\.
+
+   1. Select the identity documents related to your request\.
+
+   1. Expand the **Permissions** section, and choose **Specify individual ACL permissions**\.
+
+   1. Choose **Add grantee** at the end of the **Access control list \(ACL\)** section\.
+
+   1. Paste the key provided by AWS Support into the **Grantee** text box\.
+
+   1. Choose the **Read** checkbox under the **Objects** section of the page\.
+
+   1. Choose **Upload**\.
 
 1. After you provide the LOA, AWS Support confirms with your existing phone carrier that the information on the LOA is correct\. If the information provided on the LOA does not match the information that your phone carrier has on file, AWS Support contacts you to update the information provided on the LOA\.
 
 1. \(Optional\) View the status of your porting request in the Amazon Chime console under **Calling**, **Phone number management**, **Pending**\. AWS Support also contacts you with updates and requests for further information, as needed\. For more information, see [Phone number porting status definitions](#porting-status-definitions)\.
 
-1. Assign the ported phone numbers\.
-   + Assign Amazon Chime Business Calling phone numbers to invidual users\.
-   + Assign Amazon Chime Voice Connector numbers to your Voice Connectors\.
-   + For Amazon Chime SIP Media Application Dial\-In numbers, use SIP rules to assign numbers\. For more information about SIP rules, refer to [Creating SIP rules](https://docs.aws.amazon.com/chime/latest/ag/create-sip-rule.html)\.
+1. Assign Amazon Chime Business Calling phone numbers to individual users\.
 
-   The phone numbers are not activated for use until after the Firm Order Commit \(FOC\) date is established, as shown in the following steps\. For more information, see [Managing phone number inventory](phone-inventory.md) and [Creating an Amazon Chime Voice Connector](create-voicecon.md)\.
+   The phone numbers are not activated for use until after the Firm Order Commit \(FOC\) date is established, as shown in the following steps\. For more information, see [Managing phone number inventory](phone-inventory.md)\.
 
 1. After your existing phone carrier confirms that the LOA is correct, they review and approve the requested port\. Then they provide AWS Support with a Firm Order Commit \(FOC\) date and time for the port to occur\.
 
@@ -96,14 +102,14 @@ The ability to port numbers out of Amazon Chime depends on the receiving carrier
 
 1. For **Subject**, enter **Porting phone numbers out**\.
 
-1. For **Issue** or **Description**, enter the phone numbers to port out\. Indicate the phone number type, **Business Calling**, **Voice Connector**, or **SIP Media Application Dial\-In**\.
+1. For **Issue** or **Description**, enter the phone numbers to port out\. Indicate the phone number type as **Business Calling**\.
 
 1. Do one of the following:
    + If you are submitting a support request from the Amazon Chime console, for **Email**, enter the email address associated with your Amazon Chime administrator account\. Choose **Submit request**\.
    + If you are creating a case in [AWS Support Center](https://console.aws.amazon.com/support/home#/), for **Contact options**, select a contact method\. Optionally, for **Additional contacts**, enter email addresses of people to be notified of case status updates\.
 
 AWS Support responds with an account ID and PIN to use when requesting the port from your new carrier\. You receive responses from AWS Support in one of the following ways:
-+ If you submitted a support request from the Amazon Chime console, AWS Support emails the **Operations** contact specified under **Alternate Contacts** in the **Contact Information** for your AWS account\. For more information, see [Editing contact information](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-account-payment.html#manage-account-payment-edit-contacts) in the *AWS Billing and Cost Management User Guide*\.
++ If you submitted a support request from the Amazon Chime console, AWS Support emails the **Operations** contact specified under **Alternate Contacts** in the **Contact Information** for your AWS account\. For more information, see [Editing contact information](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-account-payment.html#manage-account-payment-edit-contacts) in the *AWS Billing User Guide*\.
 + If you created a case in [AWS Support Center](https://console.aws.amazon.com/support/home#/), you receive responses based on your selected contact methods and any email addresses you entered for additional contacts\.
 
 When the porting process is complete and the phone numbers are ported to your new carrier, unassign and delete the phone numbers from your Amazon Chime inventory\. For more information, see [Managing phone number inventory](phone-inventory.md) and [Deleting phone numbers](delete-phone.md)\.

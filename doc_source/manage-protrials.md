@@ -11,4 +11,4 @@ Pro users are considered Active Pro if they hosted a meeting that ended on a cal
 + The meeting included an attendee that dialed in\.
 + The meeting included an attendee that joined with H\.323 or SIP\.
 
-For more information, see [Plans and Pricing](https://aws.amazon.com/chime/pricing)\.
+For more information, see [Plans and Pricing](http://aws.amazon.com/chime/pricing)\.

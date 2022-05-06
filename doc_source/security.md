@@ -11,6 +11,7 @@ This documentation helps you understand how to apply the shared responsibility m
 **Topics**
 + [Identity and access management for Amazon Chime](security-iam.md)
 + [How Amazon Chime works with IAM](security_iam_service-with-iam.md)
++ [Cross\-service confused deputy prevention](confused-deputy.md)
 + [Amazon Chime resource\-based policies](#security_iam_service-with-iam-resource-based-policies)
 + [Authorization based on Amazon Chime tags](#security_iam_service-with-iam-tags)
 + [Amazon Chime IAM roles](#security_iam_service-with-iam-roles)

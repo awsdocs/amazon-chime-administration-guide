@@ -35,13 +35,11 @@ You must have IAM administrative permissions to complete these steps\. If you do
 
 1. In the navigation pane of the IAM console, choose **Roles**, then choose **Create role**\.
 
-1. Choose the **AWS Service** role type, then choose **Chime Transcription**\.
+1. Choose the **AWS Service** role type, then choose **Chime**, then choose **Chime Transcription**\.
 
-   The IAM policy appears\.
+1. Choose **Next**\.
 
-1. Select the checkbox next to the policy, then choose **Next: Tags**\.
-
-1. Choose **Next: Review**\.
+1. Choose **Next**\.
 
 1. Edit the description as needed, then choose **Create role**\.
 
@@ -65,4 +63,4 @@ Use the IAM console, the AWS CLI, or the AWS API to delete the AWSServiceRoleFor
 
 ## Supported Regions for Amazon Chime Service\-Linked Roles<a name="slr-regions-transcription"></a>
 
-Amazon Chime supports using service\-linked roles in all of the regions where the service is available\. For more information, see [Amazon Chime endpoints and quotas](https://docs.aws.amazon.com/general/latest/gr/chime.html#chime_region), and [Using Amazon Chime SDK media Regions](/chime/latest/dg/chime-sdk-meetings-regions.html)\.
+Amazon Chime supports using service\-linked roles in all of the regions where the service is available\. For more information, see [Amazon Chime endpoints and quotas](https://docs.aws.amazon.com/general/latest/gr/chime.html#chime_region), and [Using Amazon Chime SDK media Regions](https://docs.aws.amazon.com/chime/latest/dg/chime-sdk-meetings-regions.html)\.

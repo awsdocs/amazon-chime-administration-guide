@@ -67,7 +67,7 @@ The CloudWatch dimensions that you can use with Amazon Chime are listed as follo
 
 ## CloudWatch logs for Amazon Chime<a name="cw-logs"></a>
 
-You can send Amazon Chime Voice Connector metrics to CloudWatch Logs\. For more information, see [Editing Amazon Chime Voice Connector settings](edit-voicecon.md)\.
+You can send Amazon Chime Voice Connector metrics to CloudWatch Logs\. For more information, see [Editing Amazon Chime Voice Connector settings](https://docs.aws.amazon.com/chime-sdk/latest/ag/edit-voicecon.html) in the *Amazon Chime SDK Administration Guide*\.
 
 **Media quality metric logs**  
 You can opt to receive media quality metric logs for your Amazon Chime Voice Connector\. When you do, Amazon Chime sends detailed, per\-minute metrics for all of your Amazon Chime Voice Connector calls to a CloudWatch Logs log group that is created for you\. The log group name is `/aws/ChimeVoiceConnectorLogs/${VoiceConnectorID}`\. The following fields are included in the logs, in JSON format\.

@@ -56,30 +56,6 @@ The following destinations and ports are recommended when running Amazon Chime f
 |  Europe \(Ireland\)  |  meet\.ew1\.chime\.in  |  TCP/5061  | 
 |  South America \(São Paulo\)  |  meet\.se1\.chime\.in  |  TCP/5061  | 
 
-## Amazon Chime Voice Connector<a name="cvc"></a>
-
-The following destinations and ports are recommended if you use Amazon Chime Voice Connector\.
-
-### Signaling<a name="cvc-signaling"></a>
-
-
-| AWS Region | Destination | Ports | 
-| --- | --- | --- | 
-| US East \(N\. Virginia\) |  3\.80\.16\.0/23  |  UDP/5060 TCP/5060 TCP/5061  | 
-| US West \(Oregon\) |  99\.77\.253\.0/24  |  UDP/5060 TCP/5060 TCP/5061  | 
-
-### Media<a name="cvc-media"></a>
-
-
-| AWS Region | Destination | Ports | 
-| --- | --- | --- | 
-| US East \(N\. Virginia\) |  3\.80\.16\.0/23  |  UDP/5000:65000  | 
-| US East \(N\. Virginia\) |  52\.55\.62\.128/25  |  UDP/1024:65535  | 
-| US East \(N\. Virginia\) |  52\.55\.63\.0/25  |  UDP/1024:65535  | 
-| US East \(N\. Virginia\) |  34\.212\.95\.128/25  |  UDP/1024:65535  | 
-| US East \(N\. Virginia\) |  34\.223\.21\.0/25  |  UDP/1024:65535  | 
-| US West \(Oregon\) |  99\.77\.253\.0/24  |  UDP/5000:65000  | 
-
 ## Bandwidth requirements<a name="bandwidth"></a>
 
 Amazon Chime has the following bandwidth requirements for the media that it provides:
@@ -95,10 +71,3 @@ Amazon Chime has the following bandwidth requirements for the media that it prov
 + Screen
   + 1\.2 mbps up \(when presenting\) and down \(when viewing\) for high quality\. This adapts as low as 320 kbps based on network conditions\.
   + Remote control: 800 kbps fixed
-
-Amazon Chime Voice Connectors have the following bandwidth requirements:
-+ Audio
-  + Call: \~90 kbps up and down\. This includes media payload and packet overhead\.
-+ T\.38 fax
-  + With V\.34: \~40 kbps\. This includes media payload and packet overhead\.
-  + Without V\.34: \~20 kbps\. This includes media payload and packet overhead\.

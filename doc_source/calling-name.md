@@ -2,9 +2,6 @@
 
 Set a default calling name that appears to recipients of outbound calls made using the phone numbers in your **Inventory**\. Default calling names apply to all phone number product types\. You can update the names once every seven days\.
 
-**Note**  
-When you place a call using an Amazon Chime Voice Connector, the call is routed through the public switched telephone network \(PSTN\) to a fixed or mobile telephone carrier of the called party\. Not all fixed and mobile telephone carriers support Caller ID names \(CNAM\) or use the same CNAM database as Amazon Chime Voice Connectors\. Even though you set your caller ID name in the Amazon Chime console, the called party might see no calling name at all, or they might see a calling name that is different from the value that you set\.
-
 **To set a default calling name**
 
 1. Open the Amazon Chime console at [https://chime\.aws\.amazon\.com/](https://chime.aws.amazon.com)\.

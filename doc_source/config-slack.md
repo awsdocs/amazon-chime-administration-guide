@@ -52,7 +52,7 @@ Installing the Amazon Chime Meetings App for Slack on a workspace enables users 
 
 1. Navigate to the Slack App Directory and locate the Amazon Chime Meetings App\.
 
-1. Choose [ **Add to Slack**](https://signin.id.ue1.app.chime.aws/auth/slack?purpose=app_authz) to install the Amazon Chime Meetings App for Slack from the Slack App Directory\.
+1. Choose [https://signin.id.ue1.app.chime.aws/auth/slack?purpose=app_authz](https://signin.id.ue1.app.chime.aws/auth/slack?purpose=app_authz) to install the Amazon Chime Meetings App for Slack from the Slack App Directory\.
 
 1. Configure your Slack workspace **Calls** setting to **Enable calling in Slack, using Amazon Chime**\.
 

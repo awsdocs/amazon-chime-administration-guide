@@ -10,7 +10,6 @@ To learn how to create an IAM identity\-based policy using these example JSON po
 + [Allow users full access to Amazon Chime](#security_iam_id-based-policy-examples-full-access)
 + [Allow users to view their own permissions](#security_iam_id-based-policy-examples-view-own-permissions)
 + [Allow users to access user management actions](#security_iam_id-based-policy-examples-user-management)
-+ [Allow users to access Amazon Chime SDK actions](#security_iam_id-based-policy-examples-chime-sdk)
 + [AWS managed policy: AmazonChimeVoiceConnectorServiceLinkedRolePolicy](#cvc-linked-role-policy)
 + [Amazon Chime updates to AWS managed policies](#security-iam-awsmanpol-updates)
 
@@ -208,60 +207,18 @@ Use the AWS managed **AmazonChimeUserManagement** policy to grant users access t
 }
 ```
 
-## Allow users to access Amazon Chime SDK actions<a name="security_iam_id-based-policy-examples-chime-sdk"></a>
-
-Use the AWS managed **AmazonChimeSDK** policy to grant users access to Amazon Chime SDK actions\. For more information, see [Creating IAM users or roles with the Chime SDK policy](https://docs.aws.amazon.com/chime/latest/dg/iam-users-roles.html) in the *Amazon Chime Developer Guide*\.
-
-```
-// Policy ARN: arn:aws:iam::aws:policy/AmazonChimeSDK 
-// Description: Provides access to Amazon Chime SDK operations
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Action": [
-                "chime:CreateMeeting",
-                "chime:CreateMeetingWithAttendees",
-                "chime:DeleteMeeting",
-                "chime:GetMeeting",
-                "chime:ListMeetings",
-                "chime:CreateAttendee",
-                "chime:BatchCreateAttendee",
-                "chime:DeleteAttendee",
-                "chime:GetAttendee",
-                "chime:ListAttendees",
-                "chime:ListAttendeeTags",
-                "chime:ListMeetingTags",
-                "chime:ListTagsForResource",
-                "chime:TagAttendee",
-                "chime:TagMeeting",
-                "chime:TagResource",
-                "chime:UntagAttendee",
-                "chime:UntagMeeting",
-                "chime:UntagResource",
-                "chime:StartMeetingTranscription",
-                "chime:StopMeetingTranscription"
-            ],
-            "Effect": "Allow",
-            "Resource": "*"
-        }
-    ]
-}
-```
-
 ## AWS managed policy: AmazonChimeVoiceConnectorServiceLinkedRolePolicy<a name="cvc-linked-role-policy"></a>
 
-The `AmazonChimeVoiceConnectorServiceLinkedRolePolicy` enables Amazon Chime Voice Connector to stream media to Amazon Kinesis Video Streams and provide streaming notifications\. This policy grants the Amazon Chime Voice Connector service permissions to access customer’s Amazon Kinesis Video Streams and send notification events to Simple Notification Service \(SNS\) and Simple Queue Service \(SQS\)\. This is a managed policy attached to a service\-linked role and cannot be attached to IAM entities\. For more information, see [Using roles to stream Amazon Chime Voice Connector media to Kinesis](using-service-linked-roles-stream.md)\. 
+The `AmazonChimeVoiceConnectorServiceLinkedRolePolicy` enables Amazon Chime Voice Connectors to stream media to Amazon Kinesis Video Streams, provide streaming notifications, and synthesize speech using Amazon Polly\. This policy grants the Amazon Chime Voice Connector service permissions to access customer’s Amazon Kinesis Video Streams, send notification events to the Amazon Simple Notification Service and Amazon Simple Queue Service, and use Amazon Polly to synthesize speech when using the Amazon Chime SDK Voice Applications `Speak` and `SpeakAndGetDigits` actions\. For more information, see [Amazon Chime SDK identity\-based policy examples](https://docs.aws.amazon.com/chime-sdk/latest/ag/using-service-linked-roles-stream.html) in the *Amazon Chime SDK Administrator Guide*\. 
 
 ## Amazon Chime updates to AWS managed policies<a name="security-iam-awsmanpol-updates"></a>
-
-
 
 The following table lists and describes the updates made to the Amazon Chime IAM policy\.
 
 
 | Change | Description | Date | 
 | --- | --- | --- | 
-|  `AmazonChimeVoiceConnectorServiceLinkedRolePolicy` – Update to an existing policy  |  Amazon Chime Voice Connector added new permissions to allow access to Amazon Kinesis Video Streams and send notification events to SNS and SQS\. These permissions are required for Amazon Chime Voice Connectors to stream media to Amazon Kinesis Video Streams and provide streaming notifications\.  | December 6, 2021 | 
-|  Change to existing policy\. [ Creating IAM users or roles with the Chime SDK policy](https://docs.aws.amazon.com/chime/src/AWSChimeDevDocs/build/server-root/chime/latest/dg/iam-users-roles.html)\.  |  Amazon Chime added new actions added to support expanded validation\. A number of actions were added to allow listing and tagging of attendees and meeting resources, and for starting and stopping meeting transcription\.  | September 23, 2021 | 
+|  `AmazonChimeVoiceConnectorServiceLinkedRolePolicy` – Update to an existing policy  |  Amazon Chime Voice Connectors added new permissions to allow you to use Amazon Polly to synthesize speech\.These permissions are required to use the `Speak` and `SpeakAndGetDigits` actions in Amazon Chime SDK Voice Applications\.  | March 15, 2022 | 
+|  `AmazonChimeVoiceConnectorServiceLinkedRolePolicy` – Update to an existing policy  |  Amazon Chime Voice Connector added new permissions to allow access to Amazon Kinesis Video Streams and send notification events to SNS and SQS\. These permissions are required for Amazon Chime Voice Connectors to stream media to Amazon Kinesis Video Streams and provide streaming notifications\.  | December 20, 2021 | 
+|  Change to existing policy\. [Creating IAM users or roles with the Chime SDK policy](https://docs.aws.amazon.com/chime/latest/dg/iam-users-roles.html)\.  |  Amazon Chime added new actions added to support expanded validation\. A number of actions were added to allow listing and tagging of attendees and meeting resources, and for starting and stopping meeting transcription\.  | September 23, 2021 | 
 |  Amazon Chime started tracking changes  |  Amazon Chime started tracking changes for its AWS managed policies\.  | September 23, 2021 | 

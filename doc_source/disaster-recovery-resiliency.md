@@ -4,4 +4,4 @@ The AWS global infrastructure is built around AWS Regions and Availability Zones
 
 For more information about AWS Regions and Availability Zones, see [AWS Global Infrastructure](http://aws.amazon.com/about-aws/global-infrastructure/)\.
 
-In addition to the AWS global infrastructure, Amazon Chime offers different features to help support your data resiliency and backup needs\. For more information, see [Managing Amazon Chime Voice Connector groups](voice-connector-groups.md) and [Streaming Amazon Chime Voice Connector media to Kinesis](start-kinesis-vc.md)\.
+In addition to the AWS global infrastructure, Amazon Chime offers different features to help support your data resiliency and backup needs\. For more information, see [Managing Amazon Chime Voice Connector groups](https://docs.aws.amazon.com/chime-sdk/latest/ag/voice-connector-groups.html) and [Streaming Amazon Chime Voice Connector media to Kinesis](https://docs.aws.amazon.com/chime-sdk/latest/ag/start-kinesis-vc.html) in the *Amazon Chime SDK Administration Guide*\.
