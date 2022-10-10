@@ -4,13 +4,13 @@
 *****Copyright &copy; Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
 
 -----
-Amazon's trademarks and trade dress may not be used in 
-     connection with any product or service that is not Amazon's, 
-     in any manner that is likely to cause confusion among customers, 
-     or in any manner that disparages or discredits Amazon. All other 
-     trademarks not owned by Amazon are the property of their respective
-     owners, who may or may not be affiliated with, connected to, or 
-     sponsored by Amazon.
+Amazon's trademarks and trade dress may not be used in
+connection with any product or service that is not Amazon's,
+in any manner that is likely to cause confusion among customers,
+or in any manner that disparages or discredits Amazon. All other
+trademarks not owned by Amazon are the property of their respective
+owners, who may or may not be affiliated with, connected to, or
+sponsored by Amazon.
 
 -----
 ## Contents
@@ -59,7 +59,7 @@ Amazon's trademarks and trade dress may not be used in
    + [Changing personal meeting PINs](change-PINs.md)
    + [Managing Pro trials](manage-protrials.md)
    + [Requesting user attachments](request-attachments.md)
-   + [Managing Amazon Chime automatic updates](managing-auto-update.md)
+   + [How Amazon Chime manages automatic updates](managing-auto-update.md)
    + [Migrating users to another Team account](migrate-users.md)
 + [Managing phone numbers in Amazon Chime](phone-numbers.md)
    + [Provisioning phone numbers](provision-phone.md)
@@ -92,11 +92,11 @@ Amazon's trademarks and trade dress may not be used in
 + [Extending the Amazon Chime desktop client](extend-chime-client.md)
    + [User management](users.md)
       + [Invite multiple users](invite-users.md)
-      + [Download user list](download-users.md)
+      + [Downloading user lists](download-users.md)
       + [Log out multiple users](logout-users.md)
       + [Update user personal PINs](update-pins.md)
    + [Integrating chatbots into the Amazon Chime desktop client](chat-bots.md)
-      + [Use chatbots with Amazon Chime](use-bots.md)
+      + [Using chatbots with Amazon Chime](use-bots.md)
          + [Step 1: Integrate a chatbot with Amazon Chime](integrate-bots.md)
          + [Step 2: Configure the outbound endpoint for an Amazon Chime chatbot](config-endpoints.md)
          + [Step 3: Add the chatbot to an Amazon Chime chat room](add-bots.md)

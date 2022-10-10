@@ -15,5 +15,5 @@ If you administer an Amazon Chime Enterprise account, you can create up to 10 ch
 Linux and macOS users can build a sample custom chatbot\. For more information, see [Build custom chatbots for Amazon Chime](http://aws.amazon.com/blogs/business-productivity/build-custom-chat-bots-for-amazon-chime/)\.
 
 **Topics**
-+ [Use chatbots with Amazon Chime](use-bots.md)
++ [Using chatbots with Amazon Chime](use-bots.md)
 + [Amazon Chime events sent to chatbots](events-bots.md)

@@ -1,11 +1,11 @@
-# Use chatbots with Amazon Chime<a name="use-bots"></a>
+# Using chatbots with Amazon Chime<a name="use-bots"></a>
 
 If you administer an Amazon Chime Enterprise account, you can create up to 10 chatbots for integration with Amazon Chime\. Chatbots can only be used in chat rooms created by members of your account\. Only chat room administrators can add chatbots to a chat room\. After a chatbot is added to a chat room, members of the chat room can interact with the bot using commands provided by the bot creator\. For more information, see [Using chatbots](https://docs.aws.amazon.com/chime/latest/ug/chat-bots.html) in the *Amazon Chime User Guide*\.
 
 You can also use the Amazon Chime API operation to enable or stop chatbots for your Amazon Chime account\. For more information, see [Update chatbots](update-bots.md)\.
 
 **Note**  
-Chatbots cannot be deleted\. To stop a chatbot from being used in your account, use the Amazon Chime [UpdateBot](https://docs.aws.amazon.com/chime/latest/APIReference/API_UpdateBot.html) API operation in the *Amazon Chime API Reference*\. When you stop a chatbot, chat room administrators can remove it from a chat room, but they cannot add it to a chat room\. Users who @mention a stopped chatbot in a chat room receive an error message\.
+You can't delete chatbots\. To stop a chatbot from being used in your account, use the Amazon Chime [UpdateBot](https://docs.aws.amazon.com/chime/latest/APIReference/API_UpdateBot.html) API operation in the *Amazon Chime API Reference*\. When you stop a chatbot, chat room administrators can remove it from a chat room, but they cannot add it to a chat room\. Users who @mention a stopped chatbot in a chat room receive an error message\.
 
 ## Prerequisites<a name="bots-prereqs"></a>
 

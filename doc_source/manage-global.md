@@ -1,6 +1,6 @@
 # Managing global settings in Amazon Chime<a name="manage-global"></a>
 
-Manage call detail record settings from the Amazon Chime console\.
+You use the Amazon Chime console to manage call detail record settings\.
 
 ## Configuring call detail records<a name="call-detail"></a>
 

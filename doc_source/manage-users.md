@@ -12,5 +12,5 @@ Administrators of accounts using **Login with Amazon** \(LWA\) also see options 
 + [Changing personal meeting PINs](change-PINs.md)
 + [Managing Pro trials](manage-protrials.md)
 + [Requesting user attachments](request-attachments.md)
-+ [Managing Amazon Chime automatic updates](managing-auto-update.md)
++ [How Amazon Chime manages automatic updates](managing-auto-update.md)
 + [Migrating users to another Team account](migrate-users.md)

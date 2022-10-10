@@ -1,6 +1,6 @@
 # Requesting user attachments<a name="request-attachments"></a>
 
-If you manage an Enterprise account and have the appropriate permissions, you can request and receive attachments that have been uploaded into Amazon Chime by your users\. You can get attachments that users uploaded into 1:1 and group conversations or into chat rooms that they created\. 
+If you manage an Enterprise account and have the appropriate permissions, you can request and receive the attachments that your users upload into Amazon Chime\. You can get attachments that users uploaded into 1:1 and group conversations, or into chat rooms that they created\. 
 
 **Note**  
 If you manage an Amazon Chime Team account, you can upgrade to an Enterprise account by claiming one or more domains\. Alternatively, you can remove users from the Team account, which enables those unmanaged users to get their attachments using the Amazon Chime Assistant\.

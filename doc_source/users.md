@@ -4,6 +4,6 @@ The following code snippets can help you manage Amazon Chime users\. All of the 
 
 **Topics**
 + [Invite multiple users](invite-users.md)
-+ [Download user list](download-users.md)
++ [Downloading user lists](download-users.md)
 + [Log out multiple users](logout-users.md)
 + [Update user personal PINs](update-pins.md)
