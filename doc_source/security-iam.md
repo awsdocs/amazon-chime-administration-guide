@@ -1,24 +1,21 @@
-# Identity and access management for Amazon WorkDocs<a name="security-iam"></a>
+# Identity and access management for Amazon Chime<a name="security-iam"></a>
 
-AWS Identity and Access Management \(IAM\) is an AWS service that helps an administrator securely control access to AWS resources\. IAM administrators control who can be *authenticated* \(signed in\) and *authorized* \(have permissions\) to use Amazon WorkDocs resources\. IAM is an AWS service that you can use with no additional charge\.
+AWS Identity and Access Management \(IAM\) is an AWS service that helps an administrator securely control access to AWS resources\. IAM administrators control who can be *authenticated* \(signed in\) and *authorized* \(have permissions\) to use Amazon Chime resources\. IAM is an AWS service that you can use with no additional charge\.
 
 **Topics**
 + [Audience](#security_iam_audience)
 + [Authenticating with identities](#security_iam_authentication)
 + [Managing access using policies](#security_iam_access-manage)
-+ [How Amazon WorkDocs works with IAM](security_iam_service-with-iam.md)
-+ [Amazon WorkDocs identity\-based policy examples](security_iam_id-based-policy-examples.md)
-+ [Troubleshooting Amazon WorkDocs identity and access](security_iam_troubleshoot.md)
 
 ## Audience<a name="security_iam_audience"></a>
 
-How you use AWS Identity and Access Management \(IAM\) differs, depending on the work that you do in Amazon WorkDocs\.
+How you use AWS Identity and Access Management \(IAM\) differs, depending on the work that you do in Amazon Chime\.
 
-**Service user** – If you use the Amazon WorkDocs service to do your job, then your administrator provides you with the credentials and permissions that you need\. As you use more Amazon WorkDocs features to do your work, you might need additional permissions\. Understanding how access is managed can help you request the right permissions from your administrator\. If you cannot access a feature in Amazon WorkDocs, see [Troubleshooting Amazon WorkDocs identity and access](security_iam_troubleshoot.md)\.
+**Service user** – If you use the Amazon Chime service to do your job, then your administrator provides you with the credentials and permissions that you need\. As you use more Amazon Chime features to do your work, you might need additional permissions\. Understanding how access is managed can help you request the right permissions from your administrator\. If you cannot access a feature in Amazon Chime, see [Troubleshooting Amazon Chime identity and access](security_iam_troubleshoot.md)\.
 
-**Service administrator** – If you're in charge of Amazon WorkDocs resources at your company, you probably have full access to Amazon WorkDocs\. It's your job to determine which Amazon WorkDocs features and resources your service users should access\. You must then submit requests to your IAM administrator to change the permissions of your service users\. Review the information on this page to understand the basic concepts of IAM\. To learn more about how your company can use IAM with Amazon WorkDocs, see [How Amazon WorkDocs works with IAM](security_iam_service-with-iam.md)\.
+**Service administrator** – If you're in charge of Amazon Chime resources at your company, you probably have full access to Amazon Chime\. It's your job to determine which Amazon Chime features and resources your service users should access\. You must then submit requests to your IAM administrator to change the permissions of your service users\. Review the information on this page to understand the basic concepts of IAM\. To learn more about how your company can use IAM with Amazon Chime, see [How Amazon Chime works with IAM](security_iam_service-with-iam.md)\.
 
-**IAM administrator** – If you're an IAM administrator, you might want to learn details about how you can write policies to manage access to Amazon WorkDocs\. To view example Amazon WorkDocs identity\-based policies that you can use in IAM, see [Amazon WorkDocs identity\-based policy examples](security_iam_id-based-policy-examples.md)\.
+**IAM administrator** – If you're an IAM administrator, you might want to learn details about how you can write policies to manage access to Amazon Chime\. To view example Amazon Chime identity\-based policies that you can use in IAM, see [Amazon Chime identity\-based policy examples](security_iam_id-based-policy-examples.md)\.
 
 ## Authenticating with identities<a name="security_iam_authentication"></a>
 
@@ -31,6 +28,10 @@ Depending on the type of user you are, you can sign in to the AWS Management Con
 If you access AWS programmatically, AWS provides a software development kit \(SDK\) and a command line interface \(CLI\) to cryptographically sign your requests using your credentials\. If you don't use AWS tools, you must sign requests yourself\. For more information about using the recommended method to sign requests yourself, see [Signature Version 4 signing process](https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html) in the *AWS General Reference*\.
 
 Regardless of the authentication method that you use, you might be required to provide additional security information\. For example, AWS recommends that you use multi\-factor authentication \(MFA\) to increase the security of your account\. To learn more, see [Multi\-factor authentication](https://docs.aws.amazon.com/singlesignon/latest/userguide/enable-mfa.html) in the *AWS IAM Identity Center \(successor to AWS Single Sign\-On\) User Guide* and [Using multi\-factor authentication \(MFA\) in AWS](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa.html) in the *IAM User Guide*\.
+
+### AWS account root user<a name="security_iam_authentication-rootuser"></a>
+
+  When you create an AWS account, you begin with one sign\-in identity that has complete access to all AWS services and resources in the account\. This identity is called the AWS account *root user* and is accessed by signing in with the email address and password that you used to create the account\. We strongly recommend that you don't use the root user for your everyday tasks\. Safeguard your root user credentials and use them to perform the tasks that only the root user can perform\. For the complete list of tasks that require you to sign in as the root user, see [Tasks that require root user credentials](https://docs.aws.amazon.com/accounts/latest/reference/root-user-tasks.html) in the *AWS Account Management Reference Guide*\. 
 
 ### IAM users and groups<a name="security_iam_authentication-iamuser"></a>
 
@@ -49,7 +50,7 @@ IAM roles with temporary credentials are useful in the following situations:
 + **Temporary IAM user permissions** – An IAM user or role can assume an IAM role to temporarily take on different permissions for a specific task\.
 + **Cross\-account access** – You can use an IAM role to allow someone \(a trusted principal\) in a different account to access resources in your account\. Roles are the primary way to grant cross\-account access\. However, with some AWS services, you can attach a policy directly to a resource \(instead of using a role as a proxy\)\. To learn the difference between roles and resource\-based policies for cross\-account access, see [How IAM roles differ from resource\-based policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_compare-resource-policies.html) in the *IAM User Guide*\.
 + **Cross\-service access** –  Some AWS services use features in other AWS services\. For example, when you make a call in a service, it's common for that service to run applications in Amazon EC2 or store objects in Amazon S3\. A service might do this using the calling principal's permissions, using a service role, or using a service\-linked role\. 
-  + **Principal permissions** –  When you use an IAM user or role to perform actions in AWS, you are considered a principal\. Policies grant permissions to a principal\. When you use some services, you might perform an action that then triggers another action in a different service\. In this case, you must have permissions to perform both actions\. To see whether an action requires additional dependent actions in a policy, see in the *Service Authorization Reference*\. 
+  + **Principal permissions** –  When you use an IAM user or role to perform actions in AWS, you are considered a principal\. Policies grant permissions to a principal\. When you use some services, you might perform an action that then triggers another action in a different service\. In this case, you must have permissions to perform both actions\. To see whether an action requires additional dependent actions in a policy, see [Actions, resources, and condition keys for Amazon Chime](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonchime.html) in the *Service Authorization Reference*\. 
   + **Service role** –  A service role is an [IAM role](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html) that a service assumes to perform actions on your behalf\. An IAM administrator can create, modify, and delete a service role from within IAM\. For more information, see [Creating a role to delegate permissions to an AWS service](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html) in the *IAM User Guide*\. 
   + **Service\-linked role** –  A service\-linked role is a type of service role that is linked to an AWS service\. The service can assume the role to perform an action on your behalf\. Service\-linked roles appear in your AWS account and are owned by the service\. An IAM administrator can view, but not edit the permissions for service\-linked roles\. 
 + **Applications running on Amazon EC2** –  You can use an IAM role to manage temporary credentials for applications that are running on an EC2 instance and making AWS CLI or AWS API requests\. This is preferable to storing access keys within the EC2 instance\. To assign an AWS role to an EC2 instance and make it available to all of its applications, you create an instance profile that is attached to the instance\. An instance profile contains the role and enables programs that are running on the EC2 instance to get temporary credentials\. For more information, see [Using an IAM role to grant permissions to applications running on Amazon EC2 instances](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2.html) in the *IAM User Guide*\. 
@@ -62,7 +63,7 @@ You control access in AWS by creating policies and attaching them to AWS identit
 
 Administrators can use AWS JSON policies to specify who has access to what\. That is, which **principal** can perform **actions** on what **resources**, and under what **conditions**\.
 
-Every IAM entity \(user or role\) starts with no permissions\. By default, users can do nothing, not even change their own password\. To give a user permission to do something, an administrator must attach a permissions policy to a user\. Or the administrator can add the user to a group that has the intended permissions\. When an administrator gives permissions to a group, all users in that group are granted those permissions\.
+By default, users and roles have no permissions\. To grant users permission to perform actions on the resources that they need, an IAM administrator can create IAM policies\. The administrator can then add the IAM policies to roles, and users can assume the roles\.
 
 IAM policies define permissions for an action regardless of the method that you use to perform the operation\. For example, suppose that you have a policy that allows the `iam:GetRole` action\. A user with that policy can get role information from the AWS Management Console, the AWS CLI, or the AWS API\.
 
@@ -78,7 +79,15 @@ Resource\-based policies are JSON policy documents that you attach to a resource
 
 Resource\-based policies are inline policies that are located in that service\. You can't use AWS managed policies from IAM in a resource\-based policy\.
 
-### Access control lists<a name="security_iam_access-manage-acl"></a>
+### AWS managed policies for Amazon Chime<a name="security-iam-awsmanpol"></a>
+
+To add permissions to users, groups, and roles, it is easier to use AWS managed policies than to write policies yourself\. It takes time and expertise to [create IAM customer managed policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create-console.html) that provide your team with only the permissions they need\. To get started quickly, you can use our AWS managed policies\. These policies cover common use cases and are available in your AWS account\. For more information about AWS managed policies, see [AWS managed policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_managed-vs-inline.html#aws-managed-policies) in the *IAM User Guide*\.
+
+AWS services maintain and update AWS managed policies\. You can't change the permissions in AWS managed policies\. Services occasionally add additional permissions to an AWS managed policy to support new features\. This type of update affects all identities \(users, groups, and roles\) where the policy is attached\. Services are most likely to update an AWS managed policy when a new feature is launched or when new operations become available\. Services do not remove permissions from an AWS managed policy, so policy updates won't break your existing permissions\.
+
+Additionally, AWS supports managed policies for job functions that span multiple services\. For example, the **ReadOnlyAccess** AWS managed policy provides read\-only access to all AWS services and resources\. When a service launches a new feature, AWS adds read\-only permissions for new operations and resources\. For a list and descriptions of job function policies, see [AWS managed policies for job functions](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html) in the *IAM User Guide*\.
+
+### Access Control Lists \(ACLs\)<a name="security_iam_access-manage-acl"></a>
 
 Access control lists \(ACLs\) control which principals \(account members, users, or roles\) have permissions to access a resource\. ACLs are similar to resource\-based policies, although they do not use the JSON policy document format\.
 
@@ -90,9 +99,6 @@ AWS supports additional, less\-common policy types\. These policy types can set 
 + **Permissions boundaries** – A permissions boundary is an advanced feature in which you set the maximum permissions that an identity\-based policy can grant to an IAM entity \(IAM user or role\)\. You can set a permissions boundary for an entity\. The resulting permissions are the intersection of an entity's identity\-based policies and its permissions boundaries\. Resource\-based policies that specify the user or role in the `Principal` field are not limited by the permissions boundary\. An explicit deny in any of these policies overrides the allow\. For more information about permissions boundaries, see [Permissions boundaries for IAM entities](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html) in the *IAM User Guide*\.
 + **Service control policies \(SCPs\)** – SCPs are JSON policies that specify the maximum permissions for an organization or organizational unit \(OU\) in AWS Organizations\. AWS Organizations is a service for grouping and centrally managing multiple AWS accounts that your business owns\. If you enable all features in an organization, then you can apply service control policies \(SCPs\) to any or all of your accounts\. The SCP limits permissions for entities in member accounts, including each AWS account root user\. For more information about Organizations and SCPs, see [How SCPs work](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_about-scps.html) in the *AWS Organizations User Guide*\.
 + **Session policies** – Session policies are advanced policies that you pass as a parameter when you programmatically create a temporary session for a role or federated user\. The resulting session's permissions are the intersection of the user or role's identity\-based policies and the session policies\. Permissions can also come from a resource\-based policy\. An explicit deny in any of these policies overrides the allow\. For more information, see [Session policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#policies_session) in the *IAM User Guide*\. 
-
-**Note**  
-Amazon WorkDocs doesn't support Service Control Policies for Slack Organizations\.
 
 ### Multiple policy types<a name="security_iam_access-manage-multiple-policies"></a>
 

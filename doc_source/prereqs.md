@@ -1,8 +1,16 @@
-# Prerequisites for Amazon WorkDocs<a name="prereqs"></a>
+# Prerequisites<a name="prereqs"></a>
 
-To set up new Amazon WorkDocs sites, or manage existing sites, you must complete the following tasks\.
+You must have an AWS account to access the [Amazon Chime console](https://console.chime.aws.amazon.com/) and create an Amazon Chime administrator account\.
 
-## Sign up for an AWS account<a name="sign-up-for-aws"></a>
+## Creating an Amazon Web Services account<a name="aws-account"></a>
+
+Before you can create an administrator account for Amazon Chime, you must first create an AWS account\. chime
+
+**Topics**
++ [Sign up for an AWS account](#sign-up-for-aws)
++ [Create an administrative user](#create-an-admin)
+
+### Sign up for an AWS account<a name="sign-up-for-aws"></a>
 
 If you do not have an AWS account, complete the following steps to create one\.
 
@@ -18,7 +26,7 @@ If you do not have an AWS account, complete the following steps to create one\.
 
 AWS sends you a confirmation email after the sign\-up process is complete\. At any time, you can view your current account activity and manage your account by going to [https://aws\.amazon\.com/](https://aws.amazon.com/) and choosing **My Account**\.
 
-## Create an administrative user<a name="create-an-admin"></a>
+### Create an administrative user<a name="create-an-admin"></a>
 
 After you sign up for an AWS account, create an administrative user so that you don't use the root user for everyday tasks\.
 
@@ -41,3 +49,5 @@ After you sign up for an AWS account, create an administrative user so that you 
 + To sign in with your IAM Identity Center user, use the sign\-in URL that was sent to your email address when you created the IAM Identity Center user\.
 
   For help signing in using an IAM Identity Center user, see [Signing in to the AWS access portal](https://docs.aws.amazon.com/signin/latest/userguide/iam-id-center-sign-in-tutorial.html) in the *AWS Sign\-In User Guide*\.
+
+For more information about setting up your Amazon Chime administrator account, see [Getting started](getting-started.md)\.
